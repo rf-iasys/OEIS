@@ -68,7 +68,7 @@ def compute_max_y(n_start: int, n_end: int,
         for b in range(a + 1, n_end):
 
             x = abs(a**2+b**2)
-            y = x * abs(a*b + 1)
+            y = x * abs(a**2 + 1)
 
             if y == 0 or x < n_start:
                 continue

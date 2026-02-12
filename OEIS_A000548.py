@@ -1,7 +1,7 @@
 """
-OEIS_A027862.py
+OEIS_A000548.py
 
-Checks against OEIS A027862 online sequence if available.
+Checks against OEIS A000548 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -73,11 +73,11 @@ def compute_max_y(n_start: int, n_end: int,
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
-    for a in range(0,n_end):
+    for a in range(0, n_end):
         for b in range(a + 1, n_end):
 
-            x = a**2 + b**2
-            y = x *(a-b)**2
+            x = abs(a**2 + b**2)
+            y = x *(a + 1)
 
             if y == 0 or x < n_start:
                 continue
@@ -97,8 +97,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A027862 ===")
-    print("Primes of the form j^2 + (j+1)^2\n")
+    print("\n=== OEIS A000548 ===")
+    print("Squares that are not the sum of 2 nonzero squares.\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
@@ -173,12 +173,12 @@ def main():
     
     # Flags
     stop_at_n_end = False
-    stop_at_index = pi(n_end)
+    stop_at_index = 0
     use_y_values = False
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A027862/b027862.txt"
+    oeis_url = "https://oeis.org/A000548/b000548.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
