@@ -1,5 +1,5 @@
 """
-OEIS_A002407.py
+OEIS_A0024072.py
 
 Checks against OEIS A002407 online sequence if available.
 Reports initial offset and any differences at the end.
@@ -13,6 +13,7 @@ Flags:
 """
 
 import math
+from sympy import primerange
 import requests
 
 def load_oeis_data(url: str) -> dict[int,int]:
@@ -55,20 +56,28 @@ def is_prime(n: int) -> bool:
         w = 6 - w
     return True
 
+def pi(x):
+    """
+    Return the number of primes <= x.
+    This is the prime-counting function π(x).
+    """
+    primes = list(primerange(1, x+1))  # all primes <= x
+    return len(primes)
+
 def compute_max_y(n_start: int, n_end: int,
-                  stop_at_n_end: bool = True) -> dict[int,int]:
+                  stop_at_n_end: bool = True) -> dict[int, int]:
     """
     Compute max_y(x) using the combinatorial formula.
     stop_at_n_end=True will skip x >= n_end
+    stop_at_n_end=False will continue computing past n_end.
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
+    for a in range(0, n_end):
+        for b in range(a + 1, n_end - a + 1):
 
-    for a in range(1, n_end//2):
-        for b in range(a + 1, n_end - a):
-
-            x = a + b
-            y = abs(a**2 + (2*a + 1)*(b - 1))
+            x = abs(a**2 + b**2 + b*a)
+            y = x * abs(b-a)
 
             if y == 0 or x < n_start:
                 continue
@@ -78,6 +87,7 @@ def compute_max_y(n_start: int, n_end: int,
 
             if y > max_y_per_x.get(x, 0):
                 max_y_per_x[x] = y
+
     return max_y_per_x
 
 def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
@@ -102,6 +112,11 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
             continue
 
         y = max_y_per_x[x]
+
+        # 🔒 Fixed-point verification
+        if y != x:
+            continue
+        
         value_to_report = y if use_y_values else x
 
         # 🔒 Skip non-primes if primes_only is True
@@ -154,11 +169,12 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 def main():
     n_start = 0
     n_end = n_start + 1000
+    
     # Flags
-    stop_at_n_end = True
-    stop_at_index = 0
-    use_y_values = True
-    primes_only = True
+    stop_at_n_end = False
+    stop_at_index = n_end - 1
+    use_y_values = False
+    primes_only = False
     exclude_even = False
 
     oeis_url = "https://oeis.org/A002407/b002407.txt"
