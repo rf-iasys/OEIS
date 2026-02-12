@@ -1,7 +1,7 @@
 """
-OEIS_A028552.py
+OEIS_A028347.py
 
-Checks against OEIS A028552 online sequence if available.
+Checks against OEIS A028347 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -67,7 +67,7 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0,n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = (a*b-a)*(a*b+a+1)
+            x = (a*b-a)*(a*b+a+2)
             y = x*abs(a - b + a*b)
 
             if y == 0 or x < n_start:
@@ -88,8 +88,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A028552 ===")
-    print("a(n) = n*(n+3).\n")
+    print("\n=== OEIS A028347 ===")
+    print("a(n) = n^2 - 4\n")
     print(f"Number of 0..n arrays of length 5 with each element unequal to at least one neighbor, starting with 0.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
@@ -168,7 +168,7 @@ def main():
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A028552/b028552.txt"
+    oeis_url = "https://oeis.org/A028347/b028347.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
