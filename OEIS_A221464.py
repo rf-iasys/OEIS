@@ -67,10 +67,6 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0,n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            #a(n) = 11 + 40 x + 33 x2 + 10 x3 + x4
-            #x = (a*b-a-b)*(a*b+a+b)
-            #y = x*abs(a - b)
-
             x = (a*b-a)*(a*b+a)
             y = x*abs(a - b)
 
