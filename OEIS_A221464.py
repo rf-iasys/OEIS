@@ -89,7 +89,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
     print("\n=== OEIS A221464 ===")
-    print("Primes of the form j^2 + (j+1)^2.\n")
+    print("4 times A042965\n")
     print(f"Number of 0..n arrays of length 5 with each element unequal to at least one neighbor, starting with 0.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
