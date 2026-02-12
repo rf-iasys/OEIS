@@ -90,7 +90,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     print("\n=== OEIS A005563 ===")
     print("a(n) = n*(n+2) = (n+1)^2 - 1\n")
-    print(f"Number of 0..n arrays of length 5 with each element unequal to at least one neighbor, starting with 0.\n")
+    print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0

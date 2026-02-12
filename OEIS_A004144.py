@@ -1,7 +1,7 @@
 """
-OEIS_A028552.py
+OEIS_A004144.py
 
-Checks against OEIS A028552 online sequence if available.
+Checks against OEIS A004144 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -65,10 +65,10 @@ def compute_max_y(n_start: int, n_end: int,
     """
     max_y_per_x = {}
     for a in range(0,n_end):
-        for b in range(a + 1, n_end - a + 1):
+        for b in range(a + 1, n_end):
 
-            x = (a*b-a)*(a*b+a+1)
-            y = x*abs(a - b + a*b)
+            x = abs(a**2+b**2)
+            y = x * abs(a*b + 1)
 
             if y == 0 or x < n_start:
                 continue
@@ -88,8 +88,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A028552 ===")
-    print("a(n) = n*(n+3).\n")
+    print("\n=== OEIS A004144 ===")
+    print("Nonhypotenuse numbers (indices of positive squares that are not the sums of 2 distinct nonzero squares).\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
@@ -104,11 +104,12 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
         y = max_y_per_x[x]
 
-        # 🔒 Fixed-point verification: x == max_y(x)
+        # 🔒 Fixed-point verification
         if y != x:
             continue
         
-        value_to_report = y if use_y_values else x
+        #value_to_report = y if use_y_values else x
+        value_to_report = math.isqrt(y) if use_y_values else math.isqrt(x)
 
         # 🔒 Skip non-primes if primes_only is True
         if primes_only and not is_prime(value_to_report):
@@ -163,12 +164,12 @@ def main():
     
     # Flags
     stop_at_n_end = False
-    stop_at_index = 0
+    stop_at_index = n_end
     use_y_values = False
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A028552/b028552.txt"
+    oeis_url = "https://oeis.org/A004144/b004144.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:

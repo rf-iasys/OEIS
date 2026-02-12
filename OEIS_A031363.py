@@ -1,7 +1,7 @@
 """
 OEIS_A031363.py
 
-Checks against OEIS A0313636 online sequence if available.
+Checks against OEIS A031363 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -90,7 +90,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     print("\n=== OEIS A031363 ===")
     print("Positive numbers of the form x^2 + xy - y^2; or, of the form 5x^2 - y^2.\n")
-    print(f"Number of 0..n arrays of length 5 with each element unequal to at least one neighbor, starting with 0.\n")
+    print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
