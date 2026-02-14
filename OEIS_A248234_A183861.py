@@ -35,7 +35,7 @@ def compute_elements(n_end: int) -> list[int]:
     elements = []
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
-            x = abs(a**2 - b**2) * abs(a**3 + b**3)
+            x = abs(a**2 - b**2) * (a**3 + b**3)
             y = x * (b - a)
             if y != 0 and y == x:
                 elements.append(y)
