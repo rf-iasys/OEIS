@@ -76,8 +76,8 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = abs((a**2-b)-(b**2-a))
-            y = x * abs(b-a)
+            x =  abs(a**2 - b**2) - abs(a - b)
+            y = x * (b - a)
 
             if y == 0 or x < n_start:
                 continue
@@ -98,8 +98,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
     print("\n=== OEIS A000079 ===")
-    print("Powers of 2: a(n) = 2^n\n")
-    print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
+    print("Powers of 2: a(n) = 2^n.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
@@ -141,7 +140,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
                 print(f"[{idx:6d}] {value_to_report:12d} (OEIS: a({oeis_index}) = {value_to_report})")
                 if not first_oeis_found:
                     first_oeis_found = True
-                    initial_offset = oeis_index - idx
+                    initial_offset = oeis_index - idx + 1
             else:
                 print(f"[{idx:6d}] {value_to_report:12d} (Not in OEIS)")
                 if first_oeis_found:

@@ -1,7 +1,7 @@
 """
-OEIS_A005917.py
+OEIS_A165568.py
 
-Checks against OEIS A005917 online sequence if available.
+Checks against OEIS A165568 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -76,7 +76,7 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = abs(b**2 + a**2) * abs(a**2 - b**2)
+            x = abs(b**2 * a**2) - abs(a**2 - b**2)
             y = x * (b - a)
 
             if y == 0 or x < n_start:
@@ -97,8 +97,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A005917 ===")
-    print("Rhombic dodecahedral numbers: a(n) = n^4 - (n - 1)^4.\n")
+    print("\n=== OEIS A165568 ===")
+    print("a(n) = -1 - 2*n + n^2 + 2*n^3 + n^4.\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
@@ -141,7 +141,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
                 print(f"[{idx:6d}] {value_to_report:12d} (OEIS: a({oeis_index}) = {value_to_report})")
                 if not first_oeis_found:
                     first_oeis_found = True
-                    initial_offset = oeis_index - idx
+                    initial_offset = oeis_index - idx + 1
             else:
                 print(f"[{idx:6d}] {value_to_report:12d} (Not in OEIS)")
                 if first_oeis_found:
@@ -177,7 +177,7 @@ def main():
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A005917/b005917.txt"
+    oeis_url = "https://oeis.org/A165568/b165568.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
