@@ -1,7 +1,7 @@
 """
-OEIS_A272850.py
+OEIS_A304160.py
 
-Checks against OEIS A272850 online sequence if available.
+Checks against OEIS A304160 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -53,8 +53,8 @@ def compute_max_y(n_start: int, n_end: int,
     n_isqrt = math.isqrt(n_end)
     for a in range(n_end // 2):
         for b in range(a + 1, a + 1 + n_isqrt):
-            x = abs(a**4 - b**4)*abs(a**2-b**2)
-            y = x * abs(b - a)
+            x = abs(a**3 - (a*b+1)**2)
+            y = x * abs(a-b)
 
             if y == 0 or x < n_start:
                 continue
@@ -72,8 +72,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A272850 ===")
-    print("a(n) = (n^2 + (n+1)^2)*(n^2 + (n+1)^2 + 2*n*(n+1)).\n")
+    print("\n=== OEIS A304160 ===")
+    print("a(n) = n^4 - 3*n^3 + 6*n^2 - 5*n + 2 (n >= 1).\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>7}| OEIS\n")
 
@@ -127,12 +127,12 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
 def main():
     n_start = 0
-    n_end = n_start + 100000
+    n_end = n_start + 1000000
     # Flags
     stop_at_n_end = True    # Continue computing beyond n_end if False
     use_y_values = False    # Report x (False) or max_y(x) (True)
 
-    oeis_url = "https://oeis.org/A272850/b272850.txt"
+    oeis_url = "https://oeis.org/A304160/b304160.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
