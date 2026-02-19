@@ -1,10 +1,19 @@
 """
-OEIS_A027862.py
+OEIS_A133322.py
 
-Generates numbers of the form j^2 + (j+1)^2 that survive the max_y(x) filter.
-Compares against OEIS A027862 if available.
+Checks against OEIS A133322 online sequence if available.
+Reports initial offset and any differences at the end.
+
+Flags:
+- stop_at_n_end: stop computing once x reaches n_end
+- stop_at_index: stop printing once index reaches n_index_max
+- use_y_values: if True, report max_y(x) values; if False, report x values
+- primes_only: if True, only report prime values
+- exclude_even: if True, skip even values
 """
 
+import math
+from sympy import primerange
 import requests
 
 def load_oeis_data(url: str) -> dict[int,int]:
@@ -30,17 +39,44 @@ def load_oeis_data(url: str) -> dict[int,int]:
             continue
     return oeis_data
 
+def is_prime(n: int) -> bool:
+    "Simple primality test for positive integers."
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    w = 2
+    while i * i <= n:
+        if n % i == 0:
+            return False
+        i += w
+        w = 6 - w
+    return True
+
+def pi(x):
+    """
+    Return the number of primes <= x.
+    This is the prime-counting function π(x).
+    """
+    primes = list(primerange(1, x+1))  # all primes <= x
+    return len(primes)
+
 def compute_max_y(n_start: int, n_end: int,
                   stop_at_n_end: bool = True) -> dict[int, int]:
     """
     Compute max_y(x) using the combinatorial formula.
+    stop_at_n_end=True will skip x >= n_end
+    stop_at_n_end=False will continue computing past n_end.
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = abs((a-1)**2 + (b-1)**2)
+            x = abs((a+1)**2 + (b+1)**2)
             y = x * abs(b-a)
 
             if y == 0 or x < n_start:
@@ -56,12 +92,14 @@ def compute_max_y(n_start: int, n_end: int,
 
 def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
         stop_at_n_end: bool = True, stop_at_index: int | None = None,
-        use_y_values: bool = False, exclude_even: bool = False) -> None:
+        use_y_values: bool = False, primes_only: bool = False,
+        exclude_even: bool = False) -> None:
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A027862 ===")
-    print("Numbers of the form j^2 + (j+1)^2 surviving max_y(x) filter.\n")
+    print("\n=== OEIS A133322 ===")
+    print("Centered square numbers that are prime powers of the form (4n+1)^k.\n")
+    print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
@@ -75,18 +113,24 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
         y = max_y_per_x[x]
 
-        # Keep only x == max_y(x)
+        # 🔒 Fixed-point verification
         if y != x:
             continue
         
         value_to_report = y if use_y_values else x
 
-        # Skip even numbers if exclude_even is True
+        # 🔒 Skip non-primes if primes_only is True
+        if primes_only and not is_prime(value_to_report):
+            continue
+
+        # 🔒 Skip even numbers if exclude_even is True
         if exclude_even and value_to_report % 2 == 0:
             continue
 
+        # Increment printed index only for reported values
         idx += 1
 
+        # Stop completely if index exceeds stop_at_index
         if stop_at_index is not None and stop_at_index > 0 and idx > stop_at_index:
             print(f"\nStopped at index {stop_at_index}.")
             break
@@ -105,7 +149,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
         else:
             print(f"[{idx:6d}] {value_to_report:12d}")
 
-    # --- Summary ---
+    # --- Final report ---
     print("\n=== Summary ===")
     if oeis_data is not None:
         if first_oeis_found:
@@ -130,9 +174,10 @@ def main():
     stop_at_n_end = False
     stop_at_index = 0
     use_y_values = False
+    primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A027862/b027862.txt"
+    oeis_url = "https://oeis.org/A133322/b133322.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
@@ -142,7 +187,7 @@ def main():
 
     run(n_start, n_end, oeis_data, stop_at_n_end=stop_at_n_end,
         stop_at_index=stop_at_index, use_y_values=use_y_values,
-        exclude_even=exclude_even)
+        primes_only=primes_only, exclude_even=exclude_even)
 
 if __name__ == "__main__":
     main()
