@@ -56,9 +56,8 @@ def compute_max_y(n_start: int, n_end: int,
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
-    n_isqrt = math.isqrt(n_end)
 
-    for a in range(n_end//2):
+    for a in range(n_end):
         for b in range(a + 1, 2 * (a + 1)):
             
             x = abs((a+b)**3 - (a-b)**3)
@@ -138,10 +137,10 @@ def run(n_start: int, n_end: int, oeis_data: dict[int, int] | None = None,
 
 def main():
     n_start = 0
-    n_end = n_start + 100000
+    n_end = n_start + 10000
 
     # Flags
-    stop_at_n_end = True
+    stop_at_n_end = False
     use_y_values = True
 
     oeis_url = "https://oeis.org/A050492/b050492.txt"
