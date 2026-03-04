@@ -1,7 +1,7 @@
 """
-OEIS_A193218.py
+OEIS_A047673.py
 
-Checks against OEIS A193218 online sequence if available.
+Checks against OEIS A047673 online sequence if available.
 Reports initial offset, any differences, and validates results
 against actual primality.
 
@@ -58,10 +58,10 @@ def compute_max_y(n_start: int, n_end: int,
     max_y_per_x = {}
 
     for a in range(n_end//2):
-        for b in range(a + 1, n_end - a):
+        for b in range(a + 1, 2 * (a + 1)):
         #for b in range(a + 1, n_end - a + 1):
             
-            x = abs(a**2 - b**2) * abs(a**3 - b**3)
+            x = abs((a+b)**2 + (a*b)**2)
             y = x * abs(a - b)
 
             if y == 0 or x < n_start:
@@ -80,8 +80,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int, int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A193218 ===")
-    print("Number of vertices in truncated tetrahedron with faces that are centered polygons.\n")
+    print("\n=== OEIS A047673 ===")
+    print("Row 4 of square array defined in A047671\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
     print(f"{'Index':>7}|{'Element':>7}| OEIS\n")
 
@@ -138,13 +138,13 @@ def run(n_start: int, n_end: int, oeis_data: dict[int, int] | None = None,
 
 def main():
     n_start = 0
-    n_end = n_start + 1000
+    n_end = n_start + 100
 
     # Flags
     stop_at_n_end = False
     use_y_values = True
 
-    oeis_url = "https://oeis.org/A193218/b193218.txt"
+    oeis_url = "https://oeis.org/A047673/b047673.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
