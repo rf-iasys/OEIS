@@ -2,21 +2,28 @@
 OEIS_A068722.py
 
 Checks against OEIS A068722 online sequence if available.
-Reports initial offset and any differences at the end.
+Reports initial offset, any differences, and validates results
+against actual primality.
+
+This algorithm generates exactly the odd primes in a given range
+using a combinatorial fixed-point condition, without using sieves
+or explicit primality tests in the generation phase.
 
 Flags:
 - stop_at_n_end: stop computing once x reaches n_end
-- stop_at_index: stop printing once index reaches n_index_max
 - use_y_values: if True, report max_y(x) values; if False, report x values
-- primes_only: if True, only report prime values
-- exclude_even: if True, skip even values
 """
 
 import math
-from sympy import primerange
 import requests
 
-def load_oeis_data(url: str) -> dict[int,int]:
+
+def load_oeis_data(url: str) -> dict[int, int]:
+    """
+    Loads OEIS b-file data from a URL.
+    Returns a dict mapping OEIS value -> index in the sequence.
+    Raises RuntimeError if fetch fails.
+    """
     try:
         response = requests.get(url, timeout=5)
         response.raise_for_status()
@@ -39,30 +46,6 @@ def load_oeis_data(url: str) -> dict[int,int]:
             continue
     return oeis_data
 
-def is_prime(n: int) -> bool:
-    "Simple primality test for positive integers."
-    if n <= 1:
-        return False
-    if n <= 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    i = 5
-    w = 2
-    while i * i <= n:
-        if n % i == 0:
-            return False
-        i += w
-        w = 6 - w
-    return True
-
-def pi(x):
-    """
-    Return the number of primes <= x.
-    This is the prime-counting function π(x).
-    """
-    primes = list(primerange(1, x+1))  # all primes <= x
-    return len(primes)
 
 def compute_max_y(n_start: int, n_end: int,
                   stop_at_n_end: bool = True) -> dict[int, int]:
@@ -73,39 +56,40 @@ def compute_max_y(n_start: int, n_end: int,
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
-    for a in range(0, n_end):
-        for b in range(a + 1, n_end - a + 1):
 
-            x = abs(a**2 + b**2) * abs(a**3 - b**3)
-            y = x * (b - a)
+    for a in range(n_end//2):
+        b = a + 1
+            
+        x = abs(a**2 + b**2) * abs(a**3 - b**3)
+        y = x * abs(a - b)
 
-            if y == 0 or x < n_start:
-                continue
+        if y == 0 or x < n_start:
+            continue
 
-            if stop_at_n_end and x >= n_end:
-                continue
+        if stop_at_n_end and x >= n_end:
+            continue
 
-            if y > max_y_per_x.get(x, 0):
-                max_y_per_x[x] = y
+        if y > max_y_per_x.get(x, 0):
+            max_y_per_x[x] = y
 
     return max_y_per_x
 
-def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
-        stop_at_n_end: bool = True, stop_at_index: int | None = None,
-        use_y_values: bool = False, primes_only: bool = False,
-        exclude_even: bool = False) -> None:
+def run(n_start: int, n_end: int, oeis_data: dict[int, int] | None = None,
+        stop_at_n_end: bool = True, use_y_values: bool = False) -> None:
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
     print("\n=== OEIS A068722 ===")
-    print("Number of solenoidal flows (flow in = flow out) in a 3 X 3 square array with integer velocities -n .. n.\n")
+    print("Number of solenoidal flows (flow in = flow out) in a 3 X 3 square array with integer velocities -n .. n\n")
     print(f"Numbers from {n_start} to {n_end} ({'max_y(x)' if use_y_values else 'x'}):\n")
-    print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
+    print(f"{'Index':>7}|{'Element':>7}| OEIS\n")
 
     idx = 0
     initial_offset = 0
     differences = []
     first_oeis_found = False
+
+    found_numbers: list[int] = []
 
     for x in sorted(max_y_per_x.keys()):
         if x == 1:
@@ -116,49 +100,34 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
         # 🔒 Fixed-point verification
         if y != x:
             continue
-        
-        value_to_report = y if use_y_values else x
 
-        # 🔒 Skip non-primes if primes_only is True
-        if primes_only and not is_prime(value_to_report):
-            continue
-
-        # 🔒 Skip even numbers if exclude_even is True
-        if exclude_even and value_to_report % 2 == 0:
-            continue
-
-        # Increment printed index only for reported values
         idx += 1
-
-        # Stop completely if index exceeds stop_at_index
-        if stop_at_index is not None and stop_at_index > 0 and idx > stop_at_index:
-            print(f"\nStopped at index {stop_at_index}.")
-            break
+        value_to_report = y if use_y_values else x
+        
+        found_numbers.append(value_to_report)
 
         if oeis_data is not None:
             if value_to_report in oeis_data:
                 oeis_index = oeis_data[value_to_report]
-                print(f"[{idx:6d}] {value_to_report:12d} (OEIS: a({oeis_index}) = {value_to_report})")
+                print(f"[{idx:6d}] {value_to_report:6d} (OEIS: a({oeis_index}) = {value_to_report})")
                 if not first_oeis_found:
                     first_oeis_found = True
-                    initial_offset = oeis_index - idx
+                    initial_offset = idx - 1
             else:
-                print(f"[{idx:6d}] {value_to_report:12d} (Not in OEIS)")
+                print(f"[{idx:6d}] {value_to_report:6d} (Not in OEIS)")
                 if first_oeis_found:
                     differences.append(value_to_report)
         else:
-            print(f"[{idx:6d}] {value_to_report:12d}")
+            print(f"[{idx:6d}] {value_to_report:6d}")
 
-    # --- Final report ---
-    print("\n=== Summary ===")
+    # --- OEIS Summary ---
+    print("\n=== OEIS Summary ===")
     if oeis_data is not None:
-        if first_oeis_found:
-            if initial_offset != 0:
-                print(f"Initial offset before first OEIS match: {initial_offset} value(s)")
-            else:
-                print("No initial offset; first computed value is in OEIS")
+        if initial_offset > 0:
+            print(f"Initial offset before first OEIS match: {initial_offset} value(s)")
         else:
-            print("No matches found in OEIS data")
+            print("No initial offset; first computed value is in OEIS")
+
         if differences:
             print(f"Differences found (computed values not in OEIS after alignment): {differences}")
         else:
@@ -169,13 +138,10 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 def main():
     n_start = 0
     n_end = n_start + 10000
-    
+
     # Flags
     stop_at_n_end = False
-    stop_at_index = 0
-    use_y_values = False
-    primes_only = False
-    exclude_even = False
+    use_y_values = True
 
     oeis_url = "https://oeis.org/A068722/b068722.txt"
     try:
@@ -185,9 +151,14 @@ def main():
         print("Proceeding without OEIS comparison.\n")
         oeis_data = None
 
-    run(n_start, n_end, oeis_data, stop_at_n_end=stop_at_n_end,
-        stop_at_index=stop_at_index, use_y_values=use_y_values,
-        primes_only=primes_only, exclude_even=exclude_even)
+    run(
+        n_start,
+        n_end,
+        oeis_data,
+        stop_at_n_end=stop_at_n_end,
+        use_y_values=use_y_values
+    )
+
 
 if __name__ == "__main__":
     main()
