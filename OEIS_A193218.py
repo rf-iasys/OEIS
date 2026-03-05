@@ -58,20 +58,19 @@ def compute_max_y(n_start: int, n_end: int,
     max_y_per_x = {}
 
     for a in range(n_end//2):
-        for b in range(a + 1, n_end - a):
-        #for b in range(a + 1, n_end - a + 1):
+        b = a + 1
             
-            x = abs(a**2 - b**2) * abs(a**3 - b**3)
-            y = x * abs(a - b)
+        x = abs(a**2 - b**2) * abs(a**3 - b**3)
+        y = x * abs(a - b)
 
-            if y == 0 or x < n_start:
-                continue
+        if y == 0 or x < n_start:
+            continue
 
-            if stop_at_n_end and x >= n_end:
-                continue
+        if stop_at_n_end and x >= n_end:
+            continue
 
-            if y > max_y_per_x.get(x, 0):
-                max_y_per_x[x] = y
+        if y > max_y_per_x.get(x, 0):
+            max_y_per_x[x] = y
 
     return max_y_per_x
 
