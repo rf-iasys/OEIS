@@ -1,7 +1,7 @@
 """
-OEIS_A002144.py
+OEIS_A007519.py
 
-Checks against OEIS A002144 online sequence if available.
+Checks against OEIS A007519 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -76,7 +76,7 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = abs(a - b) * (3*a + b)
+            x = abs(a - b) * (7*a + b)
             y = x * (b - a)
 
             if y == 0 or x < n_start:
@@ -97,8 +97,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A002144 ===")
-    print("Pythagorean primes: primes of the form 4*k + 1.\n")
+    print("\n=== OEIS A007519 ===")
+    print("Primes of form 8n+1, that is, primes congruent to 1 mod 8.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
@@ -176,7 +176,7 @@ def main():
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A002144/b002144.txt"
+    oeis_url = "https://oeis.org/A007519/b007519.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
