@@ -73,19 +73,16 @@ def compute_max_y(n_start: int, n_end: int,
     Returns dict mapping x -> max_y(x).
     """
     max_y_per_x = {}
-    for a in range(0, n_end//2):
-        for b in range(a + 1, n_end - a + 1): 
-            x = abs(a**2 - b**2 + a*b*(a+b))
-            y = x * abs(a - b)
+    
+    for a in range(2, n_end//2):
+        b = a + 1
+        x = abs(a**2 - b**2 + a*b*(a+b))
 
-            if y == 0 or x < n_start:
-                continue
+        if stop_at_n_end and x >= n_end:
+            continue
 
-            if stop_at_n_end and x >= n_end:
-                continue
-
-            if y > max_y_per_x.get(x, 0):
-                max_y_per_x[x] = y
+        if x > max_y_per_x.get(x, 0):
+            max_y_per_x[x] = x
 
     return max_y_per_x
 
