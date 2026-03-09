@@ -1,9 +1,9 @@
 """
 OEIS_A027862_experiment.py
 
-Experimental generator inspired by the quadratic-difference search.
+Experimental generator inspired by the quadratic-sum search.
 
-x = |a^2 - b^2 - k*a*b|
+x = |a^2 + b^2|
 y = x * (b-a)
 
 For each x we compute max_y(x).
