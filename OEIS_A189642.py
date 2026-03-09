@@ -1,7 +1,7 @@
 """
-OEIS_A027862.py
+OEIS_A189642.py
 
-Checks against OEIS A027862 online sequence if available.
+Checks against OEIS A189642 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -75,7 +75,7 @@ def compute_max_y(n_start: int, n_end: int,
     max_y_per_x = {}
     for a in range(0, n_end//2):
         for b in range(a + 1, n_end - a + 1): 
-            x = a**2 + b**2
+            x = abs(a**2 - b**2 + a*b*(a+b))
             y = x * abs(a - b)
 
             if y == 0 or x < n_start:
@@ -96,8 +96,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A027862 ===")
-    print("Primes of the form j^2 + (j+1)^2.\n")
+    print("\n=== OEIS A189642 ===")
+    print("Numerator of H(n+4) - H(n), where H(n) = Sum_{k=1..n} 1/k.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
@@ -166,7 +166,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
 def main():
     n_start = 0
-    n_end = n_start + 1000
+    n_end = n_start + 2000
     
     # Flags
     stop_at_n_end = False
@@ -175,7 +175,7 @@ def main():
     primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A027862/b027862.txt"
+    oeis_url = "https://oeis.org/A189642/b189642.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
