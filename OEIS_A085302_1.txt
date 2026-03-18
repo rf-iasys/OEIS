@@ -1,0 +1,9012 @@
+n = 2, first k = 1
+n = 3, first k = 1
+n = 4, first k = 5
+n = 5, first k = 7
+n = 6, first k = 11
+n = 7, first k = 13
+n = 8, first k = 17
+n = 9, first k = 17
+n = 10, first k = 19
+n = 11, first k = 23
+n = 12, first k = 29
+n = 13, first k = 29
+n = 14, first k = 31
+n = 15, first k = 37
+n = 16, first k = 41
+n = 17, first k = 43
+n = 18, first k = 43
+n = 19, first k = 47
+n = 20, first k = 53
+n = 21, first k = 59
+n = 22, first k = 59
+n = 23, first k = 61
+n = 24, first k = 67
+n = 25, first k = 71
+n = 26, first k = 71
+n = 27, first k = 73
+n = 28, first k = 79
+n = 29, first k = 83
+n = 30, first k = 83
+n = 31, first k = 89
+n = 32, first k = 97
+n = 33, first k = 101
+n = 34, first k = 103
+n = 35, first k = 103
+n = 36, first k = 107
+n = 37, first k = 109
+n = 38, first k = 113
+n = 39, first k = 113
+n = 40, first k = 127
+n = 41, first k = 131
+n = 42, first k = 137
+n = 43, first k = 137
+n = 44, first k = 139
+n = 45, first k = 149
+n = 46, first k = 151
+n = 47, first k = 157
+n = 48, first k = 157
+n = 49, first k = 163
+n = 50, first k = 167
+n = 51, first k = 173
+n = 52, first k = 173
+n = 53, first k = 179
+n = 54, first k = 181
+n = 55, first k = 191
+n = 56, first k = 191
+n = 57, first k = 193
+n = 58, first k = 197
+n = 59, first k = 199
+n = 60, first k = 211
+n = 61, first k = 211
+n = 62, first k = 223
+n = 63, first k = 227
+n = 64, first k = 229
+n = 65, first k = 229
+n = 66, first k = 233
+n = 67, first k = 239
+n = 68, first k = 241
+n = 69, first k = 241
+n = 70, first k = 251
+n = 71, first k = 257
+n = 72, first k = 263
+n = 73, first k = 269
+n = 74, first k = 269
+n = 75, first k = 271
+n = 76, first k = 277
+n = 77, first k = 281
+n = 78, first k = 281
+n = 79, first k = 283
+n = 80, first k = 293
+n = 81, first k = 307
+n = 82, first k = 307
+n = 83, first k = 311
+n = 84, first k = 313
+n = 85, first k = 317
+n = 86, first k = 331
+n = 87, first k = 331
+n = 88, first k = 337
+n = 89, first k = 347
+n = 90, first k = 349
+n = 91, first k = 349
+n = 92, first k = 353
+n = 93, first k = 359
+n = 94, first k = 367
+n = 95, first k = 367
+n = 96, first k = 373
+n = 97, first k = 379
+n = 98, first k = 383
+n = 99, first k = 389
+n = 100, first k = 389
+n = 101, first k = 397
+n = 102, first k = 401
+n = 103, first k = 409
+n = 104, first k = 409
+n = 105, first k = 419
+n = 106, first k = 421
+n = 107, first k = 431
+n = 108, first k = 433
+n = 109, first k = 433
+n = 110, first k = 439
+n = 111, first k = 443
+n = 112, first k = 449
+n = 113, first k = 449
+n = 114, first k = 457
+n = 115, first k = 461
+n = 116, first k = 463
+n = 117, first k = 463
+n = 118, first k = 467
+n = 119, first k = 479
+n = 120, first k = 487
+n = 121, first k = 491
+n = 122, first k = 491
+n = 123, first k = 499
+n = 124, first k = 503
+n = 125, first k = 509
+n = 126, first k = 509
+n = 127, first k = 521
+n = 128, first k = 523
+n = 129, first k = 541
+n = 130, first k = 547
+n = 131, first k = 547
+n = 132, first k = 557
+n = 133, first k = 563
+n = 134, first k = 569
+n = 135, first k = 569
+n = 136, first k = 571
+n = 137, first k = 577
+n = 138, first k = 587
+n = 139, first k = 593
+n = 140, first k = 593
+n = 141, first k = 599
+n = 142, first k = 601
+n = 143, first k = 607
+n = 144, first k = 607
+n = 145, first k = 613
+n = 146, first k = 617
+n = 147, first k = 619
+n = 148, first k = 619
+n = 149, first k = 631
+n = 150, first k = 641
+n = 151, first k = 643
+n = 152, first k = 647
+n = 153, first k = 647
+n = 154, first k = 653
+n = 155, first k = 659
+n = 156, first k = 661
+n = 157, first k = 661
+n = 158, first k = 673
+n = 159, first k = 677
+n = 160, first k = 683
+n = 161, first k = 691
+n = 162, first k = 691
+n = 163, first k = 701
+n = 164, first k = 709
+n = 165, first k = 719
+n = 166, first k = 719
+n = 167, first k = 727
+n = 168, first k = 733
+n = 169, first k = 739
+n = 170, first k = 743
+n = 171, first k = 743
+n = 172, first k = 751
+n = 173, first k = 757
+n = 174, first k = 761
+n = 175, first k = 761
+n = 176, first k = 769
+n = 177, first k = 773
+n = 178, first k = 787
+n = 179, first k = 797
+n = 180, first k = 797
+n = 181, first k = 809
+n = 182, first k = 811
+n = 183, first k = 821
+n = 184, first k = 821
+n = 185, first k = 823
+n = 186, first k = 827
+n = 187, first k = 829
+n = 188, first k = 839
+n = 189, first k = 839
+n = 190, first k = 853
+n = 191, first k = 857
+n = 192, first k = 859
+n = 193, first k = 859
+n = 194, first k = 863
+n = 195, first k = 877
+n = 196, first k = 881
+n = 197, first k = 883
+n = 198, first k = 883
+n = 199, first k = 887
+n = 200, first k = 907
+n = 201, first k = 911
+n = 202, first k = 911
+n = 203, first k = 919
+n = 204, first k = 929
+n = 205, first k = 937
+n = 206, first k = 941
+n = 207, first k = 941
+n = 208, first k = 947
+n = 209, first k = 953
+n = 210, first k = 967
+n = 211, first k = 971
+n = 212, first k = 971
+n = 213, first k = 977
+n = 214, first k = 983
+n = 215, first k = 991
+n = 216, first k = 991
+n = 217, first k = 997
+n = 218, first k = 1009
+n = 219, first k = 1013
+n = 220, first k = 1019
+n = 221, first k = 1019
+n = 222, first k = 1021
+n = 223, first k = 1031
+n = 224, first k = 1033
+n = 225, first k = 1033
+n = 226, first k = 1039
+n = 227, first k = 1049
+n = 228, first k = 1051
+n = 229, first k = 1061
+n = 230, first k = 1061
+n = 231, first k = 1063
+n = 232, first k = 1069
+n = 233, first k = 1087
+n = 234, first k = 1087
+n = 235, first k = 1091
+n = 236, first k = 1093
+n = 237, first k = 1097
+n = 238, first k = 1103
+n = 239, first k = 1103
+n = 240, first k = 1109
+n = 241, first k = 1117
+n = 242, first k = 1123
+n = 243, first k = 1123
+n = 244, first k = 1129
+n = 245, first k = 1151
+n = 246, first k = 1153
+n = 247, first k = 1163
+n = 248, first k = 1163
+n = 249, first k = 1171
+n = 250, first k = 1181
+n = 251, first k = 1187
+n = 252, first k = 1193
+n = 253, first k = 1193
+n = 254, first k = 1201
+n = 255, first k = 1213
+n = 256, first k = 1217
+n = 257, first k = 1217
+n = 258, first k = 1223
+n = 259, first k = 1229
+n = 260, first k = 1231
+n = 261, first k = 1237
+n = 262, first k = 1237
+n = 263, first k = 1249
+n = 264, first k = 1259
+n = 265, first k = 1277
+n = 266, first k = 1277
+n = 267, first k = 1279
+n = 268, first k = 1283
+n = 269, first k = 1289
+n = 270, first k = 1291
+n = 271, first k = 1291
+n = 272, first k = 1297
+n = 273, first k = 1301
+n = 274, first k = 1303
+n = 275, first k = 1303
+n = 276, first k = 1307
+n = 277, first k = 1319
+n = 278, first k = 1321
+n = 279, first k = 1327
+n = 280, first k = 1327
+n = 281, first k = 1361
+n = 282, first k = 1367
+n = 283, first k = 1373
+n = 284, first k = 1381
+n = 285, first k = 1381
+n = 286, first k = 1399
+n = 287, first k = 1409
+n = 288, first k = 1423
+n = 289, first k = 1423
+n = 290, first k = 1427
+n = 291, first k = 1429
+n = 292, first k = 1433
+n = 293, first k = 1439
+n = 294, first k = 1439
+n = 295, first k = 1447
+n = 296, first k = 1451
+n = 297, first k = 1453
+n = 298, first k = 1453
+n = 299, first k = 1459
+n = 300, first k = 1471
+n = 301, first k = 1481
+n = 302, first k = 1483
+n = 303, first k = 1483
+n = 304, first k = 1487
+n = 305, first k = 1489
+n = 306, first k = 1493
+n = 307, first k = 1499
+n = 308, first k = 1499
+n = 309, first k = 1511
+n = 310, first k = 1523
+n = 311, first k = 1531
+n = 312, first k = 1531
+n = 313, first k = 1543
+n = 314, first k = 1549
+n = 315, first k = 1553
+n = 316, first k = 1559
+n = 317, first k = 1559
+n = 318, first k = 1567
+n = 319, first k = 1571
+n = 320, first k = 1579
+n = 321, first k = 1579
+n = 322, first k = 1583
+n = 323, first k = 1597
+n = 324, first k = 1601
+n = 325, first k = 1607
+n = 326, first k = 1607
+n = 327, first k = 1609
+n = 328, first k = 1613
+n = 329, first k = 1619
+n = 330, first k = 1621
+n = 331, first k = 1621
+n = 332, first k = 1627
+n = 333, first k = 1637
+n = 334, first k = 1657
+n = 335, first k = 1657
+n = 336, first k = 1663
+n = 337, first k = 1667
+n = 338, first k = 1669
+n = 339, first k = 1693
+n = 340, first k = 1693
+n = 341, first k = 1697
+n = 342, first k = 1699
+n = 343, first k = 1709
+n = 344, first k = 1721
+n = 345, first k = 1721
+n = 346, first k = 1723
+n = 347, first k = 1733
+n = 348, first k = 1741
+n = 349, first k = 1741
+n = 350, first k = 1747
+n = 351, first k = 1753
+n = 352, first k = 1759
+n = 353, first k = 1777
+n = 354, first k = 1777
+n = 355, first k = 1783
+n = 356, first k = 1787
+n = 357, first k = 1789
+n = 358, first k = 1801
+n = 359, first k = 1801
+n = 360, first k = 1811
+n = 361, first k = 1823
+n = 362, first k = 1831
+n = 363, first k = 1831
+n = 364, first k = 1847
+n = 365, first k = 1861
+n = 366, first k = 1867
+n = 367, first k = 1871
+n = 368, first k = 1871
+n = 369, first k = 1873
+n = 370, first k = 1877
+n = 371, first k = 1879
+n = 372, first k = 1879
+n = 373, first k = 1889
+n = 374, first k = 1901
+n = 375, first k = 1907
+n = 376, first k = 1913
+n = 377, first k = 1913
+n = 378, first k = 1931
+n = 379, first k = 1933
+n = 380, first k = 1949
+n = 381, first k = 1951
+n = 382, first k = 1951
+n = 383, first k = 1973
+n = 384, first k = 1979
+n = 385, first k = 1987
+n = 386, first k = 1987
+n = 387, first k = 1993
+n = 388, first k = 1997
+n = 389, first k = 1999
+n = 390, first k = 2003
+n = 391, first k = 2003
+n = 392, first k = 2011
+n = 393, first k = 2017
+n = 394, first k = 2027
+n = 395, first k = 2029
+n = 396, first k = 2029
+n = 397, first k = 2039
+n = 398, first k = 2053
+n = 399, first k = 2063
+n = 400, first k = 2063
+n = 401, first k = 2069
+n = 402, first k = 2081
+n = 403, first k = 2083
+n = 404, first k = 2087
+n = 405, first k = 2087
+n = 406, first k = 2089
+n = 407, first k = 2099
+n = 408, first k = 2111
+n = 409, first k = 2113
+n = 410, first k = 2113
+n = 411, first k = 2129
+n = 412, first k = 2131
+n = 413, first k = 2137
+n = 414, first k = 2137
+n = 415, first k = 2141
+n = 416, first k = 2143
+n = 417, first k = 2153
+n = 418, first k = 2161
+n = 419, first k = 2161
+n = 420, first k = 2179
+n = 421, first k = 2203
+n = 422, first k = 2207
+n = 423, first k = 2213
+n = 424, first k = 2213
+n = 425, first k = 2221
+n = 426, first k = 2237
+n = 427, first k = 2239
+n = 428, first k = 2239
+n = 429, first k = 2243
+n = 430, first k = 2251
+n = 431, first k = 2267
+n = 432, first k = 2269
+n = 433, first k = 2269
+n = 434, first k = 2273
+n = 435, first k = 2281
+n = 436, first k = 2287
+n = 437, first k = 2293
+n = 438, first k = 2293
+n = 439, first k = 2297
+n = 440, first k = 2309
+n = 441, first k = 2311
+n = 442, first k = 2311
+n = 443, first k = 2333
+n = 444, first k = 2339
+n = 445, first k = 2341
+n = 446, first k = 2347
+n = 447, first k = 2347
+n = 448, first k = 2351
+n = 449, first k = 2357
+n = 450, first k = 2371
+n = 451, first k = 2377
+n = 452, first k = 2377
+n = 453, first k = 2381
+n = 454, first k = 2383
+n = 455, first k = 2389
+n = 456, first k = 2389
+n = 457, first k = 2393
+n = 458, first k = 2399
+n = 459, first k = 2411
+n = 460, first k = 2417
+n = 461, first k = 2417
+n = 462, first k = 2423
+n = 463, first k = 2437
+n = 464, first k = 2441
+n = 465, first k = 2447
+n = 466, first k = 2447
+n = 467, first k = 2459
+n = 468, first k = 2467
+n = 469, first k = 2473
+n = 470, first k = 2473
+n = 471, first k = 2477
+n = 472, first k = 2503
+n = 473, first k = 2521
+n = 474, first k = 2531
+n = 475, first k = 2531
+n = 476, first k = 2539
+n = 477, first k = 2543
+n = 478, first k = 2549
+n = 479, first k = 2551
+n = 480, first k = 2551
+n = 481, first k = 2557
+n = 482, first k = 2579
+n = 483, first k = 2591
+n = 484, first k = 2593
+n = 485, first k = 2593
+n = 486, first k = 2609
+n = 487, first k = 2617
+n = 488, first k = 2621
+n = 489, first k = 2621
+n = 490, first k = 2633
+n = 491, first k = 2647
+n = 492, first k = 2657
+n = 493, first k = 2659
+n = 494, first k = 2659
+n = 495, first k = 2663
+n = 496, first k = 2671
+n = 497, first k = 2677
+n = 498, first k = 2683
+n = 499, first k = 2683
+n = 500, first k = 2687
+n = 501, first k = 2689
+n = 502, first k = 2693
+n = 503, first k = 2693
+n = 504, first k = 2699
+n = 505, first k = 2707
+n = 506, first k = 2711
+n = 507, first k = 2713
+n = 508, first k = 2713
+n = 509, first k = 2719
+n = 510, first k = 2729
+n = 511, first k = 2731
+n = 512, first k = 2741
+n = 513, first k = 2741
+n = 514, first k = 2749
+n = 515, first k = 2753
+n = 516, first k = 2767
+n = 517, first k = 2767
+n = 518, first k = 2777
+n = 519, first k = 2789
+n = 520, first k = 2791
+n = 521, first k = 2797
+n = 522, first k = 2797
+n = 523, first k = 2801
+n = 524, first k = 2803
+n = 525, first k = 2819
+n = 526, first k = 2833
+n = 527, first k = 2833
+n = 528, first k = 2837
+n = 529, first k = 2843
+n = 530, first k = 2851
+n = 531, first k = 2857
+n = 532, first k = 2857
+n = 533, first k = 2861
+n = 534, first k = 2879
+n = 535, first k = 2887
+n = 536, first k = 2887
+n = 537, first k = 2897
+n = 538, first k = 2903
+n = 539, first k = 2909
+n = 540, first k = 2917
+n = 541, first k = 2917
+n = 542, first k = 2927
+n = 543, first k = 2939
+n = 544, first k = 2953
+n = 545, first k = 2957
+n = 546, first k = 2957
+n = 547, first k = 2963
+n = 548, first k = 2969
+n = 549, first k = 2971
+n = 550, first k = 2999
+n = 551, first k = 2999
+n = 552, first k = 3001
+n = 553, first k = 3011
+n = 554, first k = 3019
+n = 555, first k = 3019
+n = 556, first k = 3023
+n = 557, first k = 3037
+n = 558, first k = 3041
+n = 559, first k = 3049
+n = 560, first k = 3049
+n = 561, first k = 3061
+n = 562, first k = 3067
+n = 563, first k = 3079
+n = 564, first k = 3083
+n = 565, first k = 3083
+n = 566, first k = 3089
+n = 567, first k = 3109
+n = 568, first k = 3119
+n = 569, first k = 3121
+n = 570, first k = 3121
+n = 571, first k = 3137
+n = 572, first k = 3163
+n = 573, first k = 3167
+n = 574, first k = 3167
+n = 575, first k = 3169
+n = 576, first k = 3181
+n = 577, first k = 3187
+n = 578, first k = 3191
+n = 579, first k = 3191
+n = 580, first k = 3203
+n = 581, first k = 3209
+n = 582, first k = 3217
+n = 583, first k = 3221
+n = 584, first k = 3221
+n = 585, first k = 3229
+n = 586, first k = 3251
+n = 587, first k = 3253
+n = 588, first k = 3253
+n = 589, first k = 3257
+n = 590, first k = 3259
+n = 591, first k = 3271
+n = 592, first k = 3299
+n = 593, first k = 3299
+n = 594, first k = 3301
+n = 595, first k = 3307
+n = 596, first k = 3313
+n = 597, first k = 3319
+n = 598, first k = 3319
+n = 599, first k = 3323
+n = 600, first k = 3329
+n = 601, first k = 3331
+n = 602, first k = 3343
+n = 603, first k = 3343
+n = 604, first k = 3347
+n = 605, first k = 3359
+n = 606, first k = 3361
+n = 607, first k = 3361
+n = 608, first k = 3371
+n = 609, first k = 3373
+n = 610, first k = 3389
+n = 611, first k = 3391
+n = 612, first k = 3391
+n = 613, first k = 3407
+n = 614, first k = 3413
+n = 615, first k = 3433
+n = 616, first k = 3449
+n = 617, first k = 3449
+n = 618, first k = 3457
+n = 619, first k = 3461
+n = 620, first k = 3463
+n = 621, first k = 3467
+n = 622, first k = 3467
+n = 623, first k = 3469
+n = 624, first k = 3491
+n = 625, first k = 3499
+n = 626, first k = 3499
+n = 627, first k = 3511
+n = 628, first k = 3517
+n = 629, first k = 3527
+n = 630, first k = 3529
+n = 631, first k = 3529
+n = 632, first k = 3533
+n = 633, first k = 3539
+n = 634, first k = 3541
+n = 635, first k = 3547
+n = 636, first k = 3547
+n = 637, first k = 3557
+n = 638, first k = 3559
+n = 639, first k = 3571
+n = 640, first k = 3581
+n = 641, first k = 3581
+n = 642, first k = 3583
+n = 643, first k = 3593
+n = 644, first k = 3607
+n = 645, first k = 3607
+n = 646, first k = 3613
+n = 647, first k = 3617
+n = 648, first k = 3623
+n = 649, first k = 3631
+n = 650, first k = 3631
+n = 651, first k = 3637
+n = 652, first k = 3643
+n = 653, first k = 3659
+n = 654, first k = 3671
+n = 655, first k = 3671
+n = 656, first k = 3673
+n = 657, first k = 3677
+n = 658, first k = 3691
+n = 659, first k = 3697
+n = 660, first k = 3697
+n = 661, first k = 3701
+n = 662, first k = 3709
+n = 663, first k = 3719
+n = 664, first k = 3719
+n = 665, first k = 3727
+n = 666, first k = 3733
+n = 667, first k = 3739
+n = 668, first k = 3761
+n = 669, first k = 3761
+n = 670, first k = 3767
+n = 671, first k = 3769
+n = 672, first k = 3779
+n = 673, first k = 3793
+n = 674, first k = 3793
+n = 675, first k = 3797
+n = 676, first k = 3803
+n = 677, first k = 3821
+n = 678, first k = 3823
+n = 679, first k = 3823
+n = 680, first k = 3833
+n = 681, first k = 3847
+n = 682, first k = 3851
+n = 683, first k = 3851
+n = 684, first k = 3853
+n = 685, first k = 3863
+n = 686, first k = 3877
+n = 687, first k = 3881
+n = 688, first k = 3881
+n = 689, first k = 3889
+n = 690, first k = 3907
+n = 691, first k = 3911
+n = 692, first k = 3917
+n = 693, first k = 3917
+n = 694, first k = 3919
+n = 695, first k = 3923
+n = 696, first k = 3929
+n = 697, first k = 3931
+n = 698, first k = 3931
+n = 699, first k = 3943
+n = 700, first k = 3947
+n = 701, first k = 3967
+n = 702, first k = 3989
+n = 703, first k = 3989
+n = 704, first k = 4001
+n = 705, first k = 4003
+n = 706, first k = 4007
+n = 707, first k = 4007
+n = 708, first k = 4013
+n = 709, first k = 4019
+n = 710, first k = 4021
+n = 711, first k = 4027
+n = 712, first k = 4027
+n = 713, first k = 4049
+n = 714, first k = 4051
+n = 715, first k = 4057
+n = 716, first k = 4073
+n = 717, first k = 4073
+n = 718, first k = 4079
+n = 719, first k = 4091
+n = 720, first k = 4093
+n = 721, first k = 4099
+n = 722, first k = 4099
+n = 723, first k = 4111
+n = 724, first k = 4127
+n = 725, first k = 4129
+n = 726, first k = 4133
+n = 727, first k = 4133
+n = 728, first k = 4139
+n = 729, first k = 4153
+n = 730, first k = 4157
+n = 731, first k = 4157
+n = 732, first k = 4159
+n = 733, first k = 4177
+n = 734, first k = 4201
+n = 735, first k = 4211
+n = 736, first k = 4211
+n = 737, first k = 4217
+n = 738, first k = 4219
+n = 739, first k = 4229
+n = 740, first k = 4231
+n = 741, first k = 4231
+n = 742, first k = 4241
+n = 743, first k = 4243
+n = 744, first k = 4253
+n = 745, first k = 4259
+n = 746, first k = 4259
+n = 747, first k = 4261
+n = 748, first k = 4271
+n = 749, first k = 4273
+n = 750, first k = 4283
+n = 751, first k = 4283
+n = 752, first k = 4289
+n = 753, first k = 4297
+n = 754, first k = 4327
+n = 755, first k = 4327
+n = 756, first k = 4337
+n = 757, first k = 4339
+n = 758, first k = 4349
+n = 759, first k = 4357
+n = 760, first k = 4357
+n = 761, first k = 4363
+n = 762, first k = 4373
+n = 763, first k = 4391
+n = 764, first k = 4397
+n = 765, first k = 4397
+n = 766, first k = 4409
+n = 767, first k = 4421
+n = 768, first k = 4423
+n = 769, first k = 4441
+n = 770, first k = 4441
+n = 771, first k = 4447
+n = 772, first k = 4451
+n = 773, first k = 4457
+n = 774, first k = 4463
+n = 775, first k = 4463
+n = 776, first k = 4481
+n = 777, first k = 4483
+n = 778, first k = 4493
+n = 779, first k = 4493
+n = 780, first k = 4507
+n = 781, first k = 4513
+n = 782, first k = 4517
+n = 783, first k = 4519
+n = 784, first k = 4519
+n = 785, first k = 4523
+n = 786, first k = 4547
+n = 787, first k = 4549
+n = 788, first k = 4561
+n = 789, first k = 4561
+n = 790, first k = 4567
+n = 791, first k = 4583
+n = 792, first k = 4591
+n = 793, first k = 4597
+n = 794, first k = 4597
+n = 795, first k = 4603
+n = 796, first k = 4621
+n = 797, first k = 4637
+n = 798, first k = 4639
+n = 799, first k = 4639
+n = 800, first k = 4643
+n = 801, first k = 4649
+n = 802, first k = 4651
+n = 803, first k = 4651
+n = 804, first k = 4657
+n = 805, first k = 4663
+n = 806, first k = 4673
+n = 807, first k = 4679
+n = 808, first k = 4679
+n = 809, first k = 4691
+n = 810, first k = 4703
+n = 811, first k = 4721
+n = 812, first k = 4723
+n = 813, first k = 4723
+n = 814, first k = 4729
+n = 815, first k = 4733
+n = 816, first k = 4751
+n = 817, first k = 4759
+n = 818, first k = 4759
+n = 819, first k = 4783
+n = 820, first k = 4787
+n = 821, first k = 4789
+n = 822, first k = 4793
+n = 823, first k = 4793
+n = 824, first k = 4799
+n = 825, first k = 4801
+n = 826, first k = 4813
+n = 827, first k = 4813
+n = 828, first k = 4817
+n = 829, first k = 4831
+n = 830, first k = 4861
+n = 831, first k = 4871
+n = 832, first k = 4871
+n = 833, first k = 4877
+n = 834, first k = 4889
+n = 835, first k = 4903
+n = 836, first k = 4909
+n = 837, first k = 4909
+n = 838, first k = 4919
+n = 839, first k = 4931
+n = 840, first k = 4933
+n = 841, first k = 4937
+n = 842, first k = 4937
+n = 843, first k = 4943
+n = 844, first k = 4951
+n = 845, first k = 4957
+n = 846, first k = 4967
+n = 847, first k = 4967
+n = 848, first k = 4969
+n = 849, first k = 4973
+n = 850, first k = 4987
+n = 851, first k = 4987
+n = 852, first k = 4993
+n = 853, first k = 4999
+n = 854, first k = 5003
+n = 855, first k = 5009
+n = 856, first k = 5009
+n = 857, first k = 5011
+n = 858, first k = 5021
+n = 859, first k = 5023
+n = 860, first k = 5039
+n = 861, first k = 5039
+n = 862, first k = 5051
+n = 863, first k = 5059
+n = 864, first k = 5077
+n = 865, first k = 5081
+n = 866, first k = 5081
+n = 867, first k = 5087
+n = 868, first k = 5099
+n = 869, first k = 5101
+n = 870, first k = 5107
+n = 871, first k = 5107
+n = 872, first k = 5113
+n = 873, first k = 5119
+n = 874, first k = 5147
+n = 875, first k = 5153
+n = 876, first k = 5153
+n = 877, first k = 5167
+n = 878, first k = 5171
+n = 879, first k = 5179
+n = 880, first k = 5179
+n = 881, first k = 5189
+n = 882, first k = 5197
+n = 883, first k = 5209
+n = 884, first k = 5227
+n = 885, first k = 5227
+n = 886, first k = 5231
+n = 887, first k = 5233
+n = 888, first k = 5237
+n = 889, first k = 5261
+n = 890, first k = 5261
+n = 891, first k = 5273
+n = 892, first k = 5279
+n = 893, first k = 5281
+n = 894, first k = 5297
+n = 895, first k = 5297
+n = 896, first k = 5303
+n = 897, first k = 5309
+n = 898, first k = 5323
+n = 899, first k = 5333
+n = 900, first k = 5333
+n = 901, first k = 5347
+n = 902, first k = 5351
+n = 903, first k = 5381
+n = 904, first k = 5381
+n = 905, first k = 5387
+n = 906, first k = 5393
+n = 907, first k = 5399
+n = 908, first k = 5407
+n = 909, first k = 5407
+n = 910, first k = 5413
+n = 911, first k = 5417
+n = 912, first k = 5419
+n = 913, first k = 5431
+n = 914, first k = 5431
+n = 915, first k = 5437
+n = 916, first k = 5441
+n = 917, first k = 5443
+n = 918, first k = 5449
+n = 919, first k = 5449
+n = 920, first k = 5471
+n = 921, first k = 5477
+n = 922, first k = 5479
+n = 923, first k = 5483
+n = 924, first k = 5483
+n = 925, first k = 5501
+n = 926, first k = 5503
+n = 927, first k = 5507
+n = 928, first k = 5519
+n = 929, first k = 5519
+n = 930, first k = 5521
+n = 931, first k = 5527
+n = 932, first k = 5531
+n = 933, first k = 5531
+n = 934, first k = 5557
+n = 935, first k = 5563
+n = 936, first k = 5569
+n = 937, first k = 5573
+n = 938, first k = 5573
+n = 939, first k = 5581
+n = 940, first k = 5591
+n = 941, first k = 5623
+n = 942, first k = 5639
+n = 943, first k = 5639
+n = 944, first k = 5641
+n = 945, first k = 5647
+n = 946, first k = 5651
+n = 947, first k = 5653
+n = 948, first k = 5653
+n = 949, first k = 5657
+n = 950, first k = 5659
+n = 951, first k = 5669
+n = 952, first k = 5683
+n = 953, first k = 5683
+n = 954, first k = 5689
+n = 955, first k = 5693
+n = 956, first k = 5701
+n = 957, first k = 5711
+n = 958, first k = 5711
+n = 959, first k = 5717
+n = 960, first k = 5737
+n = 961, first k = 5741
+n = 962, first k = 5741
+n = 963, first k = 5743
+n = 964, first k = 5749
+n = 965, first k = 5779
+n = 966, first k = 5783
+n = 967, first k = 5783
+n = 968, first k = 5791
+n = 969, first k = 5801
+n = 970, first k = 5807
+n = 971, first k = 5813
+n = 972, first k = 5813
+n = 973, first k = 5821
+n = 974, first k = 5827
+n = 975, first k = 5839
+n = 976, first k = 5843
+n = 977, first k = 5843
+n = 978, first k = 5849
+n = 979, first k = 5851
+n = 980, first k = 5857
+n = 981, first k = 5861
+n = 982, first k = 5861
+n = 983, first k = 5867
+n = 984, first k = 5869
+n = 985, first k = 5879
+n = 986, first k = 5881
+n = 987, first k = 5881
+n = 988, first k = 5897
+n = 989, first k = 5903
+n = 990, first k = 5923
+n = 991, first k = 5927
+n = 992, first k = 5927
+n = 993, first k = 5939
+n = 994, first k = 5953
+n = 995, first k = 5981
+n = 996, first k = 5981
+n = 997, first k = 5987
+n = 998, first k = 6007
+n = 999, first k = 6011
+n = 1000, first k = 6029
+n = 1001, first k = 6029
+n = 1002, first k = 6037
+n = 1003, first k = 6043
+n = 1004, first k = 6047
+n = 1005, first k = 6053
+n = 1006, first k = 6053
+n = 1007, first k = 6067
+n = 1008, first k = 6073
+n = 1009, first k = 6079
+n = 1010, first k = 6089
+n = 1011, first k = 6089
+n = 1012, first k = 6091
+n = 1013, first k = 6101
+n = 1014, first k = 6113
+n = 1015, first k = 6121
+n = 1016, first k = 6121
+n = 1017, first k = 6131
+n = 1018, first k = 6133
+n = 1019, first k = 6143
+n = 1020, first k = 6151
+n = 1021, first k = 6151
+n = 1022, first k = 6163
+n = 1023, first k = 6173
+n = 1024, first k = 6197
+n = 1025, first k = 6199
+n = 1026, first k = 6199
+n = 1027, first k = 6203
+n = 1028, first k = 6211
+n = 1029, first k = 6217
+n = 1030, first k = 6217
+n = 1031, first k = 6221
+n = 1032, first k = 6229
+n = 1033, first k = 6247
+n = 1034, first k = 6257
+n = 1035, first k = 6257
+n = 1036, first k = 6263
+n = 1037, first k = 6269
+n = 1038, first k = 6271
+n = 1039, first k = 6277
+n = 1040, first k = 6277
+n = 1041, first k = 6287
+n = 1042, first k = 6299
+n = 1043, first k = 6301
+n = 1044, first k = 6311
+n = 1045, first k = 6311
+n = 1046, first k = 6317
+n = 1047, first k = 6323
+n = 1048, first k = 6329
+n = 1049, first k = 6337
+n = 1050, first k = 6337
+n = 1051, first k = 6343
+n = 1052, first k = 6353
+n = 1053, first k = 6359
+n = 1054, first k = 6361
+n = 1055, first k = 6361
+n = 1056, first k = 6367
+n = 1057, first k = 6373
+n = 1058, first k = 6379
+n = 1059, first k = 6389
+n = 1060, first k = 6389
+n = 1061, first k = 6397
+n = 1062, first k = 6421
+n = 1063, first k = 6427
+n = 1064, first k = 6449
+n = 1065, first k = 6449
+n = 1066, first k = 6451
+n = 1067, first k = 6469
+n = 1068, first k = 6473
+n = 1069, first k = 6473
+n = 1070, first k = 6481
+n = 1071, first k = 6491
+n = 1072, first k = 6521
+n = 1073, first k = 6529
+n = 1074, first k = 6529
+n = 1075, first k = 6547
+n = 1076, first k = 6551
+n = 1077, first k = 6553
+n = 1078, first k = 6563
+n = 1079, first k = 6563
+n = 1080, first k = 6569
+n = 1081, first k = 6571
+n = 1082, first k = 6577
+n = 1083, first k = 6581
+n = 1084, first k = 6581
+n = 1085, first k = 6599
+n = 1086, first k = 6607
+n = 1087, first k = 6619
+n = 1088, first k = 6637
+n = 1089, first k = 6637
+n = 1090, first k = 6653
+n = 1091, first k = 6659
+n = 1092, first k = 6661
+n = 1093, first k = 6673
+n = 1094, first k = 6673
+n = 1095, first k = 6679
+n = 1096, first k = 6689
+n = 1097, first k = 6691
+n = 1098, first k = 6701
+n = 1099, first k = 6701
+n = 1100, first k = 6703
+n = 1101, first k = 6709
+n = 1102, first k = 6719
+n = 1103, first k = 6719
+n = 1104, first k = 6733
+n = 1105, first k = 6737
+n = 1106, first k = 6761
+n = 1107, first k = 6763
+n = 1108, first k = 6763
+n = 1109, first k = 6779
+n = 1110, first k = 6781
+n = 1111, first k = 6791
+n = 1112, first k = 6793
+n = 1113, first k = 6793
+n = 1114, first k = 6803
+n = 1115, first k = 6823
+n = 1116, first k = 6827
+n = 1117, first k = 6829
+n = 1118, first k = 6829
+n = 1119, first k = 6833
+n = 1120, first k = 6841
+n = 1121, first k = 6857
+n = 1122, first k = 6863
+n = 1123, first k = 6863
+n = 1124, first k = 6869
+n = 1125, first k = 6871
+n = 1126, first k = 6883
+n = 1127, first k = 6899
+n = 1128, first k = 6899
+n = 1129, first k = 6907
+n = 1130, first k = 6911
+n = 1131, first k = 6917
+n = 1132, first k = 6947
+n = 1133, first k = 6947
+n = 1134, first k = 6949
+n = 1135, first k = 6959
+n = 1136, first k = 6961
+n = 1137, first k = 6967
+n = 1138, first k = 6967
+n = 1139, first k = 6971
+n = 1140, first k = 6977
+n = 1141, first k = 6983
+n = 1142, first k = 6991
+n = 1143, first k = 6991
+n = 1144, first k = 6997
+n = 1145, first k = 7001
+n = 1146, first k = 7013
+n = 1147, first k = 7013
+n = 1148, first k = 7019
+n = 1149, first k = 7027
+n = 1150, first k = 7039
+n = 1151, first k = 7043
+n = 1152, first k = 7043
+n = 1153, first k = 7057
+n = 1154, first k = 7069
+n = 1155, first k = 7079
+n = 1156, first k = 7103
+n = 1157, first k = 7103
+n = 1158, first k = 7109
+n = 1159, first k = 7121
+n = 1160, first k = 7127
+n = 1161, first k = 7129
+n = 1162, first k = 7129
+n = 1163, first k = 7151
+n = 1164, first k = 7159
+n = 1165, first k = 7177
+n = 1166, first k = 7187
+n = 1167, first k = 7187
+n = 1168, first k = 7193
+n = 1169, first k = 7207
+n = 1170, first k = 7211
+n = 1171, first k = 7213
+n = 1172, first k = 7213
+n = 1173, first k = 7219
+n = 1174, first k = 7229
+n = 1175, first k = 7237
+n = 1176, first k = 7243
+n = 1177, first k = 7243
+n = 1178, first k = 7247
+n = 1179, first k = 7253
+n = 1180, first k = 7283
+n = 1181, first k = 7297
+n = 1182, first k = 7297
+n = 1183, first k = 7307
+n = 1184, first k = 7309
+n = 1185, first k = 7321
+n = 1186, first k = 7331
+n = 1187, first k = 7331
+n = 1188, first k = 7333
+n = 1189, first k = 7349
+n = 1190, first k = 7351
+n = 1191, first k = 7351
+n = 1192, first k = 7369
+n = 1193, first k = 7393
+n = 1194, first k = 7411
+n = 1195, first k = 7417
+n = 1196, first k = 7417
+n = 1197, first k = 7433
+n = 1198, first k = 7451
+n = 1199, first k = 7457
+n = 1200, first k = 7459
+n = 1201, first k = 7459
+n = 1202, first k = 7477
+n = 1203, first k = 7481
+n = 1204, first k = 7487
+n = 1205, first k = 7489
+n = 1206, first k = 7489
+n = 1207, first k = 7499
+n = 1208, first k = 7507
+n = 1209, first k = 7517
+n = 1210, first k = 7523
+n = 1211, first k = 7523
+n = 1212, first k = 7529
+n = 1213, first k = 7537
+n = 1214, first k = 7541
+n = 1215, first k = 7547
+n = 1216, first k = 7547
+n = 1217, first k = 7549
+n = 1218, first k = 7559
+n = 1219, first k = 7561
+n = 1220, first k = 7573
+n = 1221, first k = 7573
+n = 1222, first k = 7577
+n = 1223, first k = 7583
+n = 1224, first k = 7589
+n = 1225, first k = 7591
+n = 1226, first k = 7591
+n = 1227, first k = 7603
+n = 1228, first k = 7607
+n = 1229, first k = 7621
+n = 1230, first k = 7639
+n = 1231, first k = 7639
+n = 1232, first k = 7643
+n = 1233, first k = 7649
+n = 1234, first k = 7669
+n = 1235, first k = 7669
+n = 1236, first k = 7673
+n = 1237, first k = 7681
+n = 1238, first k = 7687
+n = 1239, first k = 7691
+n = 1240, first k = 7691
+n = 1241, first k = 7699
+n = 1242, first k = 7703
+n = 1243, first k = 7717
+n = 1244, first k = 7723
+n = 1245, first k = 7723
+n = 1246, first k = 7727
+n = 1247, first k = 7741
+n = 1248, first k = 7753
+n = 1249, first k = 7757
+n = 1250, first k = 7757
+n = 1251, first k = 7759
+n = 1252, first k = 7789
+n = 1253, first k = 7793
+n = 1254, first k = 7817
+n = 1255, first k = 7817
+n = 1256, first k = 7823
+n = 1257, first k = 7829
+n = 1258, first k = 7841
+n = 1259, first k = 7853
+n = 1260, first k = 7853
+n = 1261, first k = 7867
+n = 1262, first k = 7873
+n = 1263, first k = 7877
+n = 1264, first k = 7879
+n = 1265, first k = 7879
+n = 1266, first k = 7883
+n = 1267, first k = 7901
+n = 1268, first k = 7907
+n = 1269, first k = 7919
+n = 1270, first k = 7919
+n = 1271, first k = 7927
+n = 1272, first k = 7933
+n = 1273, first k = 7937
+n = 1274, first k = 7949
+n = 1275, first k = 7949
+n = 1276, first k = 7951
+n = 1277, first k = 7963
+n = 1278, first k = 7993
+n = 1279, first k = 8009
+n = 1280, first k = 8009
+n = 1281, first k = 8011
+n = 1282, first k = 8017
+n = 1283, first k = 8039
+n = 1284, first k = 8039
+n = 1285, first k = 8053
+n = 1286, first k = 8059
+n = 1287, first k = 8069
+n = 1288, first k = 8081
+n = 1289, first k = 8081
+n = 1290, first k = 8087
+n = 1291, first k = 8089
+n = 1292, first k = 8093
+n = 1293, first k = 8101
+n = 1294, first k = 8101
+n = 1295, first k = 8111
+n = 1296, first k = 8117
+n = 1297, first k = 8123
+n = 1298, first k = 8147
+n = 1299, first k = 8147
+n = 1300, first k = 8161
+n = 1301, first k = 8167
+n = 1302, first k = 8171
+n = 1303, first k = 8179
+n = 1304, first k = 8179
+n = 1305, first k = 8191
+n = 1306, first k = 8209
+n = 1307, first k = 8219
+n = 1308, first k = 8221
+n = 1309, first k = 8221
+n = 1310, first k = 8231
+n = 1311, first k = 8233
+n = 1312, first k = 8237
+n = 1313, first k = 8243
+n = 1314, first k = 8243
+n = 1315, first k = 8263
+n = 1316, first k = 8269
+n = 1317, first k = 8273
+n = 1318, first k = 8287
+n = 1319, first k = 8287
+n = 1320, first k = 8291
+n = 1321, first k = 8293
+n = 1322, first k = 8297
+n = 1323, first k = 8311
+n = 1324, first k = 8311
+n = 1325, first k = 8317
+n = 1326, first k = 8329
+n = 1327, first k = 8353
+n = 1328, first k = 8363
+n = 1329, first k = 8363
+n = 1330, first k = 8369
+n = 1331, first k = 8377
+n = 1332, first k = 8387
+n = 1333, first k = 8389
+n = 1334, first k = 8389
+n = 1335, first k = 8419
+n = 1336, first k = 8423
+n = 1337, first k = 8429
+n = 1338, first k = 8429
+n = 1339, first k = 8431
+n = 1340, first k = 8443
+n = 1341, first k = 8447
+n = 1342, first k = 8461
+n = 1343, first k = 8461
+n = 1344, first k = 8467
+n = 1345, first k = 8501
+n = 1346, first k = 8513
+n = 1347, first k = 8521
+n = 1348, first k = 8521
+n = 1349, first k = 8527
+n = 1350, first k = 8537
+n = 1351, first k = 8539
+n = 1352, first k = 8543
+n = 1353, first k = 8543
+n = 1354, first k = 8563
+n = 1355, first k = 8573
+n = 1356, first k = 8581
+n = 1357, first k = 8597
+n = 1358, first k = 8597
+n = 1359, first k = 8599
+n = 1360, first k = 8609
+n = 1361, first k = 8623
+n = 1362, first k = 8627
+n = 1363, first k = 8627
+n = 1364, first k = 8629
+n = 1365, first k = 8641
+n = 1366, first k = 8647
+n = 1367, first k = 8663
+n = 1368, first k = 8663
+n = 1369, first k = 8669
+n = 1370, first k = 8677
+n = 1371, first k = 8681
+n = 1372, first k = 8689
+n = 1373, first k = 8689
+n = 1374, first k = 8693
+n = 1375, first k = 8699
+n = 1376, first k = 8707
+n = 1377, first k = 8713
+n = 1378, first k = 8713
+n = 1379, first k = 8719
+n = 1380, first k = 8731
+n = 1381, first k = 8737
+n = 1382, first k = 8741
+n = 1383, first k = 8741
+n = 1384, first k = 8747
+n = 1385, first k = 8753
+n = 1386, first k = 8761
+n = 1387, first k = 8779
+n = 1388, first k = 8779
+n = 1389, first k = 8783
+n = 1390, first k = 8803
+n = 1391, first k = 8807
+n = 1392, first k = 8819
+n = 1393, first k = 8819
+n = 1394, first k = 8821
+n = 1395, first k = 8831
+n = 1396, first k = 8837
+n = 1397, first k = 8837
+n = 1398, first k = 8839
+n = 1399, first k = 8849
+n = 1400, first k = 8861
+n = 1401, first k = 8863
+n = 1402, first k = 8863
+n = 1403, first k = 8867
+n = 1404, first k = 8887
+n = 1405, first k = 8893
+n = 1406, first k = 8923
+n = 1407, first k = 8923
+n = 1408, first k = 8929
+n = 1409, first k = 8933
+n = 1410, first k = 8941
+n = 1411, first k = 8951
+n = 1412, first k = 8951
+n = 1413, first k = 8963
+n = 1414, first k = 8969
+n = 1415, first k = 8971
+n = 1416, first k = 8999
+n = 1417, first k = 8999
+n = 1418, first k = 9001
+n = 1419, first k = 9007
+n = 1420, first k = 9011
+n = 1421, first k = 9013
+n = 1422, first k = 9013
+n = 1423, first k = 9029
+n = 1424, first k = 9041
+n = 1425, first k = 9043
+n = 1426, first k = 9049
+n = 1427, first k = 9049
+n = 1428, first k = 9059
+n = 1429, first k = 9067
+n = 1430, first k = 9091
+n = 1431, first k = 9103
+n = 1432, first k = 9103
+n = 1433, first k = 9109
+n = 1434, first k = 9127
+n = 1435, first k = 9133
+n = 1436, first k = 9137
+n = 1437, first k = 9137
+n = 1438, first k = 9151
+n = 1439, first k = 9157
+n = 1440, first k = 9161
+n = 1441, first k = 9173
+n = 1442, first k = 9173
+n = 1443, first k = 9181
+n = 1444, first k = 9187
+n = 1445, first k = 9199
+n = 1446, first k = 9203
+n = 1447, first k = 9203
+n = 1448, first k = 9209
+n = 1449, first k = 9221
+n = 1450, first k = 9227
+n = 1451, first k = 9239
+n = 1452, first k = 9239
+n = 1453, first k = 9241
+n = 1454, first k = 9257
+n = 1455, first k = 9277
+n = 1456, first k = 9281
+n = 1457, first k = 9281
+n = 1458, first k = 9283
+n = 1459, first k = 9293
+n = 1460, first k = 9311
+n = 1461, first k = 9319
+n = 1462, first k = 9319
+n = 1463, first k = 9323
+n = 1464, first k = 9337
+n = 1465, first k = 9341
+n = 1466, first k = 9341
+n = 1467, first k = 9343
+n = 1468, first k = 9349
+n = 1469, first k = 9371
+n = 1470, first k = 9377
+n = 1471, first k = 9377
+n = 1472, first k = 9391
+n = 1473, first k = 9397
+n = 1474, first k = 9403
+n = 1475, first k = 9413
+n = 1476, first k = 9413
+n = 1477, first k = 9419
+n = 1478, first k = 9421
+n = 1479, first k = 9431
+n = 1480, first k = 9433
+n = 1481, first k = 9433
+n = 1482, first k = 9437
+n = 1483, first k = 9439
+n = 1484, first k = 9461
+n = 1485, first k = 9463
+n = 1486, first k = 9463
+n = 1487, first k = 9467
+n = 1488, first k = 9473
+n = 1489, first k = 9479
+n = 1490, first k = 9491
+n = 1491, first k = 9491
+n = 1492, first k = 9497
+n = 1493, first k = 9511
+n = 1494, first k = 9521
+n = 1495, first k = 9533
+n = 1496, first k = 9533
+n = 1497, first k = 9539
+n = 1498, first k = 9547
+n = 1499, first k = 9551
+n = 1500, first k = 9587
+n = 1501, first k = 9587
+n = 1502, first k = 9601
+n = 1503, first k = 9613
+n = 1504, first k = 9619
+n = 1505, first k = 9623
+n = 1506, first k = 9623
+n = 1507, first k = 9629
+n = 1508, first k = 9631
+n = 1509, first k = 9643
+n = 1510, first k = 9649
+n = 1511, first k = 9649
+n = 1512, first k = 9661
+n = 1513, first k = 9677
+n = 1514, first k = 9679
+n = 1515, first k = 9689
+n = 1516, first k = 9689
+n = 1517, first k = 9697
+n = 1518, first k = 9719
+n = 1519, first k = 9721
+n = 1520, first k = 9733
+n = 1521, first k = 9733
+n = 1522, first k = 9739
+n = 1523, first k = 9743
+n = 1524, first k = 9749
+n = 1525, first k = 9767
+n = 1526, first k = 9767
+n = 1527, first k = 9769
+n = 1528, first k = 9781
+n = 1529, first k = 9787
+n = 1530, first k = 9791
+n = 1531, first k = 9791
+n = 1532, first k = 9803
+n = 1533, first k = 9811
+n = 1534, first k = 9817
+n = 1535, first k = 9829
+n = 1536, first k = 9829
+n = 1537, first k = 9833
+n = 1538, first k = 9839
+n = 1539, first k = 9851
+n = 1540, first k = 9857
+n = 1541, first k = 9857
+n = 1542, first k = 9859
+n = 1543, first k = 9871
+n = 1544, first k = 9883
+n = 1545, first k = 9887
+n = 1546, first k = 9887
+n = 1547, first k = 9901
+n = 1548, first k = 9907
+n = 1549, first k = 9923
+n = 1550, first k = 9929
+n = 1551, first k = 9929
+n = 1552, first k = 9931
+n = 1553, first k = 9941
+n = 1554, first k = 9949
+n = 1555, first k = 9967
+n = 1556, first k = 9967
+n = 1557, first k = 9973
+n = 1558, first k = 10007
+n = 1559, first k = 10009
+n = 1560, first k = 10009
+n = 1561, first k = 10037
+n = 1562, first k = 10039
+n = 1563, first k = 10061
+n = 1564, first k = 10067
+n = 1565, first k = 10067
+n = 1566, first k = 10069
+n = 1567, first k = 10079
+n = 1568, first k = 10091
+n = 1569, first k = 10093
+n = 1570, first k = 10093
+n = 1571, first k = 10099
+n = 1572, first k = 10103
+n = 1573, first k = 10111
+n = 1574, first k = 10133
+n = 1575, first k = 10133
+n = 1576, first k = 10139
+n = 1577, first k = 10141
+n = 1578, first k = 10151
+n = 1579, first k = 10159
+n = 1580, first k = 10159
+n = 1581, first k = 10163
+n = 1582, first k = 10169
+n = 1583, first k = 10177
+n = 1584, first k = 10181
+n = 1585, first k = 10181
+n = 1586, first k = 10193
+n = 1587, first k = 10211
+n = 1588, first k = 10223
+n = 1589, first k = 10243
+n = 1590, first k = 10243
+n = 1591, first k = 10247
+n = 1592, first k = 10253
+n = 1593, first k = 10259
+n = 1594, first k = 10267
+n = 1595, first k = 10267
+n = 1596, first k = 10271
+n = 1597, first k = 10273
+n = 1598, first k = 10289
+n = 1599, first k = 10301
+n = 1600, first k = 10301
+n = 1601, first k = 10303
+n = 1602, first k = 10313
+n = 1603, first k = 10321
+n = 1604, first k = 10331
+n = 1605, first k = 10331
+n = 1606, first k = 10333
+n = 1607, first k = 10337
+n = 1608, first k = 10343
+n = 1609, first k = 10357
+n = 1610, first k = 10357
+n = 1611, first k = 10369
+n = 1612, first k = 10391
+n = 1613, first k = 10399
+n = 1614, first k = 10427
+n = 1615, first k = 10427
+n = 1616, first k = 10429
+n = 1617, first k = 10433
+n = 1618, first k = 10453
+n = 1619, first k = 10457
+n = 1620, first k = 10457
+n = 1621, first k = 10459
+n = 1622, first k = 10463
+n = 1623, first k = 10477
+n = 1624, first k = 10487
+n = 1625, first k = 10487
+n = 1626, first k = 10499
+n = 1627, first k = 10501
+n = 1628, first k = 10513
+n = 1629, first k = 10529
+n = 1630, first k = 10529
+n = 1631, first k = 10531
+n = 1632, first k = 10559
+n = 1633, first k = 10567
+n = 1634, first k = 10589
+n = 1635, first k = 10589
+n = 1636, first k = 10597
+n = 1637, first k = 10601
+n = 1638, first k = 10607
+n = 1639, first k = 10613
+n = 1640, first k = 10613
+n = 1641, first k = 10627
+n = 1642, first k = 10631
+n = 1643, first k = 10639
+n = 1644, first k = 10651
+n = 1645, first k = 10651
+n = 1646, first k = 10657
+n = 1647, first k = 10663
+n = 1648, first k = 10667
+n = 1649, first k = 10687
+n = 1650, first k = 10687
+n = 1651, first k = 10691
+n = 1652, first k = 10709
+n = 1653, first k = 10711
+n = 1654, first k = 10723
+n = 1655, first k = 10723
+n = 1656, first k = 10729
+n = 1657, first k = 10733
+n = 1658, first k = 10739
+n = 1659, first k = 10753
+n = 1660, first k = 10753
+n = 1661, first k = 10771
+n = 1662, first k = 10781
+n = 1663, first k = 10789
+n = 1664, first k = 10799
+n = 1665, first k = 10799
+n = 1666, first k = 10831
+n = 1667, first k = 10837
+n = 1668, first k = 10847
+n = 1669, first k = 10853
+n = 1670, first k = 10853
+n = 1671, first k = 10859
+n = 1672, first k = 10861
+n = 1673, first k = 10867
+n = 1674, first k = 10883
+n = 1675, first k = 10883
+n = 1676, first k = 10889
+n = 1677, first k = 10891
+n = 1678, first k = 10903
+n = 1679, first k = 10909
+n = 1680, first k = 10909
+n = 1681, first k = 10937
+n = 1682, first k = 10939
+n = 1683, first k = 10949
+n = 1684, first k = 10957
+n = 1685, first k = 10957
+n = 1686, first k = 10973
+n = 1687, first k = 10979
+n = 1688, first k = 10987
+n = 1689, first k = 10993
+n = 1690, first k = 10993
+n = 1691, first k = 11003
+n = 1692, first k = 11027
+n = 1693, first k = 11047
+n = 1694, first k = 11057
+n = 1695, first k = 11057
+n = 1696, first k = 11059
+n = 1697, first k = 11069
+n = 1698, first k = 11071
+n = 1699, first k = 11071
+n = 1700, first k = 11083
+n = 1701, first k = 11087
+n = 1702, first k = 11093
+n = 1703, first k = 11113
+n = 1704, first k = 11113
+n = 1705, first k = 11117
+n = 1706, first k = 11119
+n = 1707, first k = 11131
+n = 1708, first k = 11149
+n = 1709, first k = 11149
+n = 1710, first k = 11159
+n = 1711, first k = 11161
+n = 1712, first k = 11171
+n = 1713, first k = 11173
+n = 1714, first k = 11173
+n = 1715, first k = 11177
+n = 1716, first k = 11197
+n = 1717, first k = 11213
+n = 1718, first k = 11239
+n = 1719, first k = 11239
+n = 1720, first k = 11243
+n = 1721, first k = 11251
+n = 1722, first k = 11257
+n = 1723, first k = 11261
+n = 1724, first k = 11261
+n = 1725, first k = 11273
+n = 1726, first k = 11279
+n = 1727, first k = 11287
+n = 1728, first k = 11299
+n = 1729, first k = 11299
+n = 1730, first k = 11311
+n = 1731, first k = 11317
+n = 1732, first k = 11321
+n = 1733, first k = 11329
+n = 1734, first k = 11329
+n = 1735, first k = 11351
+n = 1736, first k = 11353
+n = 1737, first k = 11369
+n = 1738, first k = 11383
+n = 1739, first k = 11383
+n = 1740, first k = 11393
+n = 1741, first k = 11399
+n = 1742, first k = 11411
+n = 1743, first k = 11423
+n = 1744, first k = 11423
+n = 1745, first k = 11437
+n = 1746, first k = 11443
+n = 1747, first k = 11447
+n = 1748, first k = 11467
+n = 1749, first k = 11467
+n = 1750, first k = 11471
+n = 1751, first k = 11483
+n = 1752, first k = 11489
+n = 1753, first k = 11491
+n = 1754, first k = 11491
+n = 1755, first k = 11497
+n = 1756, first k = 11503
+n = 1757, first k = 11519
+n = 1758, first k = 11527
+n = 1759, first k = 11527
+n = 1760, first k = 11549
+n = 1761, first k = 11551
+n = 1762, first k = 11579
+n = 1763, first k = 11587
+n = 1764, first k = 11587
+n = 1765, first k = 11593
+n = 1766, first k = 11597
+n = 1767, first k = 11617
+n = 1768, first k = 11621
+n = 1769, first k = 11621
+n = 1770, first k = 11633
+n = 1771, first k = 11657
+n = 1772, first k = 11677
+n = 1773, first k = 11681
+n = 1774, first k = 11681
+n = 1775, first k = 11689
+n = 1776, first k = 11699
+n = 1777, first k = 11701
+n = 1778, first k = 11717
+n = 1779, first k = 11717
+n = 1780, first k = 11719
+n = 1781, first k = 11731
+n = 1782, first k = 11743
+n = 1783, first k = 11777
+n = 1784, first k = 11777
+n = 1785, first k = 11779
+n = 1786, first k = 11783
+n = 1787, first k = 11789
+n = 1788, first k = 11801
+n = 1789, first k = 11801
+n = 1790, first k = 11807
+n = 1791, first k = 11813
+n = 1792, first k = 11821
+n = 1793, first k = 11827
+n = 1794, first k = 11827
+n = 1795, first k = 11831
+n = 1796, first k = 11833
+n = 1797, first k = 11839
+n = 1798, first k = 11863
+n = 1799, first k = 11863
+n = 1800, first k = 11867
+n = 1801, first k = 11887
+n = 1802, first k = 11897
+n = 1803, first k = 11903
+n = 1804, first k = 11903
+n = 1805, first k = 11909
+n = 1806, first k = 11923
+n = 1807, first k = 11927
+n = 1808, first k = 11933
+n = 1809, first k = 11933
+n = 1810, first k = 11939
+n = 1811, first k = 11941
+n = 1812, first k = 11953
+n = 1813, first k = 11959
+n = 1814, first k = 11959
+n = 1815, first k = 11969
+n = 1816, first k = 11971
+n = 1817, first k = 11981
+n = 1818, first k = 11987
+n = 1819, first k = 11987
+n = 1820, first k = 12007
+n = 1821, first k = 12011
+n = 1822, first k = 12037
+n = 1823, first k = 12041
+n = 1824, first k = 12041
+n = 1825, first k = 12043
+n = 1826, first k = 12049
+n = 1827, first k = 12071
+n = 1828, first k = 12073
+n = 1829, first k = 12073
+n = 1830, first k = 12097
+n = 1831, first k = 12101
+n = 1832, first k = 12107
+n = 1833, first k = 12109
+n = 1834, first k = 12109
+n = 1835, first k = 12113
+n = 1836, first k = 12119
+n = 1837, first k = 12143
+n = 1838, first k = 12149
+n = 1839, first k = 12149
+n = 1840, first k = 12157
+n = 1841, first k = 12161
+n = 1842, first k = 12163
+n = 1843, first k = 12197
+n = 1844, first k = 12197
+n = 1845, first k = 12203
+n = 1846, first k = 12211
+n = 1847, first k = 12227
+n = 1848, first k = 12239
+n = 1849, first k = 12239
+n = 1850, first k = 12241
+n = 1851, first k = 12251
+n = 1852, first k = 12253
+n = 1853, first k = 12263
+n = 1854, first k = 12263
+n = 1855, first k = 12269
+n = 1856, first k = 12277
+n = 1857, first k = 12281
+n = 1858, first k = 12289
+n = 1859, first k = 12289
+n = 1860, first k = 12301
+n = 1861, first k = 12323
+n = 1862, first k = 12329
+n = 1863, first k = 12343
+n = 1864, first k = 12343
+n = 1865, first k = 12347
+n = 1866, first k = 12373
+n = 1867, first k = 12377
+n = 1868, first k = 12379
+n = 1869, first k = 12379
+n = 1870, first k = 12391
+n = 1871, first k = 12401
+n = 1872, first k = 12409
+n = 1873, first k = 12413
+n = 1874, first k = 12413
+n = 1875, first k = 12421
+n = 1876, first k = 12433
+n = 1877, first k = 12437
+n = 1878, first k = 12451
+n = 1879, first k = 12451
+n = 1880, first k = 12457
+n = 1881, first k = 12473
+n = 1882, first k = 12479
+n = 1883, first k = 12487
+n = 1884, first k = 12487
+n = 1885, first k = 12491
+n = 1886, first k = 12497
+n = 1887, first k = 12503
+n = 1888, first k = 12511
+n = 1889, first k = 12511
+n = 1890, first k = 12517
+n = 1891, first k = 12527
+n = 1892, first k = 12539
+n = 1893, first k = 12541
+n = 1894, first k = 12541
+n = 1895, first k = 12547
+n = 1896, first k = 12553
+n = 1897, first k = 12569
+n = 1898, first k = 12577
+n = 1899, first k = 12577
+n = 1900, first k = 12583
+n = 1901, first k = 12589
+n = 1902, first k = 12601
+n = 1903, first k = 12611
+n = 1904, first k = 12611
+n = 1905, first k = 12613
+n = 1906, first k = 12619
+n = 1907, first k = 12637
+n = 1908, first k = 12641
+n = 1909, first k = 12641
+n = 1910, first k = 12647
+n = 1911, first k = 12653
+n = 1912, first k = 12659
+n = 1913, first k = 12671
+n = 1914, first k = 12671
+n = 1915, first k = 12689
+n = 1916, first k = 12697
+n = 1917, first k = 12703
+n = 1918, first k = 12713
+n = 1919, first k = 12713
+n = 1920, first k = 12721
+n = 1921, first k = 12739
+n = 1922, first k = 12743
+n = 1923, first k = 12757
+n = 1924, first k = 12757
+n = 1925, first k = 12763
+n = 1926, first k = 12781
+n = 1927, first k = 12791
+n = 1928, first k = 12799
+n = 1929, first k = 12799
+n = 1930, first k = 12809
+n = 1931, first k = 12821
+n = 1932, first k = 12823
+n = 1933, first k = 12829
+n = 1934, first k = 12829
+n = 1935, first k = 12841
+n = 1936, first k = 12853
+n = 1937, first k = 12889
+n = 1938, first k = 12893
+n = 1939, first k = 12893
+n = 1940, first k = 12899
+n = 1941, first k = 12907
+n = 1942, first k = 12911
+n = 1943, first k = 12917
+n = 1944, first k = 12917
+n = 1945, first k = 12919
+n = 1946, first k = 12923
+n = 1947, first k = 12941
+n = 1948, first k = 12953
+n = 1949, first k = 12953
+n = 1950, first k = 12959
+n = 1951, first k = 12967
+n = 1952, first k = 12973
+n = 1953, first k = 12979
+n = 1954, first k = 12979
+n = 1955, first k = 12983
+n = 1956, first k = 13001
+n = 1957, first k = 13003
+n = 1958, first k = 13007
+n = 1959, first k = 13007
+n = 1960, first k = 13009
+n = 1961, first k = 13033
+n = 1962, first k = 13037
+n = 1963, first k = 13043
+n = 1964, first k = 13043
+n = 1965, first k = 13049
+n = 1966, first k = 13063
+n = 1967, first k = 13093
+n = 1968, first k = 13099
+n = 1969, first k = 13099
+n = 1970, first k = 13103
+n = 1971, first k = 13109
+n = 1972, first k = 13121
+n = 1973, first k = 13127
+n = 1974, first k = 13127
+n = 1975, first k = 13147
+n = 1976, first k = 13151
+n = 1977, first k = 13159
+n = 1978, first k = 13163
+n = 1979, first k = 13163
+n = 1980, first k = 13171
+n = 1981, first k = 13177
+n = 1982, first k = 13183
+n = 1983, first k = 13187
+n = 1984, first k = 13187
+n = 1985, first k = 13217
+n = 1986, first k = 13219
+n = 1987, first k = 13229
+n = 1988, first k = 13241
+n = 1989, first k = 13241
+n = 1990, first k = 13249
+n = 1991, first k = 13259
+n = 1992, first k = 13267
+n = 1993, first k = 13291
+n = 1994, first k = 13291
+n = 1995, first k = 13297
+n = 1996, first k = 13309
+n = 1997, first k = 13313
+n = 1998, first k = 13327
+n = 1999, first k = 13327
+n = 2000, first k = 13331
+n = 2001, first k = 13337
+n = 2002, first k = 13339
+n = 2003, first k = 13367
+n = 2004, first k = 13367
+n = 2005, first k = 13381
+n = 2006, first k = 13397
+n = 2007, first k = 13399
+n = 2008, first k = 13411
+n = 2009, first k = 13411
+n = 2010, first k = 13417
+n = 2011, first k = 13421
+n = 2012, first k = 13441
+n = 2013, first k = 13451
+n = 2014, first k = 13451
+n = 2015, first k = 13457
+n = 2016, first k = 13463
+n = 2017, first k = 13469
+n = 2018, first k = 13477
+n = 2019, first k = 13477
+n = 2020, first k = 13487
+n = 2021, first k = 13499
+n = 2022, first k = 13513
+n = 2023, first k = 13523
+n = 2024, first k = 13523
+n = 2025, first k = 13537
+n = 2026, first k = 13553
+n = 2027, first k = 13567
+n = 2028, first k = 13577
+n = 2029, first k = 13577
+n = 2030, first k = 13591
+n = 2031, first k = 13597
+n = 2032, first k = 13613
+n = 2033, first k = 13619
+n = 2034, first k = 13619
+n = 2035, first k = 13627
+n = 2036, first k = 13633
+n = 2037, first k = 13649
+n = 2038, first k = 13669
+n = 2039, first k = 13669
+n = 2040, first k = 13679
+n = 2041, first k = 13681
+n = 2042, first k = 13687
+n = 2043, first k = 13691
+n = 2044, first k = 13691
+n = 2045, first k = 13693
+n = 2046, first k = 13697
+n = 2047, first k = 13709
+n = 2048, first k = 13711
+n = 2049, first k = 13711
+n = 2050, first k = 13721
+n = 2051, first k = 13723
+n = 2052, first k = 13729
+n = 2053, first k = 13751
+n = 2054, first k = 13751
+n = 2055, first k = 13757
+n = 2056, first k = 13759
+n = 2057, first k = 13763
+n = 2058, first k = 13781
+n = 2059, first k = 13781
+n = 2060, first k = 13789
+n = 2061, first k = 13799
+n = 2062, first k = 13807
+n = 2063, first k = 13829
+n = 2064, first k = 13829
+n = 2065, first k = 13831
+n = 2066, first k = 13841
+n = 2067, first k = 13859
+n = 2068, first k = 13873
+n = 2069, first k = 13873
+n = 2070, first k = 13877
+n = 2071, first k = 13879
+n = 2072, first k = 13883
+n = 2073, first k = 13901
+n = 2074, first k = 13901
+n = 2075, first k = 13903
+n = 2076, first k = 13907
+n = 2077, first k = 13913
+n = 2078, first k = 13921
+n = 2079, first k = 13921
+n = 2080, first k = 13931
+n = 2081, first k = 13933
+n = 2082, first k = 13963
+n = 2083, first k = 13967
+n = 2084, first k = 13967
+n = 2085, first k = 13997
+n = 2086, first k = 13999
+n = 2087, first k = 14009
+n = 2088, first k = 14011
+n = 2089, first k = 14011
+n = 2090, first k = 14029
+n = 2091, first k = 14033
+n = 2092, first k = 14051
+n = 2093, first k = 14057
+n = 2094, first k = 14057
+n = 2095, first k = 14071
+n = 2096, first k = 14081
+n = 2097, first k = 14083
+n = 2098, first k = 14087
+n = 2099, first k = 14087
+n = 2100, first k = 14107
+n = 2101, first k = 14143
+n = 2102, first k = 14149
+n = 2103, first k = 14153
+n = 2104, first k = 14153
+n = 2105, first k = 14159
+n = 2106, first k = 14173
+n = 2107, first k = 14177
+n = 2108, first k = 14197
+n = 2109, first k = 14197
+n = 2110, first k = 14207
+n = 2111, first k = 14221
+n = 2112, first k = 14243
+n = 2113, first k = 14249
+n = 2114, first k = 14249
+n = 2115, first k = 14251
+n = 2116, first k = 14281
+n = 2117, first k = 14293
+n = 2118, first k = 14303
+n = 2119, first k = 14303
+n = 2120, first k = 14321
+n = 2121, first k = 14323
+n = 2122, first k = 14327
+n = 2123, first k = 14341
+n = 2124, first k = 14341
+n = 2125, first k = 14347
+n = 2126, first k = 14369
+n = 2127, first k = 14387
+n = 2128, first k = 14389
+n = 2129, first k = 14389
+n = 2130, first k = 14401
+n = 2131, first k = 14407
+n = 2132, first k = 14411
+n = 2133, first k = 14419
+n = 2134, first k = 14419
+n = 2135, first k = 14423
+n = 2136, first k = 14431
+n = 2137, first k = 14437
+n = 2138, first k = 14447
+n = 2139, first k = 14447
+n = 2140, first k = 14449
+n = 2141, first k = 14461
+n = 2142, first k = 14479
+n = 2143, first k = 14489
+n = 2144, first k = 14489
+n = 2145, first k = 14503
+n = 2146, first k = 14519
+n = 2147, first k = 14533
+n = 2148, first k = 14537
+n = 2149, first k = 14537
+n = 2150, first k = 14543
+n = 2151, first k = 14549
+n = 2152, first k = 14551
+n = 2153, first k = 14557
+n = 2154, first k = 14557
+n = 2155, first k = 14561
+n = 2156, first k = 14563
+n = 2157, first k = 14591
+n = 2158, first k = 14593
+n = 2159, first k = 14593
+n = 2160, first k = 14621
+n = 2161, first k = 14627
+n = 2162, first k = 14629
+n = 2163, first k = 14633
+n = 2164, first k = 14633
+n = 2165, first k = 14639
+n = 2166, first k = 14653
+n = 2167, first k = 14657
+n = 2168, first k = 14669
+n = 2169, first k = 14669
+n = 2170, first k = 14683
+n = 2171, first k = 14699
+n = 2172, first k = 14713
+n = 2173, first k = 14717
+n = 2174, first k = 14717
+n = 2175, first k = 14723
+n = 2176, first k = 14731
+n = 2177, first k = 14737
+n = 2178, first k = 14741
+n = 2179, first k = 14741
+n = 2180, first k = 14747
+n = 2181, first k = 14753
+n = 2182, first k = 14759
+n = 2183, first k = 14767
+n = 2184, first k = 14767
+n = 2185, first k = 14771
+n = 2186, first k = 14779
+n = 2187, first k = 14783
+n = 2188, first k = 14797
+n = 2189, first k = 14797
+n = 2190, first k = 14813
+n = 2191, first k = 14821
+n = 2192, first k = 14827
+n = 2193, first k = 14831
+n = 2194, first k = 14831
+n = 2195, first k = 14843
+n = 2196, first k = 14851
+n = 2197, first k = 14867
+n = 2198, first k = 14869
+n = 2199, first k = 14869
+n = 2200, first k = 14879
+n = 2201, first k = 14887
+n = 2202, first k = 14891
+n = 2203, first k = 14897
+n = 2204, first k = 14897
+n = 2205, first k = 14923
+n = 2206, first k = 14929
+n = 2207, first k = 14939
+n = 2208, first k = 14947
+n = 2209, first k = 14947
+n = 2210, first k = 14951
+n = 2211, first k = 14957
+n = 2212, first k = 14969
+n = 2213, first k = 14983
+n = 2214, first k = 14983
+n = 2215, first k = 15013
+n = 2216, first k = 15017
+n = 2217, first k = 15031
+n = 2218, first k = 15053
+n = 2219, first k = 15053
+n = 2220, first k = 15061
+n = 2221, first k = 15073
+n = 2222, first k = 15077
+n = 2223, first k = 15083
+n = 2224, first k = 15083
+n = 2225, first k = 15091
+n = 2226, first k = 15101
+n = 2227, first k = 15107
+n = 2228, first k = 15121
+n = 2229, first k = 15121
+n = 2230, first k = 15131
+n = 2231, first k = 15137
+n = 2232, first k = 15139
+n = 2233, first k = 15149
+n = 2234, first k = 15149
+n = 2235, first k = 15161
+n = 2236, first k = 15173
+n = 2237, first k = 15187
+n = 2238, first k = 15193
+n = 2239, first k = 15193
+n = 2240, first k = 15199
+n = 2241, first k = 15217
+n = 2242, first k = 15227
+n = 2243, first k = 15233
+n = 2244, first k = 15233
+n = 2245, first k = 15241
+n = 2246, first k = 15259
+n = 2247, first k = 15263
+n = 2248, first k = 15269
+n = 2249, first k = 15269
+n = 2250, first k = 15271
+n = 2251, first k = 15277
+n = 2252, first k = 15287
+n = 2253, first k = 15289
+n = 2254, first k = 15289
+n = 2255, first k = 15299
+n = 2256, first k = 15307
+n = 2257, first k = 15313
+n = 2258, first k = 15319
+n = 2259, first k = 15319
+n = 2260, first k = 15329
+n = 2261, first k = 15331
+n = 2262, first k = 15349
+n = 2263, first k = 15359
+n = 2264, first k = 15359
+n = 2265, first k = 15361
+n = 2266, first k = 15373
+n = 2267, first k = 15377
+n = 2268, first k = 15383
+n = 2269, first k = 15391
+n = 2270, first k = 15391
+n = 2271, first k = 15401
+n = 2272, first k = 15413
+n = 2273, first k = 15427
+n = 2274, first k = 15439
+n = 2275, first k = 15439
+n = 2276, first k = 15443
+n = 2277, first k = 15451
+n = 2278, first k = 15461
+n = 2279, first k = 15467
+n = 2280, first k = 15467
+n = 2281, first k = 15473
+n = 2282, first k = 15493
+n = 2283, first k = 15497
+n = 2284, first k = 15511
+n = 2285, first k = 15511
+n = 2286, first k = 15527
+n = 2287, first k = 15541
+n = 2288, first k = 15551
+n = 2289, first k = 15559
+n = 2290, first k = 15559
+n = 2291, first k = 15569
+n = 2292, first k = 15581
+n = 2293, first k = 15583
+n = 2294, first k = 15601
+n = 2295, first k = 15601
+n = 2296, first k = 15607
+n = 2297, first k = 15619
+n = 2298, first k = 15629
+n = 2299, first k = 15641
+n = 2300, first k = 15641
+n = 2301, first k = 15643
+n = 2302, first k = 15647
+n = 2303, first k = 15649
+n = 2304, first k = 15661
+n = 2305, first k = 15661
+n = 2306, first k = 15667
+n = 2307, first k = 15671
+n = 2308, first k = 15679
+n = 2309, first k = 15683
+n = 2310, first k = 15683
+n = 2311, first k = 15727
+n = 2312, first k = 15731
+n = 2313, first k = 15733
+n = 2314, first k = 15737
+n = 2315, first k = 15737
+n = 2316, first k = 15739
+n = 2317, first k = 15749
+n = 2318, first k = 15761
+n = 2319, first k = 15767
+n = 2320, first k = 15767
+n = 2321, first k = 15773
+n = 2322, first k = 15787
+n = 2323, first k = 15791
+n = 2324, first k = 15797
+n = 2325, first k = 15797
+n = 2326, first k = 15803
+n = 2327, first k = 15809
+n = 2328, first k = 15817
+n = 2329, first k = 15823
+n = 2330, first k = 15823
+n = 2331, first k = 15859
+n = 2332, first k = 15877
+n = 2333, first k = 15881
+n = 2334, first k = 15887
+n = 2335, first k = 15887
+n = 2336, first k = 15889
+n = 2337, first k = 15901
+n = 2338, first k = 15907
+n = 2339, first k = 15913
+n = 2340, first k = 15913
+n = 2341, first k = 15919
+n = 2342, first k = 15923
+n = 2343, first k = 15937
+n = 2344, first k = 15959
+n = 2345, first k = 15959
+n = 2346, first k = 15971
+n = 2347, first k = 15973
+n = 2348, first k = 15991
+n = 2349, first k = 16001
+n = 2350, first k = 16001
+n = 2351, first k = 16007
+n = 2352, first k = 16033
+n = 2353, first k = 16057
+n = 2354, first k = 16061
+n = 2355, first k = 16061
+n = 2356, first k = 16063
+n = 2357, first k = 16067
+n = 2358, first k = 16069
+n = 2359, first k = 16073
+n = 2360, first k = 16073
+n = 2361, first k = 16087
+n = 2362, first k = 16091
+n = 2363, first k = 16097
+n = 2364, first k = 16103
+n = 2365, first k = 16103
+n = 2366, first k = 16111
+n = 2367, first k = 16127
+n = 2368, first k = 16139
+n = 2369, first k = 16141
+n = 2370, first k = 16141
+n = 2371, first k = 16183
+n = 2372, first k = 16187
+n = 2373, first k = 16189
+n = 2374, first k = 16193
+n = 2375, first k = 16193
+n = 2376, first k = 16217
+n = 2377, first k = 16223
+n = 2378, first k = 16229
+n = 2379, first k = 16231
+n = 2380, first k = 16231
+n = 2381, first k = 16249
+n = 2382, first k = 16253
+n = 2383, first k = 16267
+n = 2384, first k = 16273
+n = 2385, first k = 16301
+n = 2386, first k = 16301
+n = 2387, first k = 16319
+n = 2388, first k = 16333
+n = 2389, first k = 16339
+n = 2390, first k = 16349
+n = 2391, first k = 16349
+n = 2392, first k = 16361
+n = 2393, first k = 16363
+n = 2394, first k = 16369
+n = 2395, first k = 16381
+n = 2396, first k = 16381
+n = 2397, first k = 16411
+n = 2398, first k = 16417
+n = 2399, first k = 16421
+n = 2400, first k = 16427
+n = 2401, first k = 16427
+n = 2402, first k = 16433
+n = 2403, first k = 16447
+n = 2404, first k = 16451
+n = 2405, first k = 16453
+n = 2406, first k = 16453
+n = 2407, first k = 16477
+n = 2408, first k = 16481
+n = 2409, first k = 16487
+n = 2410, first k = 16493
+n = 2411, first k = 16493
+n = 2412, first k = 16519
+n = 2413, first k = 16529
+n = 2414, first k = 16547
+n = 2415, first k = 16553
+n = 2416, first k = 16553
+n = 2417, first k = 16561
+n = 2418, first k = 16567
+n = 2419, first k = 16573
+n = 2420, first k = 16603
+n = 2421, first k = 16603
+n = 2422, first k = 16607
+n = 2423, first k = 16619
+n = 2424, first k = 16631
+n = 2425, first k = 16633
+n = 2426, first k = 16633
+n = 2427, first k = 16649
+n = 2428, first k = 16651
+n = 2429, first k = 16657
+n = 2430, first k = 16661
+n = 2431, first k = 16661
+n = 2432, first k = 16673
+n = 2433, first k = 16691
+n = 2434, first k = 16693
+n = 2435, first k = 16699
+n = 2436, first k = 16699
+n = 2437, first k = 16703
+n = 2438, first k = 16729
+n = 2439, first k = 16741
+n = 2440, first k = 16747
+n = 2441, first k = 16747
+n = 2442, first k = 16759
+n = 2443, first k = 16763
+n = 2444, first k = 16787
+n = 2445, first k = 16811
+n = 2446, first k = 16811
+n = 2447, first k = 16823
+n = 2448, first k = 16829
+n = 2449, first k = 16831
+n = 2450, first k = 16843
+n = 2451, first k = 16843
+n = 2452, first k = 16871
+n = 2453, first k = 16879
+n = 2454, first k = 16883
+n = 2455, first k = 16889
+n = 2456, first k = 16889
+n = 2457, first k = 16901
+n = 2458, first k = 16903
+n = 2459, first k = 16921
+n = 2460, first k = 16927
+n = 2461, first k = 16927
+n = 2462, first k = 16931
+n = 2463, first k = 16937
+n = 2464, first k = 16943
+n = 2465, first k = 16963
+n = 2466, first k = 16963
+n = 2467, first k = 16979
+n = 2468, first k = 16981
+n = 2469, first k = 16987
+n = 2470, first k = 16993
+n = 2471, first k = 16993
+n = 2472, first k = 17011
+n = 2473, first k = 17021
+n = 2474, first k = 17027
+n = 2475, first k = 17029
+n = 2476, first k = 17029
+n = 2477, first k = 17033
+n = 2478, first k = 17041
+n = 2479, first k = 17047
+n = 2480, first k = 17053
+n = 2481, first k = 17053
+n = 2482, first k = 17077
+n = 2483, first k = 17093
+n = 2484, first k = 17099
+n = 2485, first k = 17107
+n = 2486, first k = 17117
+n = 2487, first k = 17117
+n = 2488, first k = 17123
+n = 2489, first k = 17137
+n = 2490, first k = 17159
+n = 2491, first k = 17167
+n = 2492, first k = 17167
+n = 2493, first k = 17183
+n = 2494, first k = 17189
+n = 2495, first k = 17191
+n = 2496, first k = 17203
+n = 2497, first k = 17203
+n = 2498, first k = 17207
+n = 2499, first k = 17209
+n = 2500, first k = 17231
+n = 2501, first k = 17239
+n = 2502, first k = 17239
+n = 2503, first k = 17257
+n = 2504, first k = 17291
+n = 2505, first k = 17293
+n = 2506, first k = 17299
+n = 2507, first k = 17299
+n = 2508, first k = 17317
+n = 2509, first k = 17321
+n = 2510, first k = 17327
+n = 2511, first k = 17333
+n = 2512, first k = 17333
+n = 2513, first k = 17341
+n = 2514, first k = 17351
+n = 2515, first k = 17359
+n = 2516, first k = 17377
+n = 2517, first k = 17377
+n = 2518, first k = 17383
+n = 2519, first k = 17387
+n = 2520, first k = 17389
+n = 2521, first k = 17393
+n = 2522, first k = 17393
+n = 2523, first k = 17401
+n = 2524, first k = 17417
+n = 2525, first k = 17419
+n = 2526, first k = 17431
+n = 2527, first k = 17431
+n = 2528, first k = 17443
+n = 2529, first k = 17449
+n = 2530, first k = 17467
+n = 2531, first k = 17471
+n = 2532, first k = 17471
+n = 2533, first k = 17477
+n = 2534, first k = 17483
+n = 2535, first k = 17489
+n = 2536, first k = 17491
+n = 2537, first k = 17491
+n = 2538, first k = 17497
+n = 2539, first k = 17509
+n = 2540, first k = 17519
+n = 2541, first k = 17539
+n = 2542, first k = 17539
+n = 2543, first k = 17551
+n = 2544, first k = 17569
+n = 2545, first k = 17573
+n = 2546, first k = 17579
+n = 2547, first k = 17579
+n = 2548, first k = 17581
+n = 2549, first k = 17597
+n = 2550, first k = 17599
+n = 2551, first k = 17609
+n = 2552, first k = 17609
+n = 2553, first k = 17623
+n = 2554, first k = 17627
+n = 2555, first k = 17657
+n = 2556, first k = 17659
+n = 2557, first k = 17659
+n = 2558, first k = 17669
+n = 2559, first k = 17681
+n = 2560, first k = 17683
+n = 2561, first k = 17707
+n = 2562, first k = 17707
+n = 2563, first k = 17713
+n = 2564, first k = 17729
+n = 2565, first k = 17737
+n = 2566, first k = 17747
+n = 2567, first k = 17747
+n = 2568, first k = 17749
+n = 2569, first k = 17761
+n = 2570, first k = 17783
+n = 2571, first k = 17789
+n = 2572, first k = 17789
+n = 2573, first k = 17791
+n = 2574, first k = 17807
+n = 2575, first k = 17827
+n = 2576, first k = 17837
+n = 2577, first k = 17839
+n = 2578, first k = 17839
+n = 2579, first k = 17851
+n = 2580, first k = 17863
+n = 2581, first k = 17881
+n = 2582, first k = 17891
+n = 2583, first k = 17891
+n = 2584, first k = 17903
+n = 2585, first k = 17909
+n = 2586, first k = 17911
+n = 2587, first k = 17921
+n = 2588, first k = 17921
+n = 2589, first k = 17923
+n = 2590, first k = 17929
+n = 2591, first k = 17939
+n = 2592, first k = 17957
+n = 2593, first k = 17957
+n = 2594, first k = 17959
+n = 2595, first k = 17971
+n = 2596, first k = 17977
+n = 2597, first k = 17981
+n = 2598, first k = 17981
+n = 2599, first k = 17987
+n = 2600, first k = 17989
+n = 2601, first k = 18013
+n = 2602, first k = 18041
+n = 2603, first k = 18041
+n = 2604, first k = 18043
+n = 2605, first k = 18047
+n = 2606, first k = 18049
+n = 2607, first k = 18059
+n = 2608, first k = 18059
+n = 2609, first k = 18061
+n = 2610, first k = 18077
+n = 2611, first k = 18089
+n = 2612, first k = 18097
+n = 2613, first k = 18097
+n = 2614, first k = 18119
+n = 2615, first k = 18121
+n = 2616, first k = 18127
+n = 2617, first k = 18131
+n = 2618, first k = 18131
+n = 2619, first k = 18133
+n = 2620, first k = 18143
+n = 2621, first k = 18149
+n = 2622, first k = 18169
+n = 2623, first k = 18169
+n = 2624, first k = 18181
+n = 2625, first k = 18191
+n = 2626, first k = 18199
+n = 2627, first k = 18211
+n = 2628, first k = 18211
+n = 2629, first k = 18217
+n = 2630, first k = 18223
+n = 2631, first k = 18229
+n = 2632, first k = 18233
+n = 2633, first k = 18233
+n = 2634, first k = 18251
+n = 2635, first k = 18253
+n = 2636, first k = 18257
+n = 2637, first k = 18269
+n = 2638, first k = 18269
+n = 2639, first k = 18287
+n = 2640, first k = 18289
+n = 2641, first k = 18301
+n = 2642, first k = 18307
+n = 2643, first k = 18307
+n = 2644, first k = 18311
+n = 2645, first k = 18313
+n = 2646, first k = 18329
+n = 2647, first k = 18341
+n = 2648, first k = 18341
+n = 2649, first k = 18353
+n = 2650, first k = 18367
+n = 2651, first k = 18371
+n = 2652, first k = 18379
+n = 2653, first k = 18397
+n = 2654, first k = 18397
+n = 2655, first k = 18401
+n = 2656, first k = 18413
+n = 2657, first k = 18427
+n = 2658, first k = 18433
+n = 2659, first k = 18433
+n = 2660, first k = 18439
+n = 2661, first k = 18443
+n = 2662, first k = 18451
+n = 2663, first k = 18457
+n = 2664, first k = 18457
+n = 2665, first k = 18461
+n = 2666, first k = 18481
+n = 2667, first k = 18493
+n = 2668, first k = 18503
+n = 2669, first k = 18503
+n = 2670, first k = 18517
+n = 2671, first k = 18521
+n = 2672, first k = 18523
+n = 2673, first k = 18539
+n = 2674, first k = 18539
+n = 2675, first k = 18541
+n = 2676, first k = 18553
+n = 2677, first k = 18583
+n = 2678, first k = 18587
+n = 2679, first k = 18587
+n = 2680, first k = 18593
+n = 2681, first k = 18617
+n = 2682, first k = 18637
+n = 2683, first k = 18661
+n = 2684, first k = 18661
+n = 2685, first k = 18671
+n = 2686, first k = 18679
+n = 2687, first k = 18691
+n = 2688, first k = 18701
+n = 2689, first k = 18701
+n = 2690, first k = 18713
+n = 2691, first k = 18719
+n = 2692, first k = 18731
+n = 2693, first k = 18743
+n = 2694, first k = 18743
+n = 2695, first k = 18749
+n = 2696, first k = 18757
+n = 2697, first k = 18773
+n = 2698, first k = 18787
+n = 2699, first k = 18787
+n = 2700, first k = 18793
+n = 2701, first k = 18797
+n = 2702, first k = 18803
+n = 2703, first k = 18839
+n = 2704, first k = 18839
+n = 2705, first k = 18859
+n = 2706, first k = 18869
+n = 2707, first k = 18899
+n = 2708, first k = 18911
+n = 2709, first k = 18911
+n = 2710, first k = 18913
+n = 2711, first k = 18917
+n = 2712, first k = 18919
+n = 2713, first k = 18947
+n = 2714, first k = 18947
+n = 2715, first k = 18959
+n = 2716, first k = 18973
+n = 2717, first k = 18979
+n = 2718, first k = 19001
+n = 2719, first k = 19001
+n = 2720, first k = 19009
+n = 2721, first k = 19013
+n = 2722, first k = 19031
+n = 2723, first k = 19037
+n = 2724, first k = 19051
+n = 2725, first k = 19051
+n = 2726, first k = 19069
+n = 2727, first k = 19073
+n = 2728, first k = 19079
+n = 2729, first k = 19081
+n = 2730, first k = 19081
+n = 2731, first k = 19087
+n = 2732, first k = 19121
+n = 2733, first k = 19139
+n = 2734, first k = 19141
+n = 2735, first k = 19141
+n = 2736, first k = 19157
+n = 2737, first k = 19163
+n = 2738, first k = 19181
+n = 2739, first k = 19183
+n = 2740, first k = 19183
+n = 2741, first k = 19207
+n = 2742, first k = 19211
+n = 2743, first k = 19213
+n = 2744, first k = 19219
+n = 2745, first k = 19219
+n = 2746, first k = 19231
+n = 2747, first k = 19237
+n = 2748, first k = 19249
+n = 2749, first k = 19259
+n = 2750, first k = 19259
+n = 2751, first k = 19267
+n = 2752, first k = 19273
+n = 2753, first k = 19289
+n = 2754, first k = 19301
+n = 2755, first k = 19301
+n = 2756, first k = 19309
+n = 2757, first k = 19319
+n = 2758, first k = 19333
+n = 2759, first k = 19373
+n = 2760, first k = 19373
+n = 2761, first k = 19379
+n = 2762, first k = 19381
+n = 2763, first k = 19387
+n = 2764, first k = 19391
+n = 2765, first k = 19391
+n = 2766, first k = 19403
+n = 2767, first k = 19417
+n = 2768, first k = 19421
+n = 2769, first k = 19423
+n = 2770, first k = 19423
+n = 2771, first k = 19427
+n = 2772, first k = 19429
+n = 2773, first k = 19433
+n = 2774, first k = 19441
+n = 2775, first k = 19441
+n = 2776, first k = 19447
+n = 2777, first k = 19457
+n = 2778, first k = 19463
+n = 2779, first k = 19469
+n = 2780, first k = 19469
+n = 2781, first k = 19471
+n = 2782, first k = 19477
+n = 2783, first k = 19483
+n = 2784, first k = 19489
+n = 2785, first k = 19489
+n = 2786, first k = 19501
+n = 2787, first k = 19507
+n = 2788, first k = 19531
+n = 2789, first k = 19541
+n = 2790, first k = 19541
+n = 2791, first k = 19543
+n = 2792, first k = 19553
+n = 2793, first k = 19559
+n = 2794, first k = 19571
+n = 2795, first k = 19577
+n = 2796, first k = 19577
+n = 2797, first k = 19583
+n = 2798, first k = 19597
+n = 2799, first k = 19603
+n = 2800, first k = 19609
+n = 2801, first k = 19609
+n = 2802, first k = 19661
+n = 2803, first k = 19681
+n = 2804, first k = 19687
+n = 2805, first k = 19697
+n = 2806, first k = 19697
+n = 2807, first k = 19699
+n = 2808, first k = 19709
+n = 2809, first k = 19717
+n = 2810, first k = 19727
+n = 2811, first k = 19727
+n = 2812, first k = 19739
+n = 2813, first k = 19751
+n = 2814, first k = 19753
+n = 2815, first k = 19759
+n = 2816, first k = 19759
+n = 2817, first k = 19763
+n = 2818, first k = 19777
+n = 2819, first k = 19793
+n = 2820, first k = 19801
+n = 2821, first k = 19801
+n = 2822, first k = 19813
+n = 2823, first k = 19819
+n = 2824, first k = 19841
+n = 2825, first k = 19843
+n = 2826, first k = 19843
+n = 2827, first k = 19853
+n = 2828, first k = 19861
+n = 2829, first k = 19867
+n = 2830, first k = 19889
+n = 2831, first k = 19889
+n = 2832, first k = 19891
+n = 2833, first k = 19913
+n = 2834, first k = 19919
+n = 2835, first k = 19927
+n = 2836, first k = 19927
+n = 2837, first k = 19937
+n = 2838, first k = 19949
+n = 2839, first k = 19961
+n = 2840, first k = 19963
+n = 2841, first k = 19963
+n = 2842, first k = 19973
+n = 2843, first k = 19979
+n = 2844, first k = 19991
+n = 2845, first k = 19993
+n = 2846, first k = 19993
+n = 2847, first k = 19997
+n = 2848, first k = 20011
+n = 2849, first k = 20021
+n = 2850, first k = 20023
+n = 2851, first k = 20023
+n = 2852, first k = 20029
+n = 2853, first k = 20047
+n = 2854, first k = 20051
+n = 2855, first k = 20063
+n = 2856, first k = 20063
+n = 2857, first k = 20071
+n = 2858, first k = 20089
+n = 2859, first k = 20101
+n = 2860, first k = 20107
+n = 2861, first k = 20113
+n = 2862, first k = 20113
+n = 2863, first k = 20117
+n = 2864, first k = 20123
+n = 2865, first k = 20129
+n = 2866, first k = 20143
+n = 2867, first k = 20143
+n = 2868, first k = 20147
+n = 2869, first k = 20149
+n = 2870, first k = 20161
+n = 2871, first k = 20173
+n = 2872, first k = 20173
+n = 2873, first k = 20177
+n = 2874, first k = 20183
+n = 2875, first k = 20201
+n = 2876, first k = 20219
+n = 2877, first k = 20219
+n = 2878, first k = 20231
+n = 2879, first k = 20233
+n = 2880, first k = 20249
+n = 2881, first k = 20261
+n = 2882, first k = 20261
+n = 2883, first k = 20269
+n = 2884, first k = 20287
+n = 2885, first k = 20297
+n = 2886, first k = 20323
+n = 2887, first k = 20323
+n = 2888, first k = 20327
+n = 2889, first k = 20333
+n = 2890, first k = 20341
+n = 2891, first k = 20347
+n = 2892, first k = 20347
+n = 2893, first k = 20353
+n = 2894, first k = 20357
+n = 2895, first k = 20359
+n = 2896, first k = 20369
+n = 2897, first k = 20369
+n = 2898, first k = 20389
+n = 2899, first k = 20393
+n = 2900, first k = 20399
+n = 2901, first k = 20407
+n = 2902, first k = 20407
+n = 2903, first k = 20411
+n = 2904, first k = 20431
+n = 2905, first k = 20441
+n = 2906, first k = 20443
+n = 2907, first k = 20443
+n = 2908, first k = 20477
+n = 2909, first k = 20479
+n = 2910, first k = 20483
+n = 2911, first k = 20507
+n = 2912, first k = 20507
+n = 2913, first k = 20509
+n = 2914, first k = 20521
+n = 2915, first k = 20533
+n = 2916, first k = 20543
+n = 2917, first k = 20543
+n = 2918, first k = 20549
+n = 2919, first k = 20551
+n = 2920, first k = 20563
+n = 2921, first k = 20593
+n = 2922, first k = 20599
+n = 2923, first k = 20599
+n = 2924, first k = 20611
+n = 2925, first k = 20627
+n = 2926, first k = 20639
+n = 2927, first k = 20641
+n = 2928, first k = 20641
+n = 2929, first k = 20663
+n = 2930, first k = 20681
+n = 2931, first k = 20693
+n = 2932, first k = 20707
+n = 2933, first k = 20707
+n = 2934, first k = 20717
+n = 2935, first k = 20719
+n = 2936, first k = 20731
+n = 2937, first k = 20743
+n = 2938, first k = 20743
+n = 2939, first k = 20747
+n = 2940, first k = 20749
+n = 2941, first k = 20753
+n = 2942, first k = 20759
+n = 2943, first k = 20759
+n = 2944, first k = 20771
+n = 2945, first k = 20773
+n = 2946, first k = 20789
+n = 2947, first k = 20807
+n = 2948, first k = 20807
+n = 2949, first k = 20809
+n = 2950, first k = 20849
+n = 2951, first k = 20857
+n = 2952, first k = 20873
+n = 2953, first k = 20873
+n = 2954, first k = 20879
+n = 2955, first k = 20887
+n = 2956, first k = 20897
+n = 2957, first k = 20899
+n = 2958, first k = 20899
+n = 2959, first k = 20903
+n = 2960, first k = 20921
+n = 2961, first k = 20929
+n = 2962, first k = 20939
+n = 2963, first k = 20939
+n = 2964, first k = 20947
+n = 2965, first k = 20959
+n = 2966, first k = 20963
+n = 2967, first k = 20981
+n = 2968, first k = 20981
+n = 2969, first k = 20983
+n = 2970, first k = 21001
+n = 2971, first k = 21011
+n = 2972, first k = 21013
+n = 2973, first k = 21013
+n = 2974, first k = 21017
+n = 2975, first k = 21019
+n = 2976, first k = 21023
+n = 2977, first k = 21031
+n = 2978, first k = 21059
+n = 2979, first k = 21059
+n = 2980, first k = 21061
+n = 2981, first k = 21067
+n = 2982, first k = 21089
+n = 2983, first k = 21101
+n = 2984, first k = 21101
+n = 2985, first k = 21107
+n = 2986, first k = 21121
+n = 2987, first k = 21139
+n = 2988, first k = 21143
+n = 2989, first k = 21143
+n = 2990, first k = 21149
+n = 2991, first k = 21157
+n = 2992, first k = 21163
+n = 2993, first k = 21169
+n = 2994, first k = 21169
+n = 2995, first k = 21179
+n = 2996, first k = 21187
+n = 2997, first k = 21191
+n = 2998, first k = 21193
+n = 2999, first k = 21193
+n = 3000, first k = 21211
+n = 3001, first k = 21221
+n = 3002, first k = 21227
+n = 3003, first k = 21247
+n = 3004, first k = 21247
+n = 3005, first k = 21269
+n = 3006, first k = 21277
+n = 3007, first k = 21283
+n = 3008, first k = 21313
+n = 3009, first k = 21313
+n = 3010, first k = 21317
+n = 3011, first k = 21319
+n = 3012, first k = 21323
+n = 3013, first k = 21341
+n = 3014, first k = 21341
+n = 3015, first k = 21347
+n = 3016, first k = 21377
+n = 3017, first k = 21379
+n = 3018, first k = 21383
+n = 3019, first k = 21383
+n = 3020, first k = 21391
+n = 3021, first k = 21397
+n = 3022, first k = 21401
+n = 3023, first k = 21407
+n = 3024, first k = 21407
+n = 3025, first k = 21419
+n = 3026, first k = 21433
+n = 3027, first k = 21467
+n = 3028, first k = 21481
+n = 3029, first k = 21481
+n = 3030, first k = 21487
+n = 3031, first k = 21491
+n = 3032, first k = 21493
+n = 3033, first k = 21499
+n = 3034, first k = 21503
+n = 3035, first k = 21503
+n = 3036, first k = 21517
+n = 3037, first k = 21521
+n = 3038, first k = 21523
+n = 3039, first k = 21529
+n = 3040, first k = 21529
+n = 3041, first k = 21557
+n = 3042, first k = 21559
+n = 3043, first k = 21563
+n = 3044, first k = 21569
+n = 3045, first k = 21569
+n = 3046, first k = 21577
+n = 3047, first k = 21587
+n = 3048, first k = 21589
+n = 3049, first k = 21599
+n = 3050, first k = 21599
+n = 3051, first k = 21601
+n = 3052, first k = 21611
+n = 3053, first k = 21613
+n = 3054, first k = 21617
+n = 3055, first k = 21617
+n = 3056, first k = 21647
+n = 3057, first k = 21649
+n = 3058, first k = 21661
+n = 3059, first k = 21673
+n = 3060, first k = 21673
+n = 3061, first k = 21683
+n = 3062, first k = 21701
+n = 3063, first k = 21713
+n = 3064, first k = 21727
+n = 3065, first k = 21727
+n = 3066, first k = 21737
+n = 3067, first k = 21739
+n = 3068, first k = 21751
+n = 3069, first k = 21757
+n = 3070, first k = 21757
+n = 3071, first k = 21767
+n = 3072, first k = 21773
+n = 3073, first k = 21787
+n = 3074, first k = 21799
+n = 3075, first k = 21799
+n = 3076, first k = 21803
+n = 3077, first k = 21817
+n = 3078, first k = 21821
+n = 3079, first k = 21839
+n = 3080, first k = 21839
+n = 3081, first k = 21841
+n = 3082, first k = 21851
+n = 3083, first k = 21859
+n = 3084, first k = 21863
+n = 3085, first k = 21871
+n = 3086, first k = 21871
+n = 3087, first k = 21881
+n = 3088, first k = 21893
+n = 3089, first k = 21911
+n = 3090, first k = 21929
+n = 3091, first k = 21929
+n = 3092, first k = 21937
+n = 3093, first k = 21943
+n = 3094, first k = 21961
+n = 3095, first k = 21977
+n = 3096, first k = 21977
+n = 3097, first k = 21991
+n = 3098, first k = 21997
+n = 3099, first k = 22003
+n = 3100, first k = 22013
+n = 3101, first k = 22013
+n = 3102, first k = 22027
+n = 3103, first k = 22031
+n = 3104, first k = 22037
+n = 3105, first k = 22039
+n = 3106, first k = 22039
+n = 3107, first k = 22051
+n = 3108, first k = 22063
+n = 3109, first k = 22067
+n = 3110, first k = 22073
+n = 3111, first k = 22073
+n = 3112, first k = 22079
+n = 3113, first k = 22091
+n = 3114, first k = 22093
+n = 3115, first k = 22109
+n = 3116, first k = 22109
+n = 3117, first k = 22111
+n = 3118, first k = 22123
+n = 3119, first k = 22129
+n = 3120, first k = 22133
+n = 3121, first k = 22133
+n = 3122, first k = 22147
+n = 3123, first k = 22153
+n = 3124, first k = 22157
+n = 3125, first k = 22159
+n = 3126, first k = 22159
+n = 3127, first k = 22171
+n = 3128, first k = 22189
+n = 3129, first k = 22193
+n = 3130, first k = 22229
+n = 3131, first k = 22229
+n = 3132, first k = 22247
+n = 3133, first k = 22259
+n = 3134, first k = 22271
+n = 3135, first k = 22273
+n = 3136, first k = 22277
+n = 3137, first k = 22277
+n = 3138, first k = 22279
+n = 3139, first k = 22283
+n = 3140, first k = 22291
+n = 3141, first k = 22303
+n = 3142, first k = 22303
+n = 3143, first k = 22307
+n = 3144, first k = 22343
+n = 3145, first k = 22349
+n = 3146, first k = 22367
+n = 3147, first k = 22367
+n = 3148, first k = 22369
+n = 3149, first k = 22381
+n = 3150, first k = 22391
+n = 3151, first k = 22397
+n = 3152, first k = 22397
+n = 3153, first k = 22409
+n = 3154, first k = 22433
+n = 3155, first k = 22441
+n = 3156, first k = 22447
+n = 3157, first k = 22447
+n = 3158, first k = 22453
+n = 3159, first k = 22469
+n = 3160, first k = 22481
+n = 3161, first k = 22483
+n = 3162, first k = 22483
+n = 3163, first k = 22501
+n = 3164, first k = 22511
+n = 3165, first k = 22531
+n = 3166, first k = 22541
+n = 3167, first k = 22541
+n = 3168, first k = 22543
+n = 3169, first k = 22549
+n = 3170, first k = 22567
+n = 3171, first k = 22571
+n = 3172, first k = 22571
+n = 3173, first k = 22573
+n = 3174, first k = 22613
+n = 3175, first k = 22619
+n = 3176, first k = 22621
+n = 3177, first k = 22621
+n = 3178, first k = 22637
+n = 3179, first k = 22639
+n = 3180, first k = 22643
+n = 3181, first k = 22651
+n = 3182, first k = 22669
+n = 3183, first k = 22669
+n = 3184, first k = 22679
+n = 3185, first k = 22691
+n = 3186, first k = 22697
+n = 3187, first k = 22699
+n = 3188, first k = 22699
+n = 3189, first k = 22709
+n = 3190, first k = 22717
+n = 3191, first k = 22721
+n = 3192, first k = 22727
+n = 3193, first k = 22727
+n = 3194, first k = 22739
+n = 3195, first k = 22741
+n = 3196, first k = 22751
+n = 3197, first k = 22769
+n = 3198, first k = 22769
+n = 3199, first k = 22777
+n = 3200, first k = 22783
+n = 3201, first k = 22787
+n = 3202, first k = 22807
+n = 3203, first k = 22807
+n = 3204, first k = 22811
+n = 3205, first k = 22817
+n = 3206, first k = 22853
+n = 3207, first k = 22859
+n = 3208, first k = 22859
+n = 3209, first k = 22861
+n = 3210, first k = 22871
+n = 3211, first k = 22877
+n = 3212, first k = 22901
+n = 3213, first k = 22901
+n = 3214, first k = 22907
+n = 3215, first k = 22921
+n = 3216, first k = 22937
+n = 3217, first k = 22943
+n = 3218, first k = 22943
+n = 3219, first k = 22961
+n = 3220, first k = 22963
+n = 3221, first k = 22973
+n = 3222, first k = 22993
+n = 3223, first k = 22993
+n = 3224, first k = 23003
+n = 3225, first k = 23011
+n = 3226, first k = 23017
+n = 3227, first k = 23021
+n = 3228, first k = 23027
+n = 3229, first k = 23027
+n = 3230, first k = 23029
+n = 3231, first k = 23039
+n = 3232, first k = 23041
+n = 3233, first k = 23053
+n = 3234, first k = 23053
+n = 3235, first k = 23057
+n = 3236, first k = 23059
+n = 3237, first k = 23063
+n = 3238, first k = 23071
+n = 3239, first k = 23071
+n = 3240, first k = 23081
+n = 3241, first k = 23087
+n = 3242, first k = 23099
+n = 3243, first k = 23117
+n = 3244, first k = 23117
+n = 3245, first k = 23131
+n = 3246, first k = 23143
+n = 3247, first k = 23159
+n = 3248, first k = 23167
+n = 3249, first k = 23167
+n = 3250, first k = 23173
+n = 3251, first k = 23189
+n = 3252, first k = 23197
+n = 3253, first k = 23201
+n = 3254, first k = 23201
+n = 3255, first k = 23203
+n = 3256, first k = 23209
+n = 3257, first k = 23227
+n = 3258, first k = 23251
+n = 3259, first k = 23251
+n = 3260, first k = 23269
+n = 3261, first k = 23279
+n = 3262, first k = 23291
+n = 3263, first k = 23293
+n = 3264, first k = 23293
+n = 3265, first k = 23297
+n = 3266, first k = 23311
+n = 3267, first k = 23321
+n = 3268, first k = 23327
+n = 3269, first k = 23333
+n = 3270, first k = 23333
+n = 3271, first k = 23339
+n = 3272, first k = 23357
+n = 3273, first k = 23369
+n = 3274, first k = 23371
+n = 3275, first k = 23371
+n = 3276, first k = 23399
+n = 3277, first k = 23417
+n = 3278, first k = 23431
+n = 3279, first k = 23447
+n = 3280, first k = 23447
+n = 3281, first k = 23459
+n = 3282, first k = 23473
+n = 3283, first k = 23497
+n = 3284, first k = 23509
+n = 3285, first k = 23509
+n = 3286, first k = 23531
+n = 3287, first k = 23537
+n = 3288, first k = 23539
+n = 3289, first k = 23549
+n = 3290, first k = 23549
+n = 3291, first k = 23557
+n = 3292, first k = 23561
+n = 3293, first k = 23563
+n = 3294, first k = 23567
+n = 3295, first k = 23567
+n = 3296, first k = 23581
+n = 3297, first k = 23593
+n = 3298, first k = 23599
+n = 3299, first k = 23603
+n = 3300, first k = 23603
+n = 3301, first k = 23609
+n = 3302, first k = 23623
+n = 3303, first k = 23627
+n = 3304, first k = 23629
+n = 3305, first k = 23629
+n = 3306, first k = 23633
+n = 3307, first k = 23663
+n = 3308, first k = 23669
+n = 3309, first k = 23671
+n = 3310, first k = 23671
+n = 3311, first k = 23677
+n = 3312, first k = 23687
+n = 3313, first k = 23689
+n = 3314, first k = 23719
+n = 3315, first k = 23741
+n = 3316, first k = 23741
+n = 3317, first k = 23743
+n = 3318, first k = 23747
+n = 3319, first k = 23753
+n = 3320, first k = 23761
+n = 3321, first k = 23761
+n = 3322, first k = 23767
+n = 3323, first k = 23773
+n = 3324, first k = 23789
+n = 3325, first k = 23801
+n = 3326, first k = 23801
+n = 3327, first k = 23813
+n = 3328, first k = 23819
+n = 3329, first k = 23827
+n = 3330, first k = 23831
+n = 3331, first k = 23831
+n = 3332, first k = 23833
+n = 3333, first k = 23857
+n = 3334, first k = 23869
+n = 3335, first k = 23873
+n = 3336, first k = 23873
+n = 3337, first k = 23879
+n = 3338, first k = 23887
+n = 3339, first k = 23893
+n = 3340, first k = 23899
+n = 3341, first k = 23899
+n = 3342, first k = 23909
+n = 3343, first k = 23911
+n = 3344, first k = 23917
+n = 3345, first k = 23929
+n = 3346, first k = 23929
+n = 3347, first k = 23957
+n = 3348, first k = 23971
+n = 3349, first k = 23977
+n = 3350, first k = 23981
+n = 3351, first k = 23981
+n = 3352, first k = 23993
+n = 3353, first k = 24001
+n = 3354, first k = 24007
+n = 3355, first k = 24019
+n = 3356, first k = 24023
+n = 3357, first k = 24023
+n = 3358, first k = 24029
+n = 3359, first k = 24043
+n = 3360, first k = 24049
+n = 3361, first k = 24061
+n = 3362, first k = 24061
+n = 3363, first k = 24071
+n = 3364, first k = 24077
+n = 3365, first k = 24083
+n = 3366, first k = 24091
+n = 3367, first k = 24091
+n = 3368, first k = 24097
+n = 3369, first k = 24103
+n = 3370, first k = 24107
+n = 3371, first k = 24109
+n = 3372, first k = 24109
+n = 3373, first k = 24113
+n = 3374, first k = 24121
+n = 3375, first k = 24133
+n = 3376, first k = 24137
+n = 3377, first k = 24137
+n = 3378, first k = 24151
+n = 3379, first k = 24169
+n = 3380, first k = 24179
+n = 3381, first k = 24181
+n = 3382, first k = 24181
+n = 3383, first k = 24197
+n = 3384, first k = 24203
+n = 3385, first k = 24223
+n = 3386, first k = 24229
+n = 3387, first k = 24229
+n = 3388, first k = 24239
+n = 3389, first k = 24247
+n = 3390, first k = 24251
+n = 3391, first k = 24281
+n = 3392, first k = 24281
+n = 3393, first k = 24317
+n = 3394, first k = 24329
+n = 3395, first k = 24337
+n = 3396, first k = 24359
+n = 3397, first k = 24371
+n = 3398, first k = 24371
+n = 3399, first k = 24373
+n = 3400, first k = 24379
+n = 3401, first k = 24391
+n = 3402, first k = 24407
+n = 3403, first k = 24407
+n = 3404, first k = 24413
+n = 3405, first k = 24419
+n = 3406, first k = 24421
+n = 3407, first k = 24439
+n = 3408, first k = 24439
+n = 3409, first k = 24443
+n = 3410, first k = 24469
+n = 3411, first k = 24473
+n = 3412, first k = 24481
+n = 3413, first k = 24481
+n = 3414, first k = 24499
+n = 3415, first k = 24509
+n = 3416, first k = 24517
+n = 3417, first k = 24527
+n = 3418, first k = 24527
+n = 3419, first k = 24533
+n = 3420, first k = 24547
+n = 3421, first k = 24551
+n = 3422, first k = 24571
+n = 3423, first k = 24571
+n = 3424, first k = 24593
+n = 3425, first k = 24611
+n = 3426, first k = 24623
+n = 3427, first k = 24631
+n = 3428, first k = 24631
+n = 3429, first k = 24659
+n = 3430, first k = 24671
+n = 3431, first k = 24677
+n = 3432, first k = 24683
+n = 3433, first k = 24683
+n = 3434, first k = 24691
+n = 3435, first k = 24697
+n = 3436, first k = 24709
+n = 3437, first k = 24733
+n = 3438, first k = 24749
+n = 3439, first k = 24749
+n = 3440, first k = 24763
+n = 3441, first k = 24767
+n = 3442, first k = 24781
+n = 3443, first k = 24793
+n = 3444, first k = 24793
+n = 3445, first k = 24799
+n = 3446, first k = 24809
+n = 3447, first k = 24821
+n = 3448, first k = 24841
+n = 3449, first k = 24841
+n = 3450, first k = 24847
+n = 3451, first k = 24851
+n = 3452, first k = 24859
+n = 3453, first k = 24877
+n = 3454, first k = 24877
+n = 3455, first k = 24889
+n = 3456, first k = 24907
+n = 3457, first k = 24917
+n = 3458, first k = 24919
+n = 3459, first k = 24919
+n = 3460, first k = 24923
+n = 3461, first k = 24943
+n = 3462, first k = 24953
+n = 3463, first k = 24967
+n = 3464, first k = 24967
+n = 3465, first k = 24971
+n = 3466, first k = 24977
+n = 3467, first k = 24979
+n = 3468, first k = 24989
+n = 3469, first k = 24989
+n = 3470, first k = 25013
+n = 3471, first k = 25031
+n = 3472, first k = 25033
+n = 3473, first k = 25037
+n = 3474, first k = 25037
+n = 3475, first k = 25057
+n = 3476, first k = 25073
+n = 3477, first k = 25087
+n = 3478, first k = 25097
+n = 3479, first k = 25111
+n = 3480, first k = 25111
+n = 3481, first k = 25117
+n = 3482, first k = 25121
+n = 3483, first k = 25127
+n = 3484, first k = 25147
+n = 3485, first k = 25147
+n = 3486, first k = 25153
+n = 3487, first k = 25163
+n = 3488, first k = 25169
+n = 3489, first k = 25171
+n = 3490, first k = 25171
+n = 3491, first k = 25183
+n = 3492, first k = 25189
+n = 3493, first k = 25219
+n = 3494, first k = 25229
+n = 3495, first k = 25229
+n = 3496, first k = 25237
+n = 3497, first k = 25243
+n = 3498, first k = 25247
+n = 3499, first k = 25253
+n = 3500, first k = 25253
+n = 3501, first k = 25261
+n = 3502, first k = 25301
+n = 3503, first k = 25303
+n = 3504, first k = 25307
+n = 3505, first k = 25307
+n = 3506, first k = 25309
+n = 3507, first k = 25321
+n = 3508, first k = 25339
+n = 3509, first k = 25343
+n = 3510, first k = 25343
+n = 3511, first k = 25349
+n = 3512, first k = 25357
+n = 3513, first k = 25367
+n = 3514, first k = 25373
+n = 3515, first k = 25391
+n = 3516, first k = 25391
+n = 3517, first k = 25409
+n = 3518, first k = 25411
+n = 3519, first k = 25423
+n = 3520, first k = 25439
+n = 3521, first k = 25439
+n = 3522, first k = 25447
+n = 3523, first k = 25453
+n = 3524, first k = 25457
+n = 3525, first k = 25463
+n = 3526, first k = 25463
+n = 3527, first k = 25469
+n = 3528, first k = 25471
+n = 3529, first k = 25523
+n = 3530, first k = 25537
+n = 3531, first k = 25537
+n = 3532, first k = 25541
+n = 3533, first k = 25561
+n = 3534, first k = 25577
+n = 3535, first k = 25579
+n = 3536, first k = 25579
+n = 3537, first k = 25583
+n = 3538, first k = 25589
+n = 3539, first k = 25601
+n = 3540, first k = 25603
+n = 3541, first k = 25603
+n = 3542, first k = 25609
+n = 3543, first k = 25621
+n = 3544, first k = 25633
+n = 3545, first k = 25639
+n = 3546, first k = 25639
+n = 3547, first k = 25643
+n = 3548, first k = 25657
+n = 3549, first k = 25667
+n = 3550, first k = 25673
+n = 3551, first k = 25673
+n = 3552, first k = 25679
+n = 3553, first k = 25693
+n = 3554, first k = 25703
+n = 3555, first k = 25717
+n = 3556, first k = 25733
+n = 3557, first k = 25733
+n = 3558, first k = 25741
+n = 3559, first k = 25747
+n = 3560, first k = 25759
+n = 3561, first k = 25763
+n = 3562, first k = 25763
+n = 3563, first k = 25771
+n = 3564, first k = 25793
+n = 3565, first k = 25799
+n = 3566, first k = 25801
+n = 3567, first k = 25801
+n = 3568, first k = 25819
+n = 3569, first k = 25841
+n = 3570, first k = 25847
+n = 3571, first k = 25849
+n = 3572, first k = 25849
+n = 3573, first k = 25867
+n = 3574, first k = 25873
+n = 3575, first k = 25889
+n = 3576, first k = 25903
+n = 3577, first k = 25903
+n = 3578, first k = 25913
+n = 3579, first k = 25919
+n = 3580, first k = 25931
+n = 3581, first k = 25933
+n = 3582, first k = 25933
+n = 3583, first k = 25939
+n = 3584, first k = 25943
+n = 3585, first k = 25951
+n = 3586, first k = 25969
+n = 3587, first k = 25969
+n = 3588, first k = 25981
+n = 3589, first k = 25997
+n = 3590, first k = 25999
+n = 3591, first k = 26003
+n = 3592, first k = 26003
+n = 3593, first k = 26017
+n = 3594, first k = 26021
+n = 3595, first k = 26029
+n = 3596, first k = 26041
+n = 3597, first k = 26053
+n = 3598, first k = 26053
+n = 3599, first k = 26083
+n = 3600, first k = 26099
+n = 3601, first k = 26107
+n = 3602, first k = 26111
+n = 3603, first k = 26111
+n = 3604, first k = 26113
+n = 3605, first k = 26119
+n = 3606, first k = 26141
+n = 3607, first k = 26153
+n = 3608, first k = 26153
+n = 3609, first k = 26161
+n = 3610, first k = 26171
+n = 3611, first k = 26177
+n = 3612, first k = 26183
+n = 3613, first k = 26183
+n = 3614, first k = 26189
+n = 3615, first k = 26203
+n = 3616, first k = 26209
+n = 3617, first k = 26227
+n = 3618, first k = 26227
+n = 3619, first k = 26237
+n = 3620, first k = 26249
+n = 3621, first k = 26251
+n = 3622, first k = 26261
+n = 3623, first k = 26261
+n = 3624, first k = 26263
+n = 3625, first k = 26267
+n = 3626, first k = 26293
+n = 3627, first k = 26297
+n = 3628, first k = 26297
+n = 3629, first k = 26309
+n = 3630, first k = 26317
+n = 3631, first k = 26321
+n = 3632, first k = 26339
+n = 3633, first k = 26347
+n = 3634, first k = 26347
+n = 3635, first k = 26357
+n = 3636, first k = 26371
+n = 3637, first k = 26387
+n = 3638, first k = 26393
+n = 3639, first k = 26393
+n = 3640, first k = 26399
+n = 3641, first k = 26407
+n = 3642, first k = 26417
+n = 3643, first k = 26423
+n = 3644, first k = 26423
+n = 3645, first k = 26431
+n = 3646, first k = 26437
+n = 3647, first k = 26449
+n = 3648, first k = 26459
+n = 3649, first k = 26459
+n = 3650, first k = 26479
+n = 3651, first k = 26489
+n = 3652, first k = 26497
+n = 3653, first k = 26501
+n = 3654, first k = 26501
+n = 3655, first k = 26513
+n = 3656, first k = 26539
+n = 3657, first k = 26557
+n = 3658, first k = 26561
+n = 3659, first k = 26561
+n = 3660, first k = 26573
+n = 3661, first k = 26591
+n = 3662, first k = 26597
+n = 3663, first k = 26627
+n = 3664, first k = 26627
+n = 3665, first k = 26633
+n = 3666, first k = 26641
+n = 3667, first k = 26647
+n = 3668, first k = 26669
+n = 3669, first k = 26681
+n = 3670, first k = 26681
+n = 3671, first k = 26683
+n = 3672, first k = 26687
+n = 3673, first k = 26693
+n = 3674, first k = 26699
+n = 3675, first k = 26699
+n = 3676, first k = 26701
+n = 3677, first k = 26711
+n = 3678, first k = 26713
+n = 3679, first k = 26717
+n = 3680, first k = 26717
+n = 3681, first k = 26723
+n = 3682, first k = 26729
+n = 3683, first k = 26731
+n = 3684, first k = 26737
+n = 3685, first k = 26737
+n = 3686, first k = 26759
+n = 3687, first k = 26777
+n = 3688, first k = 26783
+n = 3689, first k = 26801
+n = 3690, first k = 26801
+n = 3691, first k = 26813
+n = 3692, first k = 26821
+n = 3693, first k = 26833
+n = 3694, first k = 26839
+n = 3695, first k = 26839
+n = 3696, first k = 26849
+n = 3697, first k = 26861
+n = 3698, first k = 26863
+n = 3699, first k = 26879
+n = 3700, first k = 26879
+n = 3701, first k = 26881
+n = 3702, first k = 26891
+n = 3703, first k = 26893
+n = 3704, first k = 26903
+n = 3705, first k = 26921
+n = 3706, first k = 26921
+n = 3707, first k = 26927
+n = 3708, first k = 26947
+n = 3709, first k = 26951
+n = 3710, first k = 26953
+n = 3711, first k = 26953
+n = 3712, first k = 26959
+n = 3713, first k = 26981
+n = 3714, first k = 26987
+n = 3715, first k = 26993
+n = 3716, first k = 26993
+n = 3717, first k = 27011
+n = 3718, first k = 27017
+n = 3719, first k = 27031
+n = 3720, first k = 27043
+n = 3721, first k = 27043
+n = 3722, first k = 27059
+n = 3723, first k = 27061
+n = 3724, first k = 27067
+n = 3725, first k = 27073
+n = 3726, first k = 27073
+n = 3727, first k = 27077
+n = 3728, first k = 27091
+n = 3729, first k = 27103
+n = 3730, first k = 27107
+n = 3731, first k = 27107
+n = 3732, first k = 27109
+n = 3733, first k = 27127
+n = 3734, first k = 27143
+n = 3735, first k = 27179
+n = 3736, first k = 27179
+n = 3737, first k = 27191
+n = 3738, first k = 27197
+n = 3739, first k = 27211
+n = 3740, first k = 27239
+n = 3741, first k = 27241
+n = 3742, first k = 27241
+n = 3743, first k = 27253
+n = 3744, first k = 27259
+n = 3745, first k = 27271
+n = 3746, first k = 27277
+n = 3747, first k = 27277
+n = 3748, first k = 27281
+n = 3749, first k = 27283
+n = 3750, first k = 27299
+n = 3751, first k = 27329
+n = 3752, first k = 27329
+n = 3753, first k = 27337
+n = 3754, first k = 27361
+n = 3755, first k = 27367
+n = 3756, first k = 27397
+n = 3757, first k = 27397
+n = 3758, first k = 27407
+n = 3759, first k = 27409
+n = 3760, first k = 27427
+n = 3761, first k = 27431
+n = 3762, first k = 27431
+n = 3763, first k = 27437
+n = 3764, first k = 27449
+n = 3765, first k = 27457
+n = 3766, first k = 27479
+n = 3767, first k = 27479
+n = 3768, first k = 27481
+n = 3769, first k = 27487
+n = 3770, first k = 27509
+n = 3771, first k = 27527
+n = 3772, first k = 27527
+n = 3773, first k = 27529
+n = 3774, first k = 27539
+n = 3775, first k = 27541
+n = 3776, first k = 27551
+n = 3777, first k = 27581
+n = 3778, first k = 27581
+n = 3779, first k = 27583
+n = 3780, first k = 27611
+n = 3781, first k = 27617
+n = 3782, first k = 27631
+n = 3783, first k = 27631
+n = 3784, first k = 27647
+n = 3785, first k = 27653
+n = 3786, first k = 27673
+n = 3787, first k = 27689
+n = 3788, first k = 27689
+n = 3789, first k = 27691
+n = 3790, first k = 27697
+n = 3791, first k = 27701
+n = 3792, first k = 27733
+n = 3793, first k = 27733
+n = 3794, first k = 27737
+n = 3795, first k = 27739
+n = 3796, first k = 27743
+n = 3797, first k = 27749
+n = 3798, first k = 27749
+n = 3799, first k = 27751
+n = 3800, first k = 27763
+n = 3801, first k = 27767
+n = 3802, first k = 27773
+n = 3803, first k = 27773
+n = 3804, first k = 27779
+n = 3805, first k = 27791
+n = 3806, first k = 27793
+n = 3807, first k = 27799
+n = 3808, first k = 27799
+n = 3809, first k = 27803
+n = 3810, first k = 27809
+n = 3811, first k = 27817
+n = 3812, first k = 27823
+n = 3813, first k = 27827
+n = 3814, first k = 27827
+n = 3815, first k = 27847
+n = 3816, first k = 27851
+n = 3817, first k = 27883
+n = 3818, first k = 27893
+n = 3819, first k = 27893
+n = 3820, first k = 27901
+n = 3821, first k = 27917
+n = 3822, first k = 27919
+n = 3823, first k = 27941
+n = 3824, first k = 27941
+n = 3825, first k = 27943
+n = 3826, first k = 27947
+n = 3827, first k = 27953
+n = 3828, first k = 27961
+n = 3829, first k = 27961
+n = 3830, first k = 27967
+n = 3831, first k = 27983
+n = 3832, first k = 27997
+n = 3833, first k = 28001
+n = 3834, first k = 28001
+n = 3835, first k = 28019
+n = 3836, first k = 28027
+n = 3837, first k = 28031
+n = 3838, first k = 28051
+n = 3839, first k = 28051
+n = 3840, first k = 28057
+n = 3841, first k = 28069
+n = 3842, first k = 28081
+n = 3843, first k = 28087
+n = 3844, first k = 28087
+n = 3845, first k = 28097
+n = 3846, first k = 28099
+n = 3847, first k = 28109
+n = 3848, first k = 28111
+n = 3849, first k = 28123
+n = 3850, first k = 28123
+n = 3851, first k = 28151
+n = 3852, first k = 28163
+n = 3853, first k = 28181
+n = 3854, first k = 28183
+n = 3855, first k = 28183
+n = 3856, first k = 28201
+n = 3857, first k = 28211
+n = 3858, first k = 28219
+n = 3859, first k = 28229
+n = 3860, first k = 28229
+n = 3861, first k = 28277
+n = 3862, first k = 28279
+n = 3863, first k = 28283
+n = 3864, first k = 28289
+n = 3865, first k = 28289
+n = 3866, first k = 28297
+n = 3867, first k = 28307
+n = 3868, first k = 28309
+n = 3869, first k = 28319
+n = 3870, first k = 28319
+n = 3871, first k = 28349
+n = 3872, first k = 28351
+n = 3873, first k = 28387
+n = 3874, first k = 28393
+n = 3875, first k = 28393
+n = 3876, first k = 28403
+n = 3877, first k = 28409
+n = 3878, first k = 28411
+n = 3879, first k = 28429
+n = 3880, first k = 28433
+n = 3881, first k = 28433
+n = 3882, first k = 28439
+n = 3883, first k = 28447
+n = 3884, first k = 28463
+n = 3885, first k = 28477
+n = 3886, first k = 28477
+n = 3887, first k = 28493
+n = 3888, first k = 28499
+n = 3889, first k = 28513
+n = 3890, first k = 28517
+n = 3891, first k = 28517
+n = 3892, first k = 28537
+n = 3893, first k = 28541
+n = 3894, first k = 28547
+n = 3895, first k = 28549
+n = 3896, first k = 28549
+n = 3897, first k = 28559
+n = 3898, first k = 28571
+n = 3899, first k = 28573
+n = 3900, first k = 28579
+n = 3901, first k = 28579
+n = 3902, first k = 28591
+n = 3903, first k = 28597
+n = 3904, first k = 28603
+n = 3905, first k = 28607
+n = 3906, first k = 28607
+n = 3907, first k = 28619
+n = 3908, first k = 28621
+n = 3909, first k = 28627
+n = 3910, first k = 28631
+n = 3911, first k = 28631
+n = 3912, first k = 28643
+n = 3913, first k = 28649
+n = 3914, first k = 28657
+n = 3915, first k = 28661
+n = 3916, first k = 28663
+n = 3917, first k = 28663
+n = 3918, first k = 28669
+n = 3919, first k = 28687
+n = 3920, first k = 28697
+n = 3921, first k = 28703
+n = 3922, first k = 28703
+n = 3923, first k = 28711
+n = 3924, first k = 28723
+n = 3925, first k = 28729
+n = 3926, first k = 28751
+n = 3927, first k = 28751
+n = 3928, first k = 28753
+n = 3929, first k = 28759
+n = 3930, first k = 28771
+n = 3931, first k = 28789
+n = 3932, first k = 28789
+n = 3933, first k = 28793
+n = 3934, first k = 28807
+n = 3935, first k = 28813
+n = 3936, first k = 28817
+n = 3937, first k = 28817
+n = 3938, first k = 28837
+n = 3939, first k = 28843
+n = 3940, first k = 28859
+n = 3941, first k = 28867
+n = 3942, first k = 28867
+n = 3943, first k = 28871
+n = 3944, first k = 28879
+n = 3945, first k = 28901
+n = 3946, first k = 28909
+n = 3947, first k = 28921
+n = 3948, first k = 28921
+n = 3949, first k = 28927
+n = 3950, first k = 28933
+n = 3951, first k = 28949
+n = 3952, first k = 28961
+n = 3953, first k = 28961
+n = 3954, first k = 28979
+n = 3955, first k = 29009
+n = 3956, first k = 29017
+n = 3957, first k = 29021
+n = 3958, first k = 29021
+n = 3959, first k = 29023
+n = 3960, first k = 29027
+n = 3961, first k = 29033
+n = 3962, first k = 29059
+n = 3963, first k = 29059
+n = 3964, first k = 29063
+n = 3965, first k = 29077
+n = 3966, first k = 29101
+n = 3967, first k = 29123
+n = 3968, first k = 29123
+n = 3969, first k = 29129
+n = 3970, first k = 29131
+n = 3971, first k = 29137
+n = 3972, first k = 29147
+n = 3973, first k = 29147
+n = 3974, first k = 29153
+n = 3975, first k = 29167
+n = 3976, first k = 29173
+n = 3977, first k = 29179
+n = 3978, first k = 29191
+n = 3979, first k = 29191
+n = 3980, first k = 29201
+n = 3981, first k = 29207
+n = 3982, first k = 29209
+n = 3983, first k = 29221
+n = 3984, first k = 29221
+n = 3985, first k = 29231
+n = 3986, first k = 29243
+n = 3987, first k = 29251
+n = 3988, first k = 29269
+n = 3989, first k = 29269
+n = 3990, first k = 29287
+n = 3991, first k = 29297
+n = 3992, first k = 29303
+n = 3993, first k = 29311
+n = 3994, first k = 29311
+n = 3995, first k = 29327
+n = 3996, first k = 29333
+n = 3997, first k = 29339
+n = 3998, first k = 29347
+n = 3999, first k = 29347
+n = 4000, first k = 29363
+n = 4001, first k = 29383
+n = 4002, first k = 29387
+n = 4003, first k = 29389
+n = 4004, first k = 29389
+n = 4005, first k = 29399
+n = 4006, first k = 29401
+n = 4007, first k = 29411
+n = 4008, first k = 29423
+n = 4009, first k = 29423
+n = 4010, first k = 29429
+n = 4011, first k = 29437
+n = 4012, first k = 29443
+n = 4013, first k = 29453
+n = 4014, first k = 29473
+n = 4015, first k = 29473
+n = 4016, first k = 29483
+n = 4017, first k = 29501
+n = 4018, first k = 29527
+n = 4019, first k = 29531
+n = 4020, first k = 29531
+n = 4021, first k = 29537
+n = 4022, first k = 29567
+n = 4023, first k = 29569
+n = 4024, first k = 29573
+n = 4025, first k = 29573
+n = 4026, first k = 29581
+n = 4027, first k = 29587
+n = 4028, first k = 29599
+n = 4029, first k = 29611
+n = 4030, first k = 29611
+n = 4031, first k = 29629
+n = 4032, first k = 29633
+n = 4033, first k = 29641
+n = 4034, first k = 29663
+n = 4035, first k = 29663
+n = 4036, first k = 29669
+n = 4037, first k = 29671
+n = 4038, first k = 29683
+n = 4039, first k = 29717
+n = 4040, first k = 29717
+n = 4041, first k = 29723
+n = 4042, first k = 29741
+n = 4043, first k = 29753
+n = 4044, first k = 29759
+n = 4045, first k = 29761
+n = 4046, first k = 29761
+n = 4047, first k = 29789
+n = 4048, first k = 29803
+n = 4049, first k = 29819
+n = 4050, first k = 29833
+n = 4051, first k = 29833
+n = 4052, first k = 29837
+n = 4053, first k = 29851
+n = 4054, first k = 29863
+n = 4055, first k = 29867
+n = 4056, first k = 29867
+n = 4057, first k = 29873
+n = 4058, first k = 29879
+n = 4059, first k = 29881
+n = 4060, first k = 29917
+n = 4061, first k = 29917
+n = 4062, first k = 29921
+n = 4063, first k = 29927
+n = 4064, first k = 29947
+n = 4065, first k = 29959
+n = 4066, first k = 29959
+n = 4067, first k = 29983
+n = 4068, first k = 29989
+n = 4069, first k = 30011
+n = 4070, first k = 30013
+n = 4071, first k = 30013
+n = 4072, first k = 30029
+n = 4073, first k = 30047
+n = 4074, first k = 30059
+n = 4075, first k = 30071
+n = 4076, first k = 30089
+n = 4077, first k = 30089
+n = 4078, first k = 30091
+n = 4079, first k = 30097
+n = 4080, first k = 30103
+n = 4081, first k = 30109
+n = 4082, first k = 30109
+n = 4083, first k = 30113
+n = 4084, first k = 30119
+n = 4085, first k = 30133
+n = 4086, first k = 30137
+n = 4087, first k = 30137
+n = 4088, first k = 30139
+n = 4089, first k = 30161
+n = 4090, first k = 30169
+n = 4091, first k = 30181
+n = 4092, first k = 30181
+n = 4093, first k = 30187
+n = 4094, first k = 30197
+n = 4095, first k = 30203
+n = 4096, first k = 30211
+n = 4097, first k = 30211
+n = 4098, first k = 30223
+n = 4099, first k = 30241
+n = 4100, first k = 30253
+n = 4101, first k = 30259
+n = 4102, first k = 30259
+n = 4103, first k = 30269
+n = 4104, first k = 30271
+n = 4105, first k = 30293
+n = 4106, first k = 30307
+n = 4107, first k = 30313
+n = 4108, first k = 30313
+n = 4109, first k = 30319
+n = 4110, first k = 30323
+n = 4111, first k = 30341
+n = 4112, first k = 30347
+n = 4113, first k = 30347
+n = 4114, first k = 30367
+n = 4115, first k = 30389
+n = 4116, first k = 30391
+n = 4117, first k = 30403
+n = 4118, first k = 30403
+n = 4119, first k = 30427
+n = 4120, first k = 30431
+n = 4121, first k = 30449
+n = 4122, first k = 30467
+n = 4123, first k = 30467
+n = 4124, first k = 30469
+n = 4125, first k = 30491
+n = 4126, first k = 30493
+n = 4127, first k = 30497
+n = 4128, first k = 30497
+n = 4129, first k = 30509
+n = 4130, first k = 30517
+n = 4131, first k = 30529
+n = 4132, first k = 30539
+n = 4133, first k = 30539
+n = 4134, first k = 30553
+n = 4135, first k = 30557
+n = 4136, first k = 30559
+n = 4137, first k = 30577
+n = 4138, first k = 30593
+n = 4139, first k = 30593
+n = 4140, first k = 30631
+n = 4141, first k = 30637
+n = 4142, first k = 30643
+n = 4143, first k = 30649
+n = 4144, first k = 30649
+n = 4145, first k = 30661
+n = 4146, first k = 30671
+n = 4147, first k = 30677
+n = 4148, first k = 30689
+n = 4149, first k = 30689
+n = 4150, first k = 30697
+n = 4151, first k = 30703
+n = 4152, first k = 30707
+n = 4153, first k = 30713
+n = 4154, first k = 30713
+n = 4155, first k = 30727
+n = 4156, first k = 30757
+n = 4157, first k = 30763
+n = 4158, first k = 30773
+n = 4159, first k = 30773
+n = 4160, first k = 30781
+n = 4161, first k = 30803
+n = 4162, first k = 30809
+n = 4163, first k = 30817
+n = 4164, first k = 30817
+n = 4165, first k = 30829
+n = 4166, first k = 30839
+n = 4167, first k = 30841
+n = 4168, first k = 30851
+n = 4169, first k = 30853
+n = 4170, first k = 30853
+n = 4171, first k = 30859
+n = 4172, first k = 30869
+n = 4173, first k = 30871
+n = 4174, first k = 30881
+n = 4175, first k = 30881
+n = 4176, first k = 30893
+n = 4177, first k = 30911
+n = 4178, first k = 30931
+n = 4179, first k = 30937
+n = 4180, first k = 30937
+n = 4181, first k = 30941
+n = 4182, first k = 30949
+n = 4183, first k = 30971
+n = 4184, first k = 30977
+n = 4185, first k = 30977
+n = 4186, first k = 30983
+n = 4187, first k = 31013
+n = 4188, first k = 31019
+n = 4189, first k = 31033
+n = 4190, first k = 31033
+n = 4191, first k = 31039
+n = 4192, first k = 31051
+n = 4193, first k = 31063
+n = 4194, first k = 31069
+n = 4195, first k = 31069
+n = 4196, first k = 31079
+n = 4197, first k = 31081
+n = 4198, first k = 31091
+n = 4199, first k = 31121
+n = 4200, first k = 31121
+n = 4201, first k = 31123
+n = 4202, first k = 31139
+n = 4203, first k = 31147
+n = 4204, first k = 31151
+n = 4205, first k = 31153
+n = 4206, first k = 31153
+n = 4207, first k = 31159
+n = 4208, first k = 31177
+n = 4209, first k = 31181
+n = 4210, first k = 31183
+n = 4211, first k = 31183
+n = 4212, first k = 31189
+n = 4213, first k = 31193
+n = 4214, first k = 31219
+n = 4215, first k = 31223
+n = 4216, first k = 31223
+n = 4217, first k = 31231
+n = 4218, first k = 31237
+n = 4219, first k = 31247
+n = 4220, first k = 31249
+n = 4221, first k = 31249
+n = 4222, first k = 31253
+n = 4223, first k = 31259
+n = 4224, first k = 31267
+n = 4225, first k = 31271
+n = 4226, first k = 31271
+n = 4227, first k = 31277
+n = 4228, first k = 31307
+n = 4229, first k = 31319
+n = 4230, first k = 31321
+n = 4231, first k = 31327
+n = 4232, first k = 31327
+n = 4233, first k = 31333
+n = 4234, first k = 31337
+n = 4235, first k = 31357
+n = 4236, first k = 31379
+n = 4237, first k = 31379
+n = 4238, first k = 31387
+n = 4239, first k = 31391
+n = 4240, first k = 31393
+n = 4241, first k = 31397
+n = 4242, first k = 31397
+n = 4243, first k = 31469
+n = 4244, first k = 31477
+n = 4245, first k = 31481
+n = 4246, first k = 31489
+n = 4247, first k = 31489
+n = 4248, first k = 31511
+n = 4249, first k = 31513
+n = 4250, first k = 31517
+n = 4251, first k = 31531
+n = 4252, first k = 31531
+n = 4253, first k = 31541
+n = 4254, first k = 31543
+n = 4255, first k = 31547
+n = 4256, first k = 31567
+n = 4257, first k = 31567
+n = 4258, first k = 31573
+n = 4259, first k = 31583
+n = 4260, first k = 31601
+n = 4261, first k = 31607
+n = 4262, first k = 31627
+n = 4263, first k = 31627
+n = 4264, first k = 31643
+n = 4265, first k = 31649
+n = 4266, first k = 31657
+n = 4267, first k = 31663
+n = 4268, first k = 31663
+n = 4269, first k = 31667
+n = 4270, first k = 31687
+n = 4271, first k = 31699
+n = 4272, first k = 31721
+n = 4273, first k = 31721
+n = 4274, first k = 31723
+n = 4275, first k = 31727
+n = 4276, first k = 31729
+n = 4277, first k = 31741
+n = 4278, first k = 31741
+n = 4279, first k = 31751
+n = 4280, first k = 31769
+n = 4281, first k = 31771
+n = 4282, first k = 31793
+n = 4283, first k = 31793
+n = 4284, first k = 31799
+n = 4285, first k = 31817
+n = 4286, first k = 31847
+n = 4287, first k = 31849
+n = 4288, first k = 31849
+n = 4289, first k = 31859
+n = 4290, first k = 31873
+n = 4291, first k = 31883
+n = 4292, first k = 31891
+n = 4293, first k = 31907
+n = 4294, first k = 31907
+n = 4295, first k = 31957
+n = 4296, first k = 31963
+n = 4297, first k = 31973
+n = 4298, first k = 31981
+n = 4299, first k = 31981
+n = 4300, first k = 31991
+n = 4301, first k = 32003
+n = 4302, first k = 32009
+n = 4303, first k = 32027
+n = 4304, first k = 32027
+n = 4305, first k = 32029
+n = 4306, first k = 32051
+n = 4307, first k = 32057
+n = 4308, first k = 32059
+n = 4309, first k = 32059
+n = 4310, first k = 32063
+n = 4311, first k = 32069
+n = 4312, first k = 32077
+n = 4313, first k = 32083
+n = 4314, first k = 32083
+n = 4315, first k = 32089
+n = 4316, first k = 32099
+n = 4317, first k = 32117
+n = 4318, first k = 32119
+n = 4319, first k = 32119
+n = 4320, first k = 32141
+n = 4321, first k = 32143
+n = 4322, first k = 32159
+n = 4323, first k = 32173
+n = 4324, first k = 32183
+n = 4325, first k = 32183
+n = 4326, first k = 32189
+n = 4327, first k = 32191
+n = 4328, first k = 32203
+n = 4329, first k = 32213
+n = 4330, first k = 32213
+n = 4331, first k = 32233
+n = 4332, first k = 32237
+n = 4333, first k = 32251
+n = 4334, first k = 32257
+n = 4335, first k = 32257
+n = 4336, first k = 32261
+n = 4337, first k = 32297
+n = 4338, first k = 32299
+n = 4339, first k = 32303
+n = 4340, first k = 32303
+n = 4341, first k = 32309
+n = 4342, first k = 32321
+n = 4343, first k = 32323
+n = 4344, first k = 32327
+n = 4345, first k = 32327
+n = 4346, first k = 32341
+n = 4347, first k = 32353
+n = 4348, first k = 32359
+n = 4349, first k = 32363
+n = 4350, first k = 32363
+n = 4351, first k = 32369
+n = 4352, first k = 32371
+n = 4353, first k = 32377
+n = 4354, first k = 32381
+n = 4355, first k = 32401
+n = 4356, first k = 32401
+n = 4357, first k = 32411
+n = 4358, first k = 32413
+n = 4359, first k = 32423
+n = 4360, first k = 32429
+n = 4361, first k = 32429
+n = 4362, first k = 32441
+n = 4363, first k = 32443
+n = 4364, first k = 32467
+n = 4365, first k = 32479
+n = 4366, first k = 32479
+n = 4367, first k = 32491
+n = 4368, first k = 32497
+n = 4369, first k = 32503
+n = 4370, first k = 32507
+n = 4371, first k = 32507
+n = 4372, first k = 32531
+n = 4373, first k = 32533
+n = 4374, first k = 32537
+n = 4375, first k = 32561
+n = 4376, first k = 32561
+n = 4377, first k = 32563
+n = 4378, first k = 32569
+n = 4379, first k = 32573
+n = 4380, first k = 32579
+n = 4381, first k = 32587
+n = 4382, first k = 32587
+n = 4383, first k = 32603
+n = 4384, first k = 32609
+n = 4385, first k = 32611
+n = 4386, first k = 32621
+n = 4387, first k = 32621
+n = 4388, first k = 32633
+n = 4389, first k = 32647
+n = 4390, first k = 32653
+n = 4391, first k = 32687
+n = 4392, first k = 32687
+n = 4393, first k = 32693
+n = 4394, first k = 32707
+n = 4395, first k = 32713
+n = 4396, first k = 32717
+n = 4397, first k = 32717
+n = 4398, first k = 32719
+n = 4399, first k = 32749
+n = 4400, first k = 32771
+n = 4401, first k = 32779
+n = 4402, first k = 32779
+n = 4403, first k = 32783
+n = 4404, first k = 32789
+n = 4405, first k = 32797
+n = 4406, first k = 32801
+n = 4407, first k = 32801
+n = 4408, first k = 32803
+n = 4409, first k = 32831
+n = 4410, first k = 32833
+n = 4411, first k = 32839
+n = 4412, first k = 32843
+n = 4413, first k = 32843
+n = 4414, first k = 32869
+n = 4415, first k = 32887
+n = 4416, first k = 32909
+n = 4417, first k = 32911
+n = 4418, first k = 32911
+n = 4419, first k = 32917
+n = 4420, first k = 32933
+n = 4421, first k = 32939
+n = 4422, first k = 32941
+n = 4423, first k = 32941
+n = 4424, first k = 32957
+n = 4425, first k = 32969
+n = 4426, first k = 32971
+n = 4427, first k = 32983
+n = 4428, first k = 32983
+n = 4429, first k = 32987
+n = 4430, first k = 32993
+n = 4431, first k = 32999
+n = 4432, first k = 33013
+n = 4433, first k = 33013
+n = 4434, first k = 33023
+n = 4435, first k = 33029
+n = 4436, first k = 33037
+n = 4437, first k = 33049
+n = 4438, first k = 33049
+n = 4439, first k = 33053
+n = 4440, first k = 33071
+n = 4441, first k = 33073
+n = 4442, first k = 33083
+n = 4443, first k = 33091
+n = 4444, first k = 33091
+n = 4445, first k = 33107
+n = 4446, first k = 33113
+n = 4447, first k = 33119
+n = 4448, first k = 33149
+n = 4449, first k = 33149
+n = 4450, first k = 33151
+n = 4451, first k = 33161
+n = 4452, first k = 33179
+n = 4453, first k = 33181
+n = 4454, first k = 33181
+n = 4455, first k = 33191
+n = 4456, first k = 33199
+n = 4457, first k = 33203
+n = 4458, first k = 33211
+n = 4459, first k = 33211
+n = 4460, first k = 33223
+n = 4461, first k = 33247
+n = 4462, first k = 33287
+n = 4463, first k = 33289
+n = 4464, first k = 33289
+n = 4465, first k = 33301
+n = 4466, first k = 33311
+n = 4467, first k = 33317
+n = 4468, first k = 33329
+n = 4469, first k = 33331
+n = 4470, first k = 33331
+n = 4471, first k = 33343
+n = 4472, first k = 33347
+n = 4473, first k = 33349
+n = 4474, first k = 33353
+n = 4475, first k = 33353
+n = 4476, first k = 33359
+n = 4477, first k = 33377
+n = 4478, first k = 33391
+n = 4479, first k = 33403
+n = 4480, first k = 33403
+n = 4481, first k = 33409
+n = 4482, first k = 33413
+n = 4483, first k = 33427
+n = 4484, first k = 33457
+n = 4485, first k = 33457
+n = 4486, first k = 33461
+n = 4487, first k = 33469
+n = 4488, first k = 33479
+n = 4489, first k = 33487
+n = 4490, first k = 33487
+n = 4491, first k = 33493
+n = 4492, first k = 33503
+n = 4493, first k = 33521
+n = 4494, first k = 33529
+n = 4495, first k = 33533
+n = 4496, first k = 33533
+n = 4497, first k = 33547
+n = 4498, first k = 33563
+n = 4499, first k = 33569
+n = 4500, first k = 33577
+n = 4501, first k = 33577
+n = 4502, first k = 33581
+n = 4503, first k = 33587
+n = 4504, first k = 33589
+n = 4505, first k = 33599
+n = 4506, first k = 33599
+n = 4507, first k = 33601
+n = 4508, first k = 33613
+n = 4509, first k = 33617
+n = 4510, first k = 33619
+n = 4511, first k = 33619
+n = 4512, first k = 33623
+n = 4513, first k = 33629
+n = 4514, first k = 33637
+n = 4515, first k = 33641
+n = 4516, first k = 33641
+n = 4517, first k = 33647
+n = 4518, first k = 33679
+n = 4519, first k = 33703
+n = 4520, first k = 33713
+n = 4521, first k = 33713
+n = 4522, first k = 33721
+n = 4523, first k = 33739
+n = 4524, first k = 33749
+n = 4525, first k = 33751
+n = 4526, first k = 33757
+n = 4527, first k = 33757
+n = 4528, first k = 33767
+n = 4529, first k = 33769
+n = 4530, first k = 33773
+n = 4531, first k = 33791
+n = 4532, first k = 33791
+n = 4533, first k = 33797
+n = 4534, first k = 33809
+n = 4535, first k = 33811
+n = 4536, first k = 33827
+n = 4537, first k = 33827
+n = 4538, first k = 33829
+n = 4539, first k = 33851
+n = 4540, first k = 33857
+n = 4541, first k = 33863
+n = 4542, first k = 33863
+n = 4543, first k = 33871
+n = 4544, first k = 33889
+n = 4545, first k = 33893
+n = 4546, first k = 33911
+n = 4547, first k = 33911
+n = 4548, first k = 33923
+n = 4549, first k = 33931
+n = 4550, first k = 33937
+n = 4551, first k = 33941
+n = 4552, first k = 33961
+n = 4553, first k = 33961
+n = 4554, first k = 33967
+n = 4555, first k = 33997
+n = 4556, first k = 34019
+n = 4557, first k = 34031
+n = 4558, first k = 34031
+n = 4559, first k = 34033
+n = 4560, first k = 34039
+n = 4561, first k = 34057
+n = 4562, first k = 34061
+n = 4563, first k = 34061
+n = 4564, first k = 34123
+n = 4565, first k = 34127
+n = 4566, first k = 34129
+n = 4567, first k = 34141
+n = 4568, first k = 34141
+n = 4569, first k = 34147
+n = 4570, first k = 34157
+n = 4571, first k = 34159
+n = 4572, first k = 34171
+n = 4573, first k = 34171
+n = 4574, first k = 34183
+n = 4575, first k = 34211
+n = 4576, first k = 34213
+n = 4577, first k = 34217
+n = 4578, first k = 34231
+n = 4579, first k = 34231
+n = 4580, first k = 34253
+n = 4581, first k = 34259
+n = 4582, first k = 34261
+n = 4583, first k = 34267
+n = 4584, first k = 34267
+n = 4585, first k = 34273
+n = 4586, first k = 34283
+n = 4587, first k = 34297
+n = 4588, first k = 34301
+n = 4589, first k = 34301
+n = 4590, first k = 34303
+n = 4591, first k = 34313
+n = 4592, first k = 34319
+n = 4593, first k = 34327
+n = 4594, first k = 34327
+n = 4595, first k = 34337
+n = 4596, first k = 34351
+n = 4597, first k = 34361
+n = 4598, first k = 34367
+n = 4599, first k = 34367
+n = 4600, first k = 34369
+n = 4601, first k = 34381
+n = 4602, first k = 34403
+n = 4603, first k = 34421
+n = 4604, first k = 34429
+n = 4605, first k = 34429
+n = 4606, first k = 34439
+n = 4607, first k = 34457
+n = 4608, first k = 34469
+n = 4609, first k = 34471
+n = 4610, first k = 34471
+n = 4611, first k = 34483
+n = 4612, first k = 34487
+n = 4613, first k = 34499
+n = 4614, first k = 34501
+n = 4615, first k = 34501
+n = 4616, first k = 34511
+n = 4617, first k = 34513
+n = 4618, first k = 34519
+n = 4619, first k = 34537
+n = 4620, first k = 34537
+n = 4621, first k = 34543
+n = 4622, first k = 34549
+n = 4623, first k = 34583
+n = 4624, first k = 34589
+n = 4625, first k = 34589
+n = 4626, first k = 34591
+n = 4627, first k = 34603
+n = 4628, first k = 34607
+n = 4629, first k = 34613
+n = 4630, first k = 34613
+n = 4631, first k = 34631
+n = 4632, first k = 34649
+n = 4633, first k = 34651
+n = 4634, first k = 34667
+n = 4635, first k = 34673
+n = 4636, first k = 34673
+n = 4637, first k = 34679
+n = 4638, first k = 34687
+n = 4639, first k = 34693
+n = 4640, first k = 34703
+n = 4641, first k = 34703
+n = 4642, first k = 34721
+n = 4643, first k = 34729
+n = 4644, first k = 34739
+n = 4645, first k = 34747
+n = 4646, first k = 34747
+n = 4647, first k = 34757
+n = 4648, first k = 34759
+n = 4649, first k = 34763
+n = 4650, first k = 34781
+n = 4651, first k = 34781
+n = 4652, first k = 34807
+n = 4653, first k = 34819
+n = 4654, first k = 34841
+n = 4655, first k = 34843
+n = 4656, first k = 34843
+n = 4657, first k = 34847
+n = 4658, first k = 34849
+n = 4659, first k = 34871
+n = 4660, first k = 34877
+n = 4661, first k = 34883
+n = 4662, first k = 34883
+n = 4663, first k = 34897
+n = 4664, first k = 34913
+n = 4665, first k = 34919
+n = 4666, first k = 34939
+n = 4667, first k = 34939
+n = 4668, first k = 34949
+n = 4669, first k = 34961
+n = 4670, first k = 34963
+n = 4671, first k = 34981
+n = 4672, first k = 34981
+n = 4673, first k = 35023
+n = 4674, first k = 35027
+n = 4675, first k = 35051
+n = 4676, first k = 35053
+n = 4677, first k = 35053
+n = 4678, first k = 35059
+n = 4679, first k = 35069
+n = 4680, first k = 35081
+n = 4681, first k = 35083
+n = 4682, first k = 35083
+n = 4683, first k = 35089
+n = 4684, first k = 35099
+n = 4685, first k = 35107
+n = 4686, first k = 35111
+n = 4687, first k = 35117
+n = 4688, first k = 35117
+n = 4689, first k = 35129
+n = 4690, first k = 35141
+n = 4691, first k = 35149
+n = 4692, first k = 35153
+n = 4693, first k = 35153
+n = 4694, first k = 35159
+n = 4695, first k = 35171
+n = 4696, first k = 35201
+n = 4697, first k = 35221
+n = 4698, first k = 35221
+n = 4699, first k = 35227
+n = 4700, first k = 35251
+n = 4701, first k = 35257
+n = 4702, first k = 35267
+n = 4703, first k = 35267
+n = 4704, first k = 35279
+n = 4705, first k = 35281
+n = 4706, first k = 35291
+n = 4707, first k = 35311
+n = 4708, first k = 35311
+n = 4709, first k = 35317
+n = 4710, first k = 35323
+n = 4711, first k = 35327
+n = 4712, first k = 35339
+n = 4713, first k = 35353
+n = 4714, first k = 35353
+n = 4715, first k = 35363
+n = 4716, first k = 35381
+n = 4717, first k = 35393
+n = 4718, first k = 35401
+n = 4719, first k = 35401
+n = 4720, first k = 35407
+n = 4721, first k = 35419
+n = 4722, first k = 35423
+n = 4723, first k = 35437
+n = 4724, first k = 35437
+n = 4725, first k = 35447
+n = 4726, first k = 35449
+n = 4727, first k = 35461
+n = 4728, first k = 35491
+n = 4729, first k = 35491
+n = 4730, first k = 35507
+n = 4731, first k = 35509
+n = 4732, first k = 35521
+n = 4733, first k = 35527
+n = 4734, first k = 35527
+n = 4735, first k = 35531
+n = 4736, first k = 35533
+n = 4737, first k = 35537
+n = 4738, first k = 35543
+n = 4739, first k = 35569
+n = 4740, first k = 35569
+n = 4741, first k = 35573
+n = 4742, first k = 35591
+n = 4743, first k = 35593
+n = 4744, first k = 35597
+n = 4745, first k = 35597
+n = 4746, first k = 35603
+n = 4747, first k = 35617
+n = 4748, first k = 35671
+n = 4749, first k = 35677
+n = 4750, first k = 35677
+n = 4751, first k = 35729
+n = 4752, first k = 35731
+n = 4753, first k = 35747
+n = 4754, first k = 35753
+n = 4755, first k = 35753
+n = 4756, first k = 35759
+n = 4757, first k = 35771
+n = 4758, first k = 35797
+n = 4759, first k = 35801
+n = 4760, first k = 35801
+n = 4761, first k = 35803
+n = 4762, first k = 35809
+n = 4763, first k = 35831
+n = 4764, first k = 35837
+n = 4765, first k = 35839
+n = 4766, first k = 35839
+n = 4767, first k = 35851
+n = 4768, first k = 35863
+n = 4769, first k = 35869
+n = 4770, first k = 35879
+n = 4771, first k = 35879
+n = 4772, first k = 35897
+n = 4773, first k = 35899
+n = 4774, first k = 35911
+n = 4775, first k = 35923
+n = 4776, first k = 35923
+n = 4777, first k = 35933
+n = 4778, first k = 35951
+n = 4779, first k = 35963
+n = 4780, first k = 35969
+n = 4781, first k = 35969
+n = 4782, first k = 35977
+n = 4783, first k = 35983
+n = 4784, first k = 35993
+n = 4785, first k = 35999
+n = 4786, first k = 35999
+n = 4787, first k = 36007
+n = 4788, first k = 36011
+n = 4789, first k = 36013
+n = 4790, first k = 36017
+n = 4791, first k = 36037
+n = 4792, first k = 36037
+n = 4793, first k = 36061
+n = 4794, first k = 36067
+n = 4795, first k = 36073
+n = 4796, first k = 36083
+n = 4797, first k = 36083
+n = 4798, first k = 36097
+n = 4799, first k = 36107
+n = 4800, first k = 36109
+n = 4801, first k = 36131
+n = 4802, first k = 36131
+n = 4803, first k = 36137
+n = 4804, first k = 36151
+n = 4805, first k = 36161
+n = 4806, first k = 36187
+n = 4807, first k = 36187
+n = 4808, first k = 36191
+n = 4809, first k = 36209
+n = 4810, first k = 36217
+n = 4811, first k = 36229
+n = 4812, first k = 36229
+n = 4813, first k = 36241
+n = 4814, first k = 36251
+n = 4815, first k = 36263
+n = 4816, first k = 36269
+n = 4817, first k = 36277
+n = 4818, first k = 36277
+n = 4819, first k = 36293
+n = 4820, first k = 36299
+n = 4821, first k = 36307
+n = 4822, first k = 36313
+n = 4823, first k = 36313
+n = 4824, first k = 36319
+n = 4825, first k = 36341
+n = 4826, first k = 36343
+n = 4827, first k = 36353
+n = 4828, first k = 36353
+n = 4829, first k = 36373
+n = 4830, first k = 36383
+n = 4831, first k = 36389
+n = 4832, first k = 36433
+n = 4833, first k = 36433
+n = 4834, first k = 36451
+n = 4835, first k = 36457
+n = 4836, first k = 36467
+n = 4837, first k = 36469
+n = 4838, first k = 36469
+n = 4839, first k = 36473
+n = 4840, first k = 36479
+n = 4841, first k = 36493
+n = 4842, first k = 36497
+n = 4843, first k = 36523
+n = 4844, first k = 36523
+n = 4845, first k = 36527
+n = 4846, first k = 36529
+n = 4847, first k = 36541
+n = 4848, first k = 36551
+n = 4849, first k = 36551
+n = 4850, first k = 36559
+n = 4851, first k = 36563
+n = 4852, first k = 36571
+n = 4853, first k = 36583
+n = 4854, first k = 36583
+n = 4855, first k = 36587
+n = 4856, first k = 36599
+n = 4857, first k = 36607
+n = 4858, first k = 36629
+n = 4859, first k = 36629
+n = 4860, first k = 36637
+n = 4861, first k = 36643
+n = 4862, first k = 36653
+n = 4863, first k = 36671
+n = 4864, first k = 36671
+n = 4865, first k = 36677
+n = 4866, first k = 36683
+n = 4867, first k = 36691
+n = 4868, first k = 36697
+n = 4869, first k = 36709
+n = 4870, first k = 36709
+n = 4871, first k = 36713
+n = 4872, first k = 36721
+n = 4873, first k = 36739
+n = 4874, first k = 36749
+n = 4875, first k = 36749
+n = 4876, first k = 36761
+n = 4877, first k = 36767
+n = 4878, first k = 36779
+n = 4879, first k = 36781
+n = 4880, first k = 36781
+n = 4881, first k = 36787
+n = 4882, first k = 36791
+n = 4883, first k = 36793
+n = 4884, first k = 36809
+n = 4885, first k = 36809
+n = 4886, first k = 36821
+n = 4887, first k = 36833
+n = 4888, first k = 36847
+n = 4889, first k = 36857
+n = 4890, first k = 36857
+n = 4891, first k = 36871
+n = 4892, first k = 36877
+n = 4893, first k = 36887
+n = 4894, first k = 36899
+n = 4895, first k = 36901
+n = 4896, first k = 36901
+n = 4897, first k = 36913
+n = 4898, first k = 36919
+n = 4899, first k = 36923
+n = 4900, first k = 36929
+n = 4901, first k = 36929
+n = 4902, first k = 36931
+n = 4903, first k = 36943
+n = 4904, first k = 36947
+n = 4905, first k = 36973
+n = 4906, first k = 36973
+n = 4907, first k = 36979
+n = 4908, first k = 36997
+n = 4909, first k = 37003
+n = 4910, first k = 37013
+n = 4911, first k = 37013
+n = 4912, first k = 37019
+n = 4913, first k = 37021
+n = 4914, first k = 37039
+n = 4915, first k = 37049
+n = 4916, first k = 37049
+n = 4917, first k = 37057
+n = 4918, first k = 37061
+n = 4919, first k = 37087
+n = 4920, first k = 37097
+n = 4921, first k = 37117
+n = 4922, first k = 37117
+n = 4923, first k = 37123
+n = 4924, first k = 37139
+n = 4925, first k = 37159
+n = 4926, first k = 37171
+n = 4927, first k = 37171
+n = 4928, first k = 37181
+n = 4929, first k = 37189
+n = 4930, first k = 37199
+n = 4931, first k = 37201
+n = 4932, first k = 37201
+n = 4933, first k = 37217
+n = 4934, first k = 37223
+n = 4935, first k = 37243
+n = 4936, first k = 37253
+n = 4937, first k = 37253
+n = 4938, first k = 37273
+n = 4939, first k = 37277
+n = 4940, first k = 37307
+n = 4941, first k = 37309
+n = 4942, first k = 37313
+n = 4943, first k = 37313
+n = 4944, first k = 37321
+n = 4945, first k = 37337
+n = 4946, first k = 37339
+n = 4947, first k = 37357
+n = 4948, first k = 37357
+n = 4949, first k = 37361
+n = 4950, first k = 37363
+n = 4951, first k = 37369
+n = 4952, first k = 37379
+n = 4953, first k = 37379
+n = 4954, first k = 37397
+n = 4955, first k = 37409
+n = 4956, first k = 37423
+n = 4957, first k = 37441
+n = 4958, first k = 37441
+n = 4959, first k = 37447
+n = 4960, first k = 37463
+n = 4961, first k = 37483
+n = 4962, first k = 37489
+n = 4963, first k = 37489
+n = 4964, first k = 37493
+n = 4965, first k = 37501
+n = 4966, first k = 37507
+n = 4967, first k = 37511
+n = 4968, first k = 37517
+n = 4969, first k = 37517
+n = 4970, first k = 37529
+n = 4971, first k = 37537
+n = 4972, first k = 37547
+n = 4973, first k = 37549
+n = 4974, first k = 37549
+n = 4975, first k = 37561
+n = 4976, first k = 37567
+n = 4977, first k = 37571
+n = 4978, first k = 37573
+n = 4979, first k = 37573
+n = 4980, first k = 37579
+n = 4981, first k = 37589
+n = 4982, first k = 37591
+n = 4983, first k = 37607
+n = 4984, first k = 37607
+n = 4985, first k = 37619
+n = 4986, first k = 37633
+n = 4987, first k = 37643
+n = 4988, first k = 37649
+n = 4989, first k = 37649
+n = 4990, first k = 37657
+n = 4991, first k = 37663
+n = 4992, first k = 37691
+n = 4993, first k = 37693
+n = 4994, first k = 37699
+n = 4995, first k = 37699
+n = 4996, first k = 37717
+n = 4997, first k = 37747
+n = 4998, first k = 37781
+n = 4999, first k = 37783
+n = 5000, first k = 37783
+
+OEIS-style n sequence:
+
+
+Corresponding k values:
+
+
+Pairs (n, k):
+(2, 1)
+(4, 5)
+(5, 7)
+(6, 11)
+(7, 13)
+(8, 17)
+(10, 19)
+(11, 23)
+(12, 29)
+(14, 31)
+(15, 37)
+(16, 41)
+(17, 43)
+(19, 47)
+(20, 53)
+(21, 59)
+(23, 61)
+(24, 67)
+(25, 71)
+(27, 73)
+(28, 79)
+(29, 83)
+(31, 89)
+(32, 97)
+(33, 101)
+(34, 103)
+(36, 107)
+(37, 109)
+(38, 113)
+(40, 127)
+(41, 131)
+(42, 137)
+(44, 139)
+(45, 149)
+(46, 151)
+(47, 157)
+(49, 163)
+(50, 167)
+(51, 173)
+(53, 179)
+(54, 181)
+(55, 191)
+(57, 193)
+(58, 197)
+(59, 199)
+(60, 211)
+(62, 223)
+(63, 227)
+(64, 229)
+(66, 233)
+(67, 239)
+(68, 241)
+(70, 251)
+(71, 257)
+(72, 263)
+(73, 269)
+(75, 271)
+(76, 277)
+(77, 281)
+(79, 283)
+(80, 293)
+(81, 307)
+(83, 311)
+(84, 313)
+(85, 317)
+(86, 331)
+(88, 337)
+(89, 347)
+(90, 349)
+(92, 353)
+(93, 359)
+(94, 367)
+(96, 373)
+(97, 379)
+(98, 383)
+(99, 389)
+(101, 397)
+(102, 401)
+(103, 409)
+(105, 419)
+(106, 421)
+(107, 431)
+(108, 433)
+(110, 439)
+(111, 443)
+(112, 449)
+(114, 457)
+(115, 461)
+(116, 463)
+(118, 467)
+(119, 479)
+(120, 487)
+(121, 491)
+(123, 499)
+(124, 503)
+(125, 509)
+(127, 521)
+(128, 523)
+(129, 541)
+(130, 547)
+(132, 557)
+(133, 563)
+(134, 569)
+(136, 571)
+(137, 577)
+(138, 587)
+(139, 593)
+(141, 599)
+(142, 601)
+(143, 607)
+(145, 613)
+(146, 617)
+(147, 619)
+(149, 631)
+(150, 641)
+(151, 643)
+(152, 647)
+(154, 653)
+(155, 659)
+(156, 661)
+(158, 673)
+(159, 677)
+(160, 683)
+(161, 691)
+(163, 701)
+(164, 709)
+(165, 719)
+(167, 727)
+(168, 733)
+(169, 739)
+(170, 743)
+(172, 751)
+(173, 757)
+(174, 761)
+(176, 769)
+(177, 773)
+(178, 787)
+(179, 797)
+(181, 809)
+(182, 811)
+(183, 821)
+(185, 823)
+(186, 827)
+(187, 829)
+(188, 839)
+(190, 853)
+(191, 857)
+(192, 859)
+(194, 863)
+(195, 877)
+(196, 881)
+(197, 883)
+(199, 887)
+(200, 907)
+(201, 911)
+(203, 919)
+(204, 929)
+(205, 937)
+(206, 941)
+(208, 947)
+(209, 953)
+(210, 967)
+(211, 971)
+(213, 977)
+(214, 983)
+(215, 991)
+(217, 997)
+(218, 1009)
+(219, 1013)
+(220, 1019)
+(222, 1021)
+(223, 1031)
+(224, 1033)
+(226, 1039)
+(227, 1049)
+(228, 1051)
+(229, 1061)
+(231, 1063)
+(232, 1069)
+(233, 1087)
+(235, 1091)
+(236, 1093)
+(237, 1097)
+(238, 1103)
+(240, 1109)
+(241, 1117)
+(242, 1123)
+(244, 1129)
+(245, 1151)
+(246, 1153)
+(247, 1163)
+(249, 1171)
+(250, 1181)
+(251, 1187)
+(252, 1193)
+(254, 1201)
+(255, 1213)
+(256, 1217)
+(258, 1223)
+(259, 1229)
+(260, 1231)
+(261, 1237)
+(263, 1249)
+(264, 1259)
+(265, 1277)
+(267, 1279)
+(268, 1283)
+(269, 1289)
+(270, 1291)
+(272, 1297)
+(273, 1301)
+(274, 1303)
+(276, 1307)
+(277, 1319)
+(278, 1321)
+(279, 1327)
+(281, 1361)
+(282, 1367)
+(283, 1373)
+(284, 1381)
+(286, 1399)
+(287, 1409)
+(288, 1423)
+(290, 1427)
+(291, 1429)
+(292, 1433)
+(293, 1439)
+(295, 1447)
+(296, 1451)
+(297, 1453)
+(299, 1459)
+(300, 1471)
+(301, 1481)
+(302, 1483)
+(304, 1487)
+(305, 1489)
+(306, 1493)
+(307, 1499)
+(309, 1511)
+(310, 1523)
+(311, 1531)
+(313, 1543)
+(314, 1549)
+(315, 1553)
+(316, 1559)
+(318, 1567)
+(319, 1571)
+(320, 1579)
+(322, 1583)
+(323, 1597)
+(324, 1601)
+(325, 1607)
+(327, 1609)
+(328, 1613)
+(329, 1619)
+(330, 1621)
+(332, 1627)
+(333, 1637)
+(334, 1657)
+(336, 1663)
+(337, 1667)
+(338, 1669)
+(339, 1693)
+(341, 1697)
+(342, 1699)
+(343, 1709)
+(344, 1721)
+(346, 1723)
+(347, 1733)
+(348, 1741)
+(350, 1747)
+(351, 1753)
+(352, 1759)
+(353, 1777)
+(355, 1783)
+(356, 1787)
+(357, 1789)
+(358, 1801)
+(360, 1811)
+(361, 1823)
+(362, 1831)
+(364, 1847)
+(365, 1861)
+(366, 1867)
+(367, 1871)
+(369, 1873)
+(370, 1877)
+(371, 1879)
+(373, 1889)
+(374, 1901)
+(375, 1907)
+(376, 1913)
+(378, 1931)
+(379, 1933)
+(380, 1949)
+(381, 1951)
+(383, 1973)
+(384, 1979)
+(385, 1987)
+(387, 1993)
+(388, 1997)
+(389, 1999)
+(390, 2003)
+(392, 2011)
+(393, 2017)
+(394, 2027)
+(395, 2029)
+(397, 2039)
+(398, 2053)
+(399, 2063)
+(401, 2069)
+(402, 2081)
+(403, 2083)
+(404, 2087)
+(406, 2089)
+(407, 2099)
+(408, 2111)
+(409, 2113)
+(411, 2129)
+(412, 2131)
+(413, 2137)
+(415, 2141)
+(416, 2143)
+(417, 2153)
+(418, 2161)
+(420, 2179)
+(421, 2203)
+(422, 2207)
+(423, 2213)
+(425, 2221)
+(426, 2237)
+(427, 2239)
+(429, 2243)
+(430, 2251)
+(431, 2267)
+(432, 2269)
+(434, 2273)
+(435, 2281)
+(436, 2287)
+(437, 2293)
+(439, 2297)
+(440, 2309)
+(441, 2311)
+(443, 2333)
+(444, 2339)
+(445, 2341)
+(446, 2347)
+(448, 2351)
+(449, 2357)
+(450, 2371)
+(451, 2377)
+(453, 2381)
+(454, 2383)
+(455, 2389)
+(457, 2393)
+(458, 2399)
+(459, 2411)
+(460, 2417)
+(462, 2423)
+(463, 2437)
+(464, 2441)
+(465, 2447)
+(467, 2459)
+(468, 2467)
+(469, 2473)
+(471, 2477)
+(472, 2503)
+(473, 2521)
+(474, 2531)
+(476, 2539)
+(477, 2543)
+(478, 2549)
+(479, 2551)
+(481, 2557)
+(482, 2579)
+(483, 2591)
+(484, 2593)
+(486, 2609)
+(487, 2617)
+(488, 2621)
+(490, 2633)
+(491, 2647)
+(492, 2657)
+(493, 2659)
+(495, 2663)
+(496, 2671)
+(497, 2677)
+(498, 2683)
+(500, 2687)
+(501, 2689)
+(502, 2693)
+(504, 2699)
+(505, 2707)
+(506, 2711)
+(507, 2713)
+(509, 2719)
+(510, 2729)
+(511, 2731)
+(512, 2741)
+(514, 2749)
+(515, 2753)
+(516, 2767)
+(518, 2777)
+(519, 2789)
+(520, 2791)
+(521, 2797)
+(523, 2801)
+(524, 2803)
+(525, 2819)
+(526, 2833)
+(528, 2837)
+(529, 2843)
+(530, 2851)
+(531, 2857)
+(533, 2861)
+(534, 2879)
+(535, 2887)
+(537, 2897)
+(538, 2903)
+(539, 2909)
+(540, 2917)
+(542, 2927)
+(543, 2939)
+(544, 2953)
+(545, 2957)
+(547, 2963)
+(548, 2969)
+(549, 2971)
+(550, 2999)
+(552, 3001)
+(553, 3011)
+(554, 3019)
+(556, 3023)
+(557, 3037)
+(558, 3041)
+(559, 3049)
+(561, 3061)
+(562, 3067)
+(563, 3079)
+(564, 3083)
+(566, 3089)
+(567, 3109)
+(568, 3119)
+(569, 3121)
+(571, 3137)
+(572, 3163)
+(573, 3167)
+(575, 3169)
+(576, 3181)
+(577, 3187)
+(578, 3191)
+(580, 3203)
+(581, 3209)
+(582, 3217)
+(583, 3221)
+(585, 3229)
+(586, 3251)
+(587, 3253)
+(589, 3257)
+(590, 3259)
+(591, 3271)
+(592, 3299)
+(594, 3301)
+(595, 3307)
+(596, 3313)
+(597, 3319)
+(599, 3323)
+(600, 3329)
+(601, 3331)
+(602, 3343)
+(604, 3347)
+(605, 3359)
+(606, 3361)
+(608, 3371)
+(609, 3373)
+(610, 3389)
+(611, 3391)
+(613, 3407)
+(614, 3413)
+(615, 3433)
+(616, 3449)
+(618, 3457)
+(619, 3461)
+(620, 3463)
+(621, 3467)
+(623, 3469)
+(624, 3491)
+(625, 3499)
+(627, 3511)
+(628, 3517)
+(629, 3527)
+(630, 3529)
+(632, 3533)
+(633, 3539)
+(634, 3541)
+(635, 3547)
+(637, 3557)
+(638, 3559)
+(639, 3571)
+(640, 3581)
+(642, 3583)
+(643, 3593)
+(644, 3607)
+(646, 3613)
+(647, 3617)
+(648, 3623)
+(649, 3631)
+(651, 3637)
+(652, 3643)
+(653, 3659)
+(654, 3671)
+(656, 3673)
+(657, 3677)
+(658, 3691)
+(659, 3697)
+(661, 3701)
+(662, 3709)
+(663, 3719)
+(665, 3727)
+(666, 3733)
+(667, 3739)
+(668, 3761)
+(670, 3767)
+(671, 3769)
+(672, 3779)
+(673, 3793)
+(675, 3797)
+(676, 3803)
+(677, 3821)
+(678, 3823)
+(680, 3833)
+(681, 3847)
+(682, 3851)
+(684, 3853)
+(685, 3863)
+(686, 3877)
+(687, 3881)
+(689, 3889)
+(690, 3907)
+(691, 3911)
+(692, 3917)
+(694, 3919)
+(695, 3923)
+(696, 3929)
+(697, 3931)
+(699, 3943)
+(700, 3947)
+(701, 3967)
+(702, 3989)
+(704, 4001)
+(705, 4003)
+(706, 4007)
+(708, 4013)
+(709, 4019)
+(710, 4021)
+(711, 4027)
+(713, 4049)
+(714, 4051)
+(715, 4057)
+(716, 4073)
+(718, 4079)
+(719, 4091)
+(720, 4093)
+(721, 4099)
+(723, 4111)
+(724, 4127)
+(725, 4129)
+(726, 4133)
+(728, 4139)
+(729, 4153)
+(730, 4157)
+(732, 4159)
+(733, 4177)
+(734, 4201)
+(735, 4211)
+(737, 4217)
+(738, 4219)
+(739, 4229)
+(740, 4231)
+(742, 4241)
+(743, 4243)
+(744, 4253)
+(745, 4259)
+(747, 4261)
+(748, 4271)
+(749, 4273)
+(750, 4283)
+(752, 4289)
+(753, 4297)
+(754, 4327)
+(756, 4337)
+(757, 4339)
+(758, 4349)
+(759, 4357)
+(761, 4363)
+(762, 4373)
+(763, 4391)
+(764, 4397)
+(766, 4409)
+(767, 4421)
+(768, 4423)
+(769, 4441)
+(771, 4447)
+(772, 4451)
+(773, 4457)
+(774, 4463)
+(776, 4481)
+(777, 4483)
+(778, 4493)
+(780, 4507)
+(781, 4513)
+(782, 4517)
+(783, 4519)
+(785, 4523)
+(786, 4547)
+(787, 4549)
+(788, 4561)
+(790, 4567)
+(791, 4583)
+(792, 4591)
+(793, 4597)
+(795, 4603)
+(796, 4621)
+(797, 4637)
+(798, 4639)
+(800, 4643)
+(801, 4649)
+(802, 4651)
+(804, 4657)
+(805, 4663)
+(806, 4673)
+(807, 4679)
+(809, 4691)
+(810, 4703)
+(811, 4721)
+(812, 4723)
+(814, 4729)
+(815, 4733)
+(816, 4751)
+(817, 4759)
+(819, 4783)
+(820, 4787)
+(821, 4789)
+(822, 4793)
+(824, 4799)
+(825, 4801)
+(826, 4813)
+(828, 4817)
+(829, 4831)
+(830, 4861)
+(831, 4871)
+(833, 4877)
+(834, 4889)
+(835, 4903)
+(836, 4909)
+(838, 4919)
+(839, 4931)
+(840, 4933)
+(841, 4937)
+(843, 4943)
+(844, 4951)
+(845, 4957)
+(846, 4967)
+(848, 4969)
+(849, 4973)
+(850, 4987)
+(852, 4993)
+(853, 4999)
+(854, 5003)
+(855, 5009)
+(857, 5011)
+(858, 5021)
+(859, 5023)
+(860, 5039)
+(862, 5051)
+(863, 5059)
+(864, 5077)
+(865, 5081)
+(867, 5087)
+(868, 5099)
+(869, 5101)
+(870, 5107)
+(872, 5113)
+(873, 5119)
+(874, 5147)
+(875, 5153)
+(877, 5167)
+(878, 5171)
+(879, 5179)
+(881, 5189)
+(882, 5197)
+(883, 5209)
+(884, 5227)
+(886, 5231)
+(887, 5233)
+(888, 5237)
+(889, 5261)
+(891, 5273)
+(892, 5279)
+(893, 5281)
+(894, 5297)
+(896, 5303)
+(897, 5309)
+(898, 5323)
+(899, 5333)
+(901, 5347)
+(902, 5351)
+(903, 5381)
+(905, 5387)
+(906, 5393)
+(907, 5399)
+(908, 5407)
+(910, 5413)
+(911, 5417)
+(912, 5419)
+(913, 5431)
+(915, 5437)
+(916, 5441)
+(917, 5443)
+(918, 5449)
+(920, 5471)
+(921, 5477)
+(922, 5479)
+(923, 5483)
+(925, 5501)
+(926, 5503)
+(927, 5507)
+(928, 5519)
+(930, 5521)
+(931, 5527)
+(932, 5531)
+(934, 5557)
+(935, 5563)
+(936, 5569)
+(937, 5573)
+(939, 5581)
+(940, 5591)
+(941, 5623)
+(942, 5639)
+(944, 5641)
+(945, 5647)
+(946, 5651)
+(947, 5653)
+(949, 5657)
+(950, 5659)
+(951, 5669)
+(952, 5683)
+(954, 5689)
+(955, 5693)
+(956, 5701)
+(957, 5711)
+(959, 5717)
+(960, 5737)
+(961, 5741)
+(963, 5743)
+(964, 5749)
+(965, 5779)
+(966, 5783)
+(968, 5791)
+(969, 5801)
+(970, 5807)
+(971, 5813)
+(973, 5821)
+(974, 5827)
+(975, 5839)
+(976, 5843)
+(978, 5849)
+(979, 5851)
+(980, 5857)
+(981, 5861)
+(983, 5867)
+(984, 5869)
+(985, 5879)
+(986, 5881)
+(988, 5897)
+(989, 5903)
+(990, 5923)
+(991, 5927)
+(993, 5939)
+(994, 5953)
+(995, 5981)
+(997, 5987)
+(998, 6007)
+(999, 6011)
+(1000, 6029)
+(1002, 6037)
+(1003, 6043)
+(1004, 6047)
+(1005, 6053)
+(1007, 6067)
+(1008, 6073)
+(1009, 6079)
+(1010, 6089)
+(1012, 6091)
+(1013, 6101)
+(1014, 6113)
+(1015, 6121)
+(1017, 6131)
+(1018, 6133)
+(1019, 6143)
+(1020, 6151)
+(1022, 6163)
+(1023, 6173)
+(1024, 6197)
+(1025, 6199)
+(1027, 6203)
+(1028, 6211)
+(1029, 6217)
+(1031, 6221)
+(1032, 6229)
+(1033, 6247)
+(1034, 6257)
+(1036, 6263)
+(1037, 6269)
+(1038, 6271)
+(1039, 6277)
+(1041, 6287)
+(1042, 6299)
+(1043, 6301)
+(1044, 6311)
+(1046, 6317)
+(1047, 6323)
+(1048, 6329)
+(1049, 6337)
+(1051, 6343)
+(1052, 6353)
+(1053, 6359)
+(1054, 6361)
+(1056, 6367)
+(1057, 6373)
+(1058, 6379)
+(1059, 6389)
+(1061, 6397)
+(1062, 6421)
+(1063, 6427)
+(1064, 6449)
+(1066, 6451)
+(1067, 6469)
+(1068, 6473)
+(1070, 6481)
+(1071, 6491)
+(1072, 6521)
+(1073, 6529)
+(1075, 6547)
+(1076, 6551)
+(1077, 6553)
+(1078, 6563)
+(1080, 6569)
+(1081, 6571)
+(1082, 6577)
+(1083, 6581)
+(1085, 6599)
+(1086, 6607)
+(1087, 6619)
+(1088, 6637)
+(1090, 6653)
+(1091, 6659)
+(1092, 6661)
+(1093, 6673)
+(1095, 6679)
+(1096, 6689)
+(1097, 6691)
+(1098, 6701)
+(1100, 6703)
+(1101, 6709)
+(1102, 6719)
+(1104, 6733)
+(1105, 6737)
+(1106, 6761)
+(1107, 6763)
+(1109, 6779)
+(1110, 6781)
+(1111, 6791)
+(1112, 6793)
+(1114, 6803)
+(1115, 6823)
+(1116, 6827)
+(1117, 6829)
+(1119, 6833)
+(1120, 6841)
+(1121, 6857)
+(1122, 6863)
+(1124, 6869)
+(1125, 6871)
+(1126, 6883)
+(1127, 6899)
+(1129, 6907)
+(1130, 6911)
+(1131, 6917)
+(1132, 6947)
+(1134, 6949)
+(1135, 6959)
+(1136, 6961)
+(1137, 6967)
+(1139, 6971)
+(1140, 6977)
+(1141, 6983)
+(1142, 6991)
+(1144, 6997)
+(1145, 7001)
+(1146, 7013)
+(1148, 7019)
+(1149, 7027)
+(1150, 7039)
+(1151, 7043)
+(1153, 7057)
+(1154, 7069)
+(1155, 7079)
+(1156, 7103)
+(1158, 7109)
+(1159, 7121)
+(1160, 7127)
+(1161, 7129)
+(1163, 7151)
+(1164, 7159)
+(1165, 7177)
+(1166, 7187)
+(1168, 7193)
+(1169, 7207)
+(1170, 7211)
+(1171, 7213)
+(1173, 7219)
+(1174, 7229)
+(1175, 7237)
+(1176, 7243)
+(1178, 7247)
+(1179, 7253)
+(1180, 7283)
+(1181, 7297)
+(1183, 7307)
+(1184, 7309)
+(1185, 7321)
+(1186, 7331)
+(1188, 7333)
+(1189, 7349)
+(1190, 7351)
+(1192, 7369)
+(1193, 7393)
+(1194, 7411)
+(1195, 7417)
+(1197, 7433)
+(1198, 7451)
+(1199, 7457)
+(1200, 7459)
+(1202, 7477)
+(1203, 7481)
+(1204, 7487)
+(1205, 7489)
+(1207, 7499)
+(1208, 7507)
+(1209, 7517)
+(1210, 7523)
+(1212, 7529)
+(1213, 7537)
+(1214, 7541)
+(1215, 7547)
+(1217, 7549)
+(1218, 7559)
+(1219, 7561)
+(1220, 7573)
+(1222, 7577)
+(1223, 7583)
+(1224, 7589)
+(1225, 7591)
+(1227, 7603)
+(1228, 7607)
+(1229, 7621)
+(1230, 7639)
+(1232, 7643)
+(1233, 7649)
+(1234, 7669)
+(1236, 7673)
+(1237, 7681)
+(1238, 7687)
+(1239, 7691)
+(1241, 7699)
+(1242, 7703)
+(1243, 7717)
+(1244, 7723)
+(1246, 7727)
+(1247, 7741)
+(1248, 7753)
+(1249, 7757)
+(1251, 7759)
+(1252, 7789)
+(1253, 7793)
+(1254, 7817)
+(1256, 7823)
+(1257, 7829)
+(1258, 7841)
+(1259, 7853)
+(1261, 7867)
+(1262, 7873)
+(1263, 7877)
+(1264, 7879)
+(1266, 7883)
+(1267, 7901)
+(1268, 7907)
+(1269, 7919)
+(1271, 7927)
+(1272, 7933)
+(1273, 7937)
+(1274, 7949)
+(1276, 7951)
+(1277, 7963)
+(1278, 7993)
+(1279, 8009)
+(1281, 8011)
+(1282, 8017)
+(1283, 8039)
+(1285, 8053)
+(1286, 8059)
+(1287, 8069)
+(1288, 8081)
+(1290, 8087)
+(1291, 8089)
+(1292, 8093)
+(1293, 8101)
+(1295, 8111)
+(1296, 8117)
+(1297, 8123)
+(1298, 8147)
+(1300, 8161)
+(1301, 8167)
+(1302, 8171)
+(1303, 8179)
+(1305, 8191)
+(1306, 8209)
+(1307, 8219)
+(1308, 8221)
+(1310, 8231)
+(1311, 8233)
+(1312, 8237)
+(1313, 8243)
+(1315, 8263)
+(1316, 8269)
+(1317, 8273)
+(1318, 8287)
+(1320, 8291)
+(1321, 8293)
+(1322, 8297)
+(1323, 8311)
+(1325, 8317)
+(1326, 8329)
+(1327, 8353)
+(1328, 8363)
+(1330, 8369)
+(1331, 8377)
+(1332, 8387)
+(1333, 8389)
+(1335, 8419)
+(1336, 8423)
+(1337, 8429)
+(1339, 8431)
+(1340, 8443)
+(1341, 8447)
+(1342, 8461)
+(1344, 8467)
+(1345, 8501)
+(1346, 8513)
+(1347, 8521)
+(1349, 8527)
+(1350, 8537)
+(1351, 8539)
+(1352, 8543)
+(1354, 8563)
+(1355, 8573)
+(1356, 8581)
+(1357, 8597)
+(1359, 8599)
+(1360, 8609)
+(1361, 8623)
+(1362, 8627)
+(1364, 8629)
+(1365, 8641)
+(1366, 8647)
+(1367, 8663)
+(1369, 8669)
+(1370, 8677)
+(1371, 8681)
+(1372, 8689)
+(1374, 8693)
+(1375, 8699)
+(1376, 8707)
+(1377, 8713)
+(1379, 8719)
+(1380, 8731)
+(1381, 8737)
+(1382, 8741)
+(1384, 8747)
+(1385, 8753)
+(1386, 8761)
+(1387, 8779)
+(1389, 8783)
+(1390, 8803)
+(1391, 8807)
+(1392, 8819)
+(1394, 8821)
+(1395, 8831)
+(1396, 8837)
+(1398, 8839)
+(1399, 8849)
+(1400, 8861)
+(1401, 8863)
+(1403, 8867)
+(1404, 8887)
+(1405, 8893)
+(1406, 8923)
+(1408, 8929)
+(1409, 8933)
+(1410, 8941)
+(1411, 8951)
+(1413, 8963)
+(1414, 8969)
+(1415, 8971)
+(1416, 8999)
+(1418, 9001)
+(1419, 9007)
+(1420, 9011)
+(1421, 9013)
+(1423, 9029)
+(1424, 9041)
+(1425, 9043)
+(1426, 9049)
+(1428, 9059)
+(1429, 9067)
+(1430, 9091)
+(1431, 9103)
+(1433, 9109)
+(1434, 9127)
+(1435, 9133)
+(1436, 9137)
+(1438, 9151)
+(1439, 9157)
+(1440, 9161)
+(1441, 9173)
+(1443, 9181)
+(1444, 9187)
+(1445, 9199)
+(1446, 9203)
+(1448, 9209)
+(1449, 9221)
+(1450, 9227)
+(1451, 9239)
+(1453, 9241)
+(1454, 9257)
+(1455, 9277)
+(1456, 9281)
+(1458, 9283)
+(1459, 9293)
+(1460, 9311)
+(1461, 9319)
+(1463, 9323)
+(1464, 9337)
+(1465, 9341)
+(1467, 9343)
+(1468, 9349)
+(1469, 9371)
+(1470, 9377)
+(1472, 9391)
+(1473, 9397)
+(1474, 9403)
+(1475, 9413)
+(1477, 9419)
+(1478, 9421)
+(1479, 9431)
+(1480, 9433)
+(1482, 9437)
+(1483, 9439)
+(1484, 9461)
+(1485, 9463)
+(1487, 9467)
+(1488, 9473)
+(1489, 9479)
+(1490, 9491)
+(1492, 9497)
+(1493, 9511)
+(1494, 9521)
+(1495, 9533)
+(1497, 9539)
+(1498, 9547)
+(1499, 9551)
+(1500, 9587)
+(1502, 9601)
+(1503, 9613)
+(1504, 9619)
+(1505, 9623)
+(1507, 9629)
+(1508, 9631)
+(1509, 9643)
+(1510, 9649)
+(1512, 9661)
+(1513, 9677)
+(1514, 9679)
+(1515, 9689)
+(1517, 9697)
+(1518, 9719)
+(1519, 9721)
+(1520, 9733)
+(1522, 9739)
+(1523, 9743)
+(1524, 9749)
+(1525, 9767)
+(1527, 9769)
+(1528, 9781)
+(1529, 9787)
+(1530, 9791)
+(1532, 9803)
+(1533, 9811)
+(1534, 9817)
+(1535, 9829)
+(1537, 9833)
+(1538, 9839)
+(1539, 9851)
+(1540, 9857)
+(1542, 9859)
+(1543, 9871)
+(1544, 9883)
+(1545, 9887)
+(1547, 9901)
+(1548, 9907)
+(1549, 9923)
+(1550, 9929)
+(1552, 9931)
+(1553, 9941)
+(1554, 9949)
+(1555, 9967)
+(1557, 9973)
+(1558, 10007)
+(1559, 10009)
+(1561, 10037)
+(1562, 10039)
+(1563, 10061)
+(1564, 10067)
+(1566, 10069)
+(1567, 10079)
+(1568, 10091)
+(1569, 10093)
+(1571, 10099)
+(1572, 10103)
+(1573, 10111)
+(1574, 10133)
+(1576, 10139)
+(1577, 10141)
+(1578, 10151)
+(1579, 10159)
+(1581, 10163)
+(1582, 10169)
+(1583, 10177)
+(1584, 10181)
+(1586, 10193)
+(1587, 10211)
+(1588, 10223)
+(1589, 10243)
+(1591, 10247)
+(1592, 10253)
+(1593, 10259)
+(1594, 10267)
+(1596, 10271)
+(1597, 10273)
+(1598, 10289)
+(1599, 10301)
+(1601, 10303)
+(1602, 10313)
+(1603, 10321)
+(1604, 10331)
+(1606, 10333)
+(1607, 10337)
+(1608, 10343)
+(1609, 10357)
+(1611, 10369)
+(1612, 10391)
+(1613, 10399)
+(1614, 10427)
+(1616, 10429)
+(1617, 10433)
+(1618, 10453)
+(1619, 10457)
+(1621, 10459)
+(1622, 10463)
+(1623, 10477)
+(1624, 10487)
+(1626, 10499)
+(1627, 10501)
+(1628, 10513)
+(1629, 10529)
+(1631, 10531)
+(1632, 10559)
+(1633, 10567)
+(1634, 10589)
+(1636, 10597)
+(1637, 10601)
+(1638, 10607)
+(1639, 10613)
+(1641, 10627)
+(1642, 10631)
+(1643, 10639)
+(1644, 10651)
+(1646, 10657)
+(1647, 10663)
+(1648, 10667)
+(1649, 10687)
+(1651, 10691)
+(1652, 10709)
+(1653, 10711)
+(1654, 10723)
+(1656, 10729)
+(1657, 10733)
+(1658, 10739)
+(1659, 10753)
+(1661, 10771)
+(1662, 10781)
+(1663, 10789)
+(1664, 10799)
+(1666, 10831)
+(1667, 10837)
+(1668, 10847)
+(1669, 10853)
+(1671, 10859)
+(1672, 10861)
+(1673, 10867)
+(1674, 10883)
+(1676, 10889)
+(1677, 10891)
+(1678, 10903)
+(1679, 10909)
+(1681, 10937)
+(1682, 10939)
+(1683, 10949)
+(1684, 10957)
+(1686, 10973)
+(1687, 10979)
+(1688, 10987)
+(1689, 10993)
+(1691, 11003)
+(1692, 11027)
+(1693, 11047)
+(1694, 11057)
+(1696, 11059)
+(1697, 11069)
+(1698, 11071)
+(1700, 11083)
+(1701, 11087)
+(1702, 11093)
+(1703, 11113)
+(1705, 11117)
+(1706, 11119)
+(1707, 11131)
+(1708, 11149)
+(1710, 11159)
+(1711, 11161)
+(1712, 11171)
+(1713, 11173)
+(1715, 11177)
+(1716, 11197)
+(1717, 11213)
+(1718, 11239)
+(1720, 11243)
+(1721, 11251)
+(1722, 11257)
+(1723, 11261)
+(1725, 11273)
+(1726, 11279)
+(1727, 11287)
+(1728, 11299)
+(1730, 11311)
+(1731, 11317)
+(1732, 11321)
+(1733, 11329)
+(1735, 11351)
+(1736, 11353)
+(1737, 11369)
+(1738, 11383)
+(1740, 11393)
+(1741, 11399)
+(1742, 11411)
+(1743, 11423)
+(1745, 11437)
+(1746, 11443)
+(1747, 11447)
+(1748, 11467)
+(1750, 11471)
+(1751, 11483)
+(1752, 11489)
+(1753, 11491)
+(1755, 11497)
+(1756, 11503)
+(1757, 11519)
+(1758, 11527)
+(1760, 11549)
+(1761, 11551)
+(1762, 11579)
+(1763, 11587)
+(1765, 11593)
+(1766, 11597)
+(1767, 11617)
+(1768, 11621)
+(1770, 11633)
+(1771, 11657)
+(1772, 11677)
+(1773, 11681)
+(1775, 11689)
+(1776, 11699)
+(1777, 11701)
+(1778, 11717)
+(1780, 11719)
+(1781, 11731)
+(1782, 11743)
+(1783, 11777)
+(1785, 11779)
+(1786, 11783)
+(1787, 11789)
+(1788, 11801)
+(1790, 11807)
+(1791, 11813)
+(1792, 11821)
+(1793, 11827)
+(1795, 11831)
+(1796, 11833)
+(1797, 11839)
+(1798, 11863)
+(1800, 11867)
+(1801, 11887)
+(1802, 11897)
+(1803, 11903)
+(1805, 11909)
+(1806, 11923)
+(1807, 11927)
+(1808, 11933)
+(1810, 11939)
+(1811, 11941)
+(1812, 11953)
+(1813, 11959)
+(1815, 11969)
+(1816, 11971)
+(1817, 11981)
+(1818, 11987)
+(1820, 12007)
+(1821, 12011)
+(1822, 12037)
+(1823, 12041)
+(1825, 12043)
+(1826, 12049)
+(1827, 12071)
+(1828, 12073)
+(1830, 12097)
+(1831, 12101)
+(1832, 12107)
+(1833, 12109)
+(1835, 12113)
+(1836, 12119)
+(1837, 12143)
+(1838, 12149)
+(1840, 12157)
+(1841, 12161)
+(1842, 12163)
+(1843, 12197)
+(1845, 12203)
+(1846, 12211)
+(1847, 12227)
+(1848, 12239)
+(1850, 12241)
+(1851, 12251)
+(1852, 12253)
+(1853, 12263)
+(1855, 12269)
+(1856, 12277)
+(1857, 12281)
+(1858, 12289)
+(1860, 12301)
+(1861, 12323)
+(1862, 12329)
+(1863, 12343)
+(1865, 12347)
+(1866, 12373)
+(1867, 12377)
+(1868, 12379)
+(1870, 12391)
+(1871, 12401)
+(1872, 12409)
+(1873, 12413)
+(1875, 12421)
+(1876, 12433)
+(1877, 12437)
+(1878, 12451)
+(1880, 12457)
+(1881, 12473)
+(1882, 12479)
+(1883, 12487)
+(1885, 12491)
+(1886, 12497)
+(1887, 12503)
+(1888, 12511)
+(1890, 12517)
+(1891, 12527)
+(1892, 12539)
+(1893, 12541)
+(1895, 12547)
+(1896, 12553)
+(1897, 12569)
+(1898, 12577)
+(1900, 12583)
+(1901, 12589)
+(1902, 12601)
+(1903, 12611)
+(1905, 12613)
+(1906, 12619)
+(1907, 12637)
+(1908, 12641)
+(1910, 12647)
+(1911, 12653)
+(1912, 12659)
+(1913, 12671)
+(1915, 12689)
+(1916, 12697)
+(1917, 12703)
+(1918, 12713)
+(1920, 12721)
+(1921, 12739)
+(1922, 12743)
+(1923, 12757)
+(1925, 12763)
+(1926, 12781)
+(1927, 12791)
+(1928, 12799)
+(1930, 12809)
+(1931, 12821)
+(1932, 12823)
+(1933, 12829)
+(1935, 12841)
+(1936, 12853)
+(1937, 12889)
+(1938, 12893)
+(1940, 12899)
+(1941, 12907)
+(1942, 12911)
+(1943, 12917)
+(1945, 12919)
+(1946, 12923)
+(1947, 12941)
+(1948, 12953)
+(1950, 12959)
+(1951, 12967)
+(1952, 12973)
+(1953, 12979)
+(1955, 12983)
+(1956, 13001)
+(1957, 13003)
+(1958, 13007)
+(1960, 13009)
+(1961, 13033)
+(1962, 13037)
+(1963, 13043)
+(1965, 13049)
+(1966, 13063)
+(1967, 13093)
+(1968, 13099)
+(1970, 13103)
+(1971, 13109)
+(1972, 13121)
+(1973, 13127)
+(1975, 13147)
+(1976, 13151)
+(1977, 13159)
+(1978, 13163)
+(1980, 13171)
+(1981, 13177)
+(1982, 13183)
+(1983, 13187)
+(1985, 13217)
+(1986, 13219)
+(1987, 13229)
+(1988, 13241)
+(1990, 13249)
+(1991, 13259)
+(1992, 13267)
+(1993, 13291)
+(1995, 13297)
+(1996, 13309)
+(1997, 13313)
+(1998, 13327)
+(2000, 13331)
+(2001, 13337)
+(2002, 13339)
+(2003, 13367)
+(2005, 13381)
+(2006, 13397)
+(2007, 13399)
+(2008, 13411)
+(2010, 13417)
+(2011, 13421)
+(2012, 13441)
+(2013, 13451)
+(2015, 13457)
+(2016, 13463)
+(2017, 13469)
+(2018, 13477)
+(2020, 13487)
+(2021, 13499)
+(2022, 13513)
+(2023, 13523)
+(2025, 13537)
+(2026, 13553)
+(2027, 13567)
+(2028, 13577)
+(2030, 13591)
+(2031, 13597)
+(2032, 13613)
+(2033, 13619)
+(2035, 13627)
+(2036, 13633)
+(2037, 13649)
+(2038, 13669)
+(2040, 13679)
+(2041, 13681)
+(2042, 13687)
+(2043, 13691)
+(2045, 13693)
+(2046, 13697)
+(2047, 13709)
+(2048, 13711)
+(2050, 13721)
+(2051, 13723)
+(2052, 13729)
+(2053, 13751)
+(2055, 13757)
+(2056, 13759)
+(2057, 13763)
+(2058, 13781)
+(2060, 13789)
+(2061, 13799)
+(2062, 13807)
+(2063, 13829)
+(2065, 13831)
+(2066, 13841)
+(2067, 13859)
+(2068, 13873)
+(2070, 13877)
+(2071, 13879)
+(2072, 13883)
+(2073, 13901)
+(2075, 13903)
+(2076, 13907)
+(2077, 13913)
+(2078, 13921)
+(2080, 13931)
+(2081, 13933)
+(2082, 13963)
+(2083, 13967)
+(2085, 13997)
+(2086, 13999)
+(2087, 14009)
+(2088, 14011)
+(2090, 14029)
+(2091, 14033)
+(2092, 14051)
+(2093, 14057)
+(2095, 14071)
+(2096, 14081)
+(2097, 14083)
+(2098, 14087)
+(2100, 14107)
+(2101, 14143)
+(2102, 14149)
+(2103, 14153)
+(2105, 14159)
+(2106, 14173)
+(2107, 14177)
+(2108, 14197)
+(2110, 14207)
+(2111, 14221)
+(2112, 14243)
+(2113, 14249)
+(2115, 14251)
+(2116, 14281)
+(2117, 14293)
+(2118, 14303)
+(2120, 14321)
+(2121, 14323)
+(2122, 14327)
+(2123, 14341)
+(2125, 14347)
+(2126, 14369)
+(2127, 14387)
+(2128, 14389)
+(2130, 14401)
+(2131, 14407)
+(2132, 14411)
+(2133, 14419)
+(2135, 14423)
+(2136, 14431)
+(2137, 14437)
+(2138, 14447)
+(2140, 14449)
+(2141, 14461)
+(2142, 14479)
+(2143, 14489)
+(2145, 14503)
+(2146, 14519)
+(2147, 14533)
+(2148, 14537)
+(2150, 14543)
+(2151, 14549)
+(2152, 14551)
+(2153, 14557)
+(2155, 14561)
+(2156, 14563)
+(2157, 14591)
+(2158, 14593)
+(2160, 14621)
+(2161, 14627)
+(2162, 14629)
+(2163, 14633)
+(2165, 14639)
+(2166, 14653)
+(2167, 14657)
+(2168, 14669)
+(2170, 14683)
+(2171, 14699)
+(2172, 14713)
+(2173, 14717)
+(2175, 14723)
+(2176, 14731)
+(2177, 14737)
+(2178, 14741)
+(2180, 14747)
+(2181, 14753)
+(2182, 14759)
+(2183, 14767)
+(2185, 14771)
+(2186, 14779)
+(2187, 14783)
+(2188, 14797)
+(2190, 14813)
+(2191, 14821)
+(2192, 14827)
+(2193, 14831)
+(2195, 14843)
+(2196, 14851)
+(2197, 14867)
+(2198, 14869)
+(2200, 14879)
+(2201, 14887)
+(2202, 14891)
+(2203, 14897)
+(2205, 14923)
+(2206, 14929)
+(2207, 14939)
+(2208, 14947)
+(2210, 14951)
+(2211, 14957)
+(2212, 14969)
+(2213, 14983)
+(2215, 15013)
+(2216, 15017)
+(2217, 15031)
+(2218, 15053)
+(2220, 15061)
+(2221, 15073)
+(2222, 15077)
+(2223, 15083)
+(2225, 15091)
+(2226, 15101)
+(2227, 15107)
+(2228, 15121)
+(2230, 15131)
+(2231, 15137)
+(2232, 15139)
+(2233, 15149)
+(2235, 15161)
+(2236, 15173)
+(2237, 15187)
+(2238, 15193)
+(2240, 15199)
+(2241, 15217)
+(2242, 15227)
+(2243, 15233)
+(2245, 15241)
+(2246, 15259)
+(2247, 15263)
+(2248, 15269)
+(2250, 15271)
+(2251, 15277)
+(2252, 15287)
+(2253, 15289)
+(2255, 15299)
+(2256, 15307)
+(2257, 15313)
+(2258, 15319)
+(2260, 15329)
+(2261, 15331)
+(2262, 15349)
+(2263, 15359)
+(2265, 15361)
+(2266, 15373)
+(2267, 15377)
+(2268, 15383)
+(2269, 15391)
+(2271, 15401)
+(2272, 15413)
+(2273, 15427)
+(2274, 15439)
+(2276, 15443)
+(2277, 15451)
+(2278, 15461)
+(2279, 15467)
+(2281, 15473)
+(2282, 15493)
+(2283, 15497)
+(2284, 15511)
+(2286, 15527)
+(2287, 15541)
+(2288, 15551)
+(2289, 15559)
+(2291, 15569)
+(2292, 15581)
+(2293, 15583)
+(2294, 15601)
+(2296, 15607)
+(2297, 15619)
+(2298, 15629)
+(2299, 15641)
+(2301, 15643)
+(2302, 15647)
+(2303, 15649)
+(2304, 15661)
+(2306, 15667)
+(2307, 15671)
+(2308, 15679)
+(2309, 15683)
+(2311, 15727)
+(2312, 15731)
+(2313, 15733)
+(2314, 15737)
+(2316, 15739)
+(2317, 15749)
+(2318, 15761)
+(2319, 15767)
+(2321, 15773)
+(2322, 15787)
+(2323, 15791)
+(2324, 15797)
+(2326, 15803)
+(2327, 15809)
+(2328, 15817)
+(2329, 15823)
+(2331, 15859)
+(2332, 15877)
+(2333, 15881)
+(2334, 15887)
+(2336, 15889)
+(2337, 15901)
+(2338, 15907)
+(2339, 15913)
+(2341, 15919)
+(2342, 15923)
+(2343, 15937)
+(2344, 15959)
+(2346, 15971)
+(2347, 15973)
+(2348, 15991)
+(2349, 16001)
+(2351, 16007)
+(2352, 16033)
+(2353, 16057)
+(2354, 16061)
+(2356, 16063)
+(2357, 16067)
+(2358, 16069)
+(2359, 16073)
+(2361, 16087)
+(2362, 16091)
+(2363, 16097)
+(2364, 16103)
+(2366, 16111)
+(2367, 16127)
+(2368, 16139)
+(2369, 16141)
+(2371, 16183)
+(2372, 16187)
+(2373, 16189)
+(2374, 16193)
+(2376, 16217)
+(2377, 16223)
+(2378, 16229)
+(2379, 16231)
+(2381, 16249)
+(2382, 16253)
+(2383, 16267)
+(2384, 16273)
+(2385, 16301)
+(2387, 16319)
+(2388, 16333)
+(2389, 16339)
+(2390, 16349)
+(2392, 16361)
+(2393, 16363)
+(2394, 16369)
+(2395, 16381)
+(2397, 16411)
+(2398, 16417)
+(2399, 16421)
+(2400, 16427)
+(2402, 16433)
+(2403, 16447)
+(2404, 16451)
+(2405, 16453)
+(2407, 16477)
+(2408, 16481)
+(2409, 16487)
+(2410, 16493)
+(2412, 16519)
+(2413, 16529)
+(2414, 16547)
+(2415, 16553)
+(2417, 16561)
+(2418, 16567)
+(2419, 16573)
+(2420, 16603)
+(2422, 16607)
+(2423, 16619)
+(2424, 16631)
+(2425, 16633)
+(2427, 16649)
+(2428, 16651)
+(2429, 16657)
+(2430, 16661)
+(2432, 16673)
+(2433, 16691)
+(2434, 16693)
+(2435, 16699)
+(2437, 16703)
+(2438, 16729)
+(2439, 16741)
+(2440, 16747)
+(2442, 16759)
+(2443, 16763)
+(2444, 16787)
+(2445, 16811)
+(2447, 16823)
+(2448, 16829)
+(2449, 16831)
+(2450, 16843)
+(2452, 16871)
+(2453, 16879)
+(2454, 16883)
+(2455, 16889)
+(2457, 16901)
+(2458, 16903)
+(2459, 16921)
+(2460, 16927)
+(2462, 16931)
+(2463, 16937)
+(2464, 16943)
+(2465, 16963)
+(2467, 16979)
+(2468, 16981)
+(2469, 16987)
+(2470, 16993)
+(2472, 17011)
+(2473, 17021)
+(2474, 17027)
+(2475, 17029)
+(2477, 17033)
+(2478, 17041)
+(2479, 17047)
+(2480, 17053)
+(2482, 17077)
+(2483, 17093)
+(2484, 17099)
+(2485, 17107)
+(2486, 17117)
+(2488, 17123)
+(2489, 17137)
+(2490, 17159)
+(2491, 17167)
+(2493, 17183)
+(2494, 17189)
+(2495, 17191)
+(2496, 17203)
+(2498, 17207)
+(2499, 17209)
+(2500, 17231)
+(2501, 17239)
+(2503, 17257)
+(2504, 17291)
+(2505, 17293)
+(2506, 17299)
+(2508, 17317)
+(2509, 17321)
+(2510, 17327)
+(2511, 17333)
+(2513, 17341)
+(2514, 17351)
+(2515, 17359)
+(2516, 17377)
+(2518, 17383)
+(2519, 17387)
+(2520, 17389)
+(2521, 17393)
+(2523, 17401)
+(2524, 17417)
+(2525, 17419)
+(2526, 17431)
+(2528, 17443)
+(2529, 17449)
+(2530, 17467)
+(2531, 17471)
+(2533, 17477)
+(2534, 17483)
+(2535, 17489)
+(2536, 17491)
+(2538, 17497)
+(2539, 17509)
+(2540, 17519)
+(2541, 17539)
+(2543, 17551)
+(2544, 17569)
+(2545, 17573)
+(2546, 17579)
+(2548, 17581)
+(2549, 17597)
+(2550, 17599)
+(2551, 17609)
+(2553, 17623)
+(2554, 17627)
+(2555, 17657)
+(2556, 17659)
+(2558, 17669)
+(2559, 17681)
+(2560, 17683)
+(2561, 17707)
+(2563, 17713)
+(2564, 17729)
+(2565, 17737)
+(2566, 17747)
+(2568, 17749)
+(2569, 17761)
+(2570, 17783)
+(2571, 17789)
+(2573, 17791)
+(2574, 17807)
+(2575, 17827)
+(2576, 17837)
+(2577, 17839)
+(2579, 17851)
+(2580, 17863)
+(2581, 17881)
+(2582, 17891)
+(2584, 17903)
+(2585, 17909)
+(2586, 17911)
+(2587, 17921)
+(2589, 17923)
+(2590, 17929)
+(2591, 17939)
+(2592, 17957)
+(2594, 17959)
+(2595, 17971)
+(2596, 17977)
+(2597, 17981)
+(2599, 17987)
+(2600, 17989)
+(2601, 18013)
+(2602, 18041)
+(2604, 18043)
+(2605, 18047)
+(2606, 18049)
+(2607, 18059)
+(2609, 18061)
+(2610, 18077)
+(2611, 18089)
+(2612, 18097)
+(2614, 18119)
+(2615, 18121)
+(2616, 18127)
+(2617, 18131)
+(2619, 18133)
+(2620, 18143)
+(2621, 18149)
+(2622, 18169)
+(2624, 18181)
+(2625, 18191)
+(2626, 18199)
+(2627, 18211)
+(2629, 18217)
+(2630, 18223)
+(2631, 18229)
+(2632, 18233)
+(2634, 18251)
+(2635, 18253)
+(2636, 18257)
+(2637, 18269)
+(2639, 18287)
+(2640, 18289)
+(2641, 18301)
+(2642, 18307)
+(2644, 18311)
+(2645, 18313)
+(2646, 18329)
+(2647, 18341)
+(2649, 18353)
+(2650, 18367)
+(2651, 18371)
+(2652, 18379)
+(2653, 18397)
+(2655, 18401)
+(2656, 18413)
+(2657, 18427)
+(2658, 18433)
+(2660, 18439)
+(2661, 18443)
+(2662, 18451)
+(2663, 18457)
+(2665, 18461)
+(2666, 18481)
+(2667, 18493)
+(2668, 18503)
+(2670, 18517)
+(2671, 18521)
+(2672, 18523)
+(2673, 18539)
+(2675, 18541)
+(2676, 18553)
+(2677, 18583)
+(2678, 18587)
+(2680, 18593)
+(2681, 18617)
+(2682, 18637)
+(2683, 18661)
+(2685, 18671)
+(2686, 18679)
+(2687, 18691)
+(2688, 18701)
+(2690, 18713)
+(2691, 18719)
+(2692, 18731)
+(2693, 18743)
+(2695, 18749)
+(2696, 18757)
+(2697, 18773)
+(2698, 18787)
+(2700, 18793)
+(2701, 18797)
+(2702, 18803)
+(2703, 18839)
+(2705, 18859)
+(2706, 18869)
+(2707, 18899)
+(2708, 18911)
+(2710, 18913)
+(2711, 18917)
+(2712, 18919)
+(2713, 18947)
+(2715, 18959)
+(2716, 18973)
+(2717, 18979)
+(2718, 19001)
+(2720, 19009)
+(2721, 19013)
+(2722, 19031)
+(2723, 19037)
+(2724, 19051)
+(2726, 19069)
+(2727, 19073)
+(2728, 19079)
+(2729, 19081)
+(2731, 19087)
+(2732, 19121)
+(2733, 19139)
+(2734, 19141)
+(2736, 19157)
+(2737, 19163)
+(2738, 19181)
+(2739, 19183)
+(2741, 19207)
+(2742, 19211)
+(2743, 19213)
+(2744, 19219)
+(2746, 19231)
+(2747, 19237)
+(2748, 19249)
+(2749, 19259)
+(2751, 19267)
+(2752, 19273)
+(2753, 19289)
+(2754, 19301)
+(2756, 19309)
+(2757, 19319)
+(2758, 19333)
+(2759, 19373)
+(2761, 19379)
+(2762, 19381)
+(2763, 19387)
+(2764, 19391)
+(2766, 19403)
+(2767, 19417)
+(2768, 19421)
+(2769, 19423)
+(2771, 19427)
+(2772, 19429)
+(2773, 19433)
+(2774, 19441)
+(2776, 19447)
+(2777, 19457)
+(2778, 19463)
+(2779, 19469)
+(2781, 19471)
+(2782, 19477)
+(2783, 19483)
+(2784, 19489)
+(2786, 19501)
+(2787, 19507)
+(2788, 19531)
+(2789, 19541)
+(2791, 19543)
+(2792, 19553)
+(2793, 19559)
+(2794, 19571)
+(2795, 19577)
+(2797, 19583)
+(2798, 19597)
+(2799, 19603)
+(2800, 19609)
+(2802, 19661)
+(2803, 19681)
+(2804, 19687)
+(2805, 19697)
+(2807, 19699)
+(2808, 19709)
+(2809, 19717)
+(2810, 19727)
+(2812, 19739)
+(2813, 19751)
+(2814, 19753)
+(2815, 19759)
+(2817, 19763)
+(2818, 19777)
+(2819, 19793)
+(2820, 19801)
+(2822, 19813)
+(2823, 19819)
+(2824, 19841)
+(2825, 19843)
+(2827, 19853)
+(2828, 19861)
+(2829, 19867)
+(2830, 19889)
+(2832, 19891)
+(2833, 19913)
+(2834, 19919)
+(2835, 19927)
+(2837, 19937)
+(2838, 19949)
+(2839, 19961)
+(2840, 19963)
+(2842, 19973)
+(2843, 19979)
+(2844, 19991)
+(2845, 19993)
+(2847, 19997)
+(2848, 20011)
+(2849, 20021)
+(2850, 20023)
+(2852, 20029)
+(2853, 20047)
+(2854, 20051)
+(2855, 20063)
+(2857, 20071)
+(2858, 20089)
+(2859, 20101)
+(2860, 20107)
+(2861, 20113)
+(2863, 20117)
+(2864, 20123)
+(2865, 20129)
+(2866, 20143)
+(2868, 20147)
+(2869, 20149)
+(2870, 20161)
+(2871, 20173)
+(2873, 20177)
+(2874, 20183)
+(2875, 20201)
+(2876, 20219)
+(2878, 20231)
+(2879, 20233)
+(2880, 20249)
+(2881, 20261)
+(2883, 20269)
+(2884, 20287)
+(2885, 20297)
+(2886, 20323)
+(2888, 20327)
+(2889, 20333)
+(2890, 20341)
+(2891, 20347)
+(2893, 20353)
+(2894, 20357)
+(2895, 20359)
+(2896, 20369)
+(2898, 20389)
+(2899, 20393)
+(2900, 20399)
+(2901, 20407)
+(2903, 20411)
+(2904, 20431)
+(2905, 20441)
+(2906, 20443)
+(2908, 20477)
+(2909, 20479)
+(2910, 20483)
+(2911, 20507)
+(2913, 20509)
+(2914, 20521)
+(2915, 20533)
+(2916, 20543)
+(2918, 20549)
+(2919, 20551)
+(2920, 20563)
+(2921, 20593)
+(2922, 20599)
+(2924, 20611)
+(2925, 20627)
+(2926, 20639)
+(2927, 20641)
+(2929, 20663)
+(2930, 20681)
+(2931, 20693)
+(2932, 20707)
+(2934, 20717)
+(2935, 20719)
+(2936, 20731)
+(2937, 20743)
+(2939, 20747)
+(2940, 20749)
+(2941, 20753)
+(2942, 20759)
+(2944, 20771)
+(2945, 20773)
+(2946, 20789)
+(2947, 20807)
+(2949, 20809)
+(2950, 20849)
+(2951, 20857)
+(2952, 20873)
+(2954, 20879)
+(2955, 20887)
+(2956, 20897)
+(2957, 20899)
+(2959, 20903)
+(2960, 20921)
+(2961, 20929)
+(2962, 20939)
+(2964, 20947)
+(2965, 20959)
+(2966, 20963)
+(2967, 20981)
+(2969, 20983)
+(2970, 21001)
+(2971, 21011)
+(2972, 21013)
+(2974, 21017)
+(2975, 21019)
+(2976, 21023)
+(2977, 21031)
+(2978, 21059)
+(2980, 21061)
+(2981, 21067)
+(2982, 21089)
+(2983, 21101)
+(2985, 21107)
+(2986, 21121)
+(2987, 21139)
+(2988, 21143)
+(2990, 21149)
+(2991, 21157)
+(2992, 21163)
+(2993, 21169)
+(2995, 21179)
+(2996, 21187)
+(2997, 21191)
+(2998, 21193)
+(3000, 21211)
+(3001, 21221)
+(3002, 21227)
+(3003, 21247)
+(3005, 21269)
+(3006, 21277)
+(3007, 21283)
+(3008, 21313)
+(3010, 21317)
+(3011, 21319)
+(3012, 21323)
+(3013, 21341)
+(3015, 21347)
+(3016, 21377)
+(3017, 21379)
+(3018, 21383)
+(3020, 21391)
+(3021, 21397)
+(3022, 21401)
+(3023, 21407)
+(3025, 21419)
+(3026, 21433)
+(3027, 21467)
+(3028, 21481)
+(3030, 21487)
+(3031, 21491)
+(3032, 21493)
+(3033, 21499)
+(3034, 21503)
+(3036, 21517)
+(3037, 21521)
+(3038, 21523)
+(3039, 21529)
+(3041, 21557)
+(3042, 21559)
+(3043, 21563)
+(3044, 21569)
+(3046, 21577)
+(3047, 21587)
+(3048, 21589)
+(3049, 21599)
+(3051, 21601)
+(3052, 21611)
+(3053, 21613)
+(3054, 21617)
+(3056, 21647)
+(3057, 21649)
+(3058, 21661)
+(3059, 21673)
+(3061, 21683)
+(3062, 21701)
+(3063, 21713)
+(3064, 21727)
+(3066, 21737)
+(3067, 21739)
+(3068, 21751)
+(3069, 21757)
+(3071, 21767)
+(3072, 21773)
+(3073, 21787)
+(3074, 21799)
+(3076, 21803)
+(3077, 21817)
+(3078, 21821)
+(3079, 21839)
+(3081, 21841)
+(3082, 21851)
+(3083, 21859)
+(3084, 21863)
+(3085, 21871)
+(3087, 21881)
+(3088, 21893)
+(3089, 21911)
+(3090, 21929)
+(3092, 21937)
+(3093, 21943)
+(3094, 21961)
+(3095, 21977)
+(3097, 21991)
+(3098, 21997)
+(3099, 22003)
+(3100, 22013)
+(3102, 22027)
+(3103, 22031)
+(3104, 22037)
+(3105, 22039)
+(3107, 22051)
+(3108, 22063)
+(3109, 22067)
+(3110, 22073)
+(3112, 22079)
+(3113, 22091)
+(3114, 22093)
+(3115, 22109)
+(3117, 22111)
+(3118, 22123)
+(3119, 22129)
+(3120, 22133)
+(3122, 22147)
+(3123, 22153)
+(3124, 22157)
+(3125, 22159)
+(3127, 22171)
+(3128, 22189)
+(3129, 22193)
+(3130, 22229)
+(3132, 22247)
+(3133, 22259)
+(3134, 22271)
+(3135, 22273)
+(3136, 22277)
+(3138, 22279)
+(3139, 22283)
+(3140, 22291)
+(3141, 22303)
+(3143, 22307)
+(3144, 22343)
+(3145, 22349)
+(3146, 22367)
+(3148, 22369)
+(3149, 22381)
+(3150, 22391)
+(3151, 22397)
+(3153, 22409)
+(3154, 22433)
+(3155, 22441)
+(3156, 22447)
+(3158, 22453)
+(3159, 22469)
+(3160, 22481)
+(3161, 22483)
+(3163, 22501)
+(3164, 22511)
+(3165, 22531)
+(3166, 22541)
+(3168, 22543)
+(3169, 22549)
+(3170, 22567)
+(3171, 22571)
+(3173, 22573)
+(3174, 22613)
+(3175, 22619)
+(3176, 22621)
+(3178, 22637)
+(3179, 22639)
+(3180, 22643)
+(3181, 22651)
+(3182, 22669)
+(3184, 22679)
+(3185, 22691)
+(3186, 22697)
+(3187, 22699)
+(3189, 22709)
+(3190, 22717)
+(3191, 22721)
+(3192, 22727)
+(3194, 22739)
+(3195, 22741)
+(3196, 22751)
+(3197, 22769)
+(3199, 22777)
+(3200, 22783)
+(3201, 22787)
+(3202, 22807)
+(3204, 22811)
+(3205, 22817)
+(3206, 22853)
+(3207, 22859)
+(3209, 22861)
+(3210, 22871)
+(3211, 22877)
+(3212, 22901)
+(3214, 22907)
+(3215, 22921)
+(3216, 22937)
+(3217, 22943)
+(3219, 22961)
+(3220, 22963)
+(3221, 22973)
+(3222, 22993)
+(3224, 23003)
+(3225, 23011)
+(3226, 23017)
+(3227, 23021)
+(3228, 23027)
+(3230, 23029)
+(3231, 23039)
+(3232, 23041)
+(3233, 23053)
+(3235, 23057)
+(3236, 23059)
+(3237, 23063)
+(3238, 23071)
+(3240, 23081)
+(3241, 23087)
+(3242, 23099)
+(3243, 23117)
+(3245, 23131)
+(3246, 23143)
+(3247, 23159)
+(3248, 23167)
+(3250, 23173)
+(3251, 23189)
+(3252, 23197)
+(3253, 23201)
+(3255, 23203)
+(3256, 23209)
+(3257, 23227)
+(3258, 23251)
+(3260, 23269)
+(3261, 23279)
+(3262, 23291)
+(3263, 23293)
+(3265, 23297)
+(3266, 23311)
+(3267, 23321)
+(3268, 23327)
+(3269, 23333)
+(3271, 23339)
+(3272, 23357)
+(3273, 23369)
+(3274, 23371)
+(3276, 23399)
+(3277, 23417)
+(3278, 23431)
+(3279, 23447)
+(3281, 23459)
+(3282, 23473)
+(3283, 23497)
+(3284, 23509)
+(3286, 23531)
+(3287, 23537)
+(3288, 23539)
+(3289, 23549)
+(3291, 23557)
+(3292, 23561)
+(3293, 23563)
+(3294, 23567)
+(3296, 23581)
+(3297, 23593)
+(3298, 23599)
+(3299, 23603)
+(3301, 23609)
+(3302, 23623)
+(3303, 23627)
+(3304, 23629)
+(3306, 23633)
+(3307, 23663)
+(3308, 23669)
+(3309, 23671)
+(3311, 23677)
+(3312, 23687)
+(3313, 23689)
+(3314, 23719)
+(3315, 23741)
+(3317, 23743)
+(3318, 23747)
+(3319, 23753)
+(3320, 23761)
+(3322, 23767)
+(3323, 23773)
+(3324, 23789)
+(3325, 23801)
+(3327, 23813)
+(3328, 23819)
+(3329, 23827)
+(3330, 23831)
+(3332, 23833)
+(3333, 23857)
+(3334, 23869)
+(3335, 23873)
+(3337, 23879)
+(3338, 23887)
+(3339, 23893)
+(3340, 23899)
+(3342, 23909)
+(3343, 23911)
+(3344, 23917)
+(3345, 23929)
+(3347, 23957)
+(3348, 23971)
+(3349, 23977)
+(3350, 23981)
+(3352, 23993)
+(3353, 24001)
+(3354, 24007)
+(3355, 24019)
+(3356, 24023)
+(3358, 24029)
+(3359, 24043)
+(3360, 24049)
+(3361, 24061)
+(3363, 24071)
+(3364, 24077)
+(3365, 24083)
+(3366, 24091)
+(3368, 24097)
+(3369, 24103)
+(3370, 24107)
+(3371, 24109)
+(3373, 24113)
+(3374, 24121)
+(3375, 24133)
+(3376, 24137)
+(3378, 24151)
+(3379, 24169)
+(3380, 24179)
+(3381, 24181)
+(3383, 24197)
+(3384, 24203)
+(3385, 24223)
+(3386, 24229)
+(3388, 24239)
+(3389, 24247)
+(3390, 24251)
+(3391, 24281)
+(3393, 24317)
+(3394, 24329)
+(3395, 24337)
+(3396, 24359)
+(3397, 24371)
+(3399, 24373)
+(3400, 24379)
+(3401, 24391)
+(3402, 24407)
+(3404, 24413)
+(3405, 24419)
+(3406, 24421)
+(3407, 24439)
+(3409, 24443)
+(3410, 24469)
+(3411, 24473)
+(3412, 24481)
+(3414, 24499)
+(3415, 24509)
+(3416, 24517)
+(3417, 24527)
+(3419, 24533)
+(3420, 24547)
+(3421, 24551)
+(3422, 24571)
+(3424, 24593)
+(3425, 24611)
+(3426, 24623)
+(3427, 24631)
+(3429, 24659)
+(3430, 24671)
+(3431, 24677)
+(3432, 24683)
+(3434, 24691)
+(3435, 24697)
+(3436, 24709)
+(3437, 24733)
+(3438, 24749)
+(3440, 24763)
+(3441, 24767)
+(3442, 24781)
+(3443, 24793)
+(3445, 24799)
+(3446, 24809)
+(3447, 24821)
+(3448, 24841)
+(3450, 24847)
+(3451, 24851)
+(3452, 24859)
+(3453, 24877)
+(3455, 24889)
+(3456, 24907)
+(3457, 24917)
+(3458, 24919)
+(3460, 24923)
+(3461, 24943)
+(3462, 24953)
+(3463, 24967)
+(3465, 24971)
+(3466, 24977)
+(3467, 24979)
+(3468, 24989)
+(3470, 25013)
+(3471, 25031)
+(3472, 25033)
+(3473, 25037)
+(3475, 25057)
+(3476, 25073)
+(3477, 25087)
+(3478, 25097)
+(3479, 25111)
+(3481, 25117)
+(3482, 25121)
+(3483, 25127)
+(3484, 25147)
+(3486, 25153)
+(3487, 25163)
+(3488, 25169)
+(3489, 25171)
+(3491, 25183)
+(3492, 25189)
+(3493, 25219)
+(3494, 25229)
+(3496, 25237)
+(3497, 25243)
+(3498, 25247)
+(3499, 25253)
+(3501, 25261)
+(3502, 25301)
+(3503, 25303)
+(3504, 25307)
+(3506, 25309)
+(3507, 25321)
+(3508, 25339)
+(3509, 25343)
+(3511, 25349)
+(3512, 25357)
+(3513, 25367)
+(3514, 25373)
+(3515, 25391)
+(3517, 25409)
+(3518, 25411)
+(3519, 25423)
+(3520, 25439)
+(3522, 25447)
+(3523, 25453)
+(3524, 25457)
+(3525, 25463)
+(3527, 25469)
+(3528, 25471)
+(3529, 25523)
+(3530, 25537)
+(3532, 25541)
+(3533, 25561)
+(3534, 25577)
+(3535, 25579)
+(3537, 25583)
+(3538, 25589)
+(3539, 25601)
+(3540, 25603)
+(3542, 25609)
+(3543, 25621)
+(3544, 25633)
+(3545, 25639)
+(3547, 25643)
+(3548, 25657)
+(3549, 25667)
+(3550, 25673)
+(3552, 25679)
+(3553, 25693)
+(3554, 25703)
+(3555, 25717)
+(3556, 25733)
+(3558, 25741)
+(3559, 25747)
+(3560, 25759)
+(3561, 25763)
+(3563, 25771)
+(3564, 25793)
+(3565, 25799)
+(3566, 25801)
+(3568, 25819)
+(3569, 25841)
+(3570, 25847)
+(3571, 25849)
+(3573, 25867)
+(3574, 25873)
+(3575, 25889)
+(3576, 25903)
+(3578, 25913)
+(3579, 25919)
+(3580, 25931)
+(3581, 25933)
+(3583, 25939)
+(3584, 25943)
+(3585, 25951)
+(3586, 25969)
+(3588, 25981)
+(3589, 25997)
+(3590, 25999)
+(3591, 26003)
+(3593, 26017)
+(3594, 26021)
+(3595, 26029)
+(3596, 26041)
+(3597, 26053)
+(3599, 26083)
+(3600, 26099)
+(3601, 26107)
+(3602, 26111)
+(3604, 26113)
+(3605, 26119)
+(3606, 26141)
+(3607, 26153)
+(3609, 26161)
+(3610, 26171)
+(3611, 26177)
+(3612, 26183)
+(3614, 26189)
+(3615, 26203)
+(3616, 26209)
+(3617, 26227)
+(3619, 26237)
+(3620, 26249)
+(3621, 26251)
+(3622, 26261)
+(3624, 26263)
+(3625, 26267)
+(3626, 26293)
+(3627, 26297)
+(3629, 26309)
+(3630, 26317)
+(3631, 26321)
+(3632, 26339)
+(3633, 26347)
+(3635, 26357)
+(3636, 26371)
+(3637, 26387)
+(3638, 26393)
+(3640, 26399)
+(3641, 26407)
+(3642, 26417)
+(3643, 26423)
+(3645, 26431)
+(3646, 26437)
+(3647, 26449)
+(3648, 26459)
+(3650, 26479)
+(3651, 26489)
+(3652, 26497)
+(3653, 26501)
+(3655, 26513)
+(3656, 26539)
+(3657, 26557)
+(3658, 26561)
+(3660, 26573)
+(3661, 26591)
+(3662, 26597)
+(3663, 26627)
+(3665, 26633)
+(3666, 26641)
+(3667, 26647)
+(3668, 26669)
+(3669, 26681)
+(3671, 26683)
+(3672, 26687)
+(3673, 26693)
+(3674, 26699)
+(3676, 26701)
+(3677, 26711)
+(3678, 26713)
+(3679, 26717)
+(3681, 26723)
+(3682, 26729)
+(3683, 26731)
+(3684, 26737)
+(3686, 26759)
+(3687, 26777)
+(3688, 26783)
+(3689, 26801)
+(3691, 26813)
+(3692, 26821)
+(3693, 26833)
+(3694, 26839)
+(3696, 26849)
+(3697, 26861)
+(3698, 26863)
+(3699, 26879)
+(3701, 26881)
+(3702, 26891)
+(3703, 26893)
+(3704, 26903)
+(3705, 26921)
+(3707, 26927)
+(3708, 26947)
+(3709, 26951)
+(3710, 26953)
+(3712, 26959)
+(3713, 26981)
+(3714, 26987)
+(3715, 26993)
+(3717, 27011)
+(3718, 27017)
+(3719, 27031)
+(3720, 27043)
+(3722, 27059)
+(3723, 27061)
+(3724, 27067)
+(3725, 27073)
+(3727, 27077)
+(3728, 27091)
+(3729, 27103)
+(3730, 27107)
+(3732, 27109)
+(3733, 27127)
+(3734, 27143)
+(3735, 27179)
+(3737, 27191)
+(3738, 27197)
+(3739, 27211)
+(3740, 27239)
+(3741, 27241)
+(3743, 27253)
+(3744, 27259)
+(3745, 27271)
+(3746, 27277)
+(3748, 27281)
+(3749, 27283)
+(3750, 27299)
+(3751, 27329)
+(3753, 27337)
+(3754, 27361)
+(3755, 27367)
+(3756, 27397)
+(3758, 27407)
+(3759, 27409)
+(3760, 27427)
+(3761, 27431)
+(3763, 27437)
+(3764, 27449)
+(3765, 27457)
+(3766, 27479)
+(3768, 27481)
+(3769, 27487)
+(3770, 27509)
+(3771, 27527)
+(3773, 27529)
+(3774, 27539)
+(3775, 27541)
+(3776, 27551)
+(3777, 27581)
+(3779, 27583)
+(3780, 27611)
+(3781, 27617)
+(3782, 27631)
+(3784, 27647)
+(3785, 27653)
+(3786, 27673)
+(3787, 27689)
+(3789, 27691)
+(3790, 27697)
+(3791, 27701)
+(3792, 27733)
+(3794, 27737)
+(3795, 27739)
+(3796, 27743)
+(3797, 27749)
+(3799, 27751)
+(3800, 27763)
+(3801, 27767)
+(3802, 27773)
+(3804, 27779)
+(3805, 27791)
+(3806, 27793)
+(3807, 27799)
+(3809, 27803)
+(3810, 27809)
+(3811, 27817)
+(3812, 27823)
+(3813, 27827)
+(3815, 27847)
+(3816, 27851)
+(3817, 27883)
+(3818, 27893)
+(3820, 27901)
+(3821, 27917)
+(3822, 27919)
+(3823, 27941)
+(3825, 27943)
+(3826, 27947)
+(3827, 27953)
+(3828, 27961)
+(3830, 27967)
+(3831, 27983)
+(3832, 27997)
+(3833, 28001)
+(3835, 28019)
+(3836, 28027)
+(3837, 28031)
+(3838, 28051)
+(3840, 28057)
+(3841, 28069)
+(3842, 28081)
+(3843, 28087)
+(3845, 28097)
+(3846, 28099)
+(3847, 28109)
+(3848, 28111)
+(3849, 28123)
+(3851, 28151)
+(3852, 28163)
+(3853, 28181)
+(3854, 28183)
+(3856, 28201)
+(3857, 28211)
+(3858, 28219)
+(3859, 28229)
+(3861, 28277)
+(3862, 28279)
+(3863, 28283)
+(3864, 28289)
+(3866, 28297)
+(3867, 28307)
+(3868, 28309)
+(3869, 28319)
+(3871, 28349)
+(3872, 28351)
+(3873, 28387)
+(3874, 28393)
+(3876, 28403)
+(3877, 28409)
+(3878, 28411)
+(3879, 28429)
+(3880, 28433)
+(3882, 28439)
+(3883, 28447)
+(3884, 28463)
+(3885, 28477)
+(3887, 28493)
+(3888, 28499)
+(3889, 28513)
+(3890, 28517)
+(3892, 28537)
+(3893, 28541)
+(3894, 28547)
+(3895, 28549)
+(3897, 28559)
+(3898, 28571)
+(3899, 28573)
+(3900, 28579)
+(3902, 28591)
+(3903, 28597)
+(3904, 28603)
+(3905, 28607)
+(3907, 28619)
+(3908, 28621)
+(3909, 28627)
+(3910, 28631)
+(3912, 28643)
+(3913, 28649)
+(3914, 28657)
+(3915, 28661)
+(3916, 28663)
+(3918, 28669)
+(3919, 28687)
+(3920, 28697)
+(3921, 28703)
+(3923, 28711)
+(3924, 28723)
+(3925, 28729)
+(3926, 28751)
+(3928, 28753)
+(3929, 28759)
+(3930, 28771)
+(3931, 28789)
+(3933, 28793)
+(3934, 28807)
+(3935, 28813)
+(3936, 28817)
+(3938, 28837)
+(3939, 28843)
+(3940, 28859)
+(3941, 28867)
+(3943, 28871)
+(3944, 28879)
+(3945, 28901)
+(3946, 28909)
+(3947, 28921)
+(3949, 28927)
+(3950, 28933)
+(3951, 28949)
+(3952, 28961)
+(3954, 28979)
+(3955, 29009)
+(3956, 29017)
+(3957, 29021)
+(3959, 29023)
+(3960, 29027)
+(3961, 29033)
+(3962, 29059)
+(3964, 29063)
+(3965, 29077)
+(3966, 29101)
+(3967, 29123)
+(3969, 29129)
+(3970, 29131)
+(3971, 29137)
+(3972, 29147)
+(3974, 29153)
+(3975, 29167)
+(3976, 29173)
+(3977, 29179)
+(3978, 29191)
+(3980, 29201)
+(3981, 29207)
+(3982, 29209)
+(3983, 29221)
+(3985, 29231)
+(3986, 29243)
+(3987, 29251)
+(3988, 29269)
+(3990, 29287)
+(3991, 29297)
+(3992, 29303)
+(3993, 29311)
+(3995, 29327)
+(3996, 29333)
+(3997, 29339)
+(3998, 29347)
+(4000, 29363)
+(4001, 29383)
+(4002, 29387)
+(4003, 29389)
+(4005, 29399)
+(4006, 29401)
+(4007, 29411)
+(4008, 29423)
+(4010, 29429)
+(4011, 29437)
+(4012, 29443)
+(4013, 29453)
+(4014, 29473)
+(4016, 29483)
+(4017, 29501)
+(4018, 29527)
+(4019, 29531)
+(4021, 29537)
+(4022, 29567)
+(4023, 29569)
+(4024, 29573)
+(4026, 29581)
+(4027, 29587)
+(4028, 29599)
+(4029, 29611)
+(4031, 29629)
+(4032, 29633)
+(4033, 29641)
+(4034, 29663)
+(4036, 29669)
+(4037, 29671)
+(4038, 29683)
+(4039, 29717)
+(4041, 29723)
+(4042, 29741)
+(4043, 29753)
+(4044, 29759)
+(4045, 29761)
+(4047, 29789)
+(4048, 29803)
+(4049, 29819)
+(4050, 29833)
+(4052, 29837)
+(4053, 29851)
+(4054, 29863)
+(4055, 29867)
+(4057, 29873)
+(4058, 29879)
+(4059, 29881)
+(4060, 29917)
+(4062, 29921)
+(4063, 29927)
+(4064, 29947)
+(4065, 29959)
+(4067, 29983)
+(4068, 29989)
+(4069, 30011)
+(4070, 30013)
+(4072, 30029)
+(4073, 30047)
+(4074, 30059)
+(4075, 30071)
+(4076, 30089)
+(4078, 30091)
+(4079, 30097)
+(4080, 30103)
+(4081, 30109)
+(4083, 30113)
+(4084, 30119)
+(4085, 30133)
+(4086, 30137)
+(4088, 30139)
+(4089, 30161)
+(4090, 30169)
+(4091, 30181)
+(4093, 30187)
+(4094, 30197)
+(4095, 30203)
+(4096, 30211)
+(4098, 30223)
+(4099, 30241)
+(4100, 30253)
+(4101, 30259)
+(4103, 30269)
+(4104, 30271)
+(4105, 30293)
+(4106, 30307)
+(4107, 30313)
+(4109, 30319)
+(4110, 30323)
+(4111, 30341)
+(4112, 30347)
+(4114, 30367)
+(4115, 30389)
+(4116, 30391)
+(4117, 30403)
+(4119, 30427)
+(4120, 30431)
+(4121, 30449)
+(4122, 30467)
+(4124, 30469)
+(4125, 30491)
+(4126, 30493)
+(4127, 30497)
+(4129, 30509)
+(4130, 30517)
+(4131, 30529)
+(4132, 30539)
+(4134, 30553)
+(4135, 30557)
+(4136, 30559)
+(4137, 30577)
+(4138, 30593)
+(4140, 30631)
+(4141, 30637)
+(4142, 30643)
+(4143, 30649)
+(4145, 30661)
+(4146, 30671)
+(4147, 30677)
+(4148, 30689)
+(4150, 30697)
+(4151, 30703)
+(4152, 30707)
+(4153, 30713)
+(4155, 30727)
+(4156, 30757)
+(4157, 30763)
+(4158, 30773)
+(4160, 30781)
+(4161, 30803)
+(4162, 30809)
+(4163, 30817)
+(4165, 30829)
+(4166, 30839)
+(4167, 30841)
+(4168, 30851)
+(4169, 30853)
+(4171, 30859)
+(4172, 30869)
+(4173, 30871)
+(4174, 30881)
+(4176, 30893)
+(4177, 30911)
+(4178, 30931)
+(4179, 30937)
+(4181, 30941)
+(4182, 30949)
+(4183, 30971)
+(4184, 30977)
+(4186, 30983)
+(4187, 31013)
+(4188, 31019)
+(4189, 31033)
+(4191, 31039)
+(4192, 31051)
+(4193, 31063)
+(4194, 31069)
+(4196, 31079)
+(4197, 31081)
+(4198, 31091)
+(4199, 31121)
+(4201, 31123)
+(4202, 31139)
+(4203, 31147)
+(4204, 31151)
+(4205, 31153)
+(4207, 31159)
+(4208, 31177)
+(4209, 31181)
+(4210, 31183)
+(4212, 31189)
+(4213, 31193)
+(4214, 31219)
+(4215, 31223)
+(4217, 31231)
+(4218, 31237)
+(4219, 31247)
+(4220, 31249)
+(4222, 31253)
+(4223, 31259)
+(4224, 31267)
+(4225, 31271)
+(4227, 31277)
+(4228, 31307)
+(4229, 31319)
+(4230, 31321)
+(4231, 31327)
+(4233, 31333)
+(4234, 31337)
+(4235, 31357)
+(4236, 31379)
+(4238, 31387)
+(4239, 31391)
+(4240, 31393)
+(4241, 31397)
+(4243, 31469)
+(4244, 31477)
+(4245, 31481)
+(4246, 31489)
+(4248, 31511)
+(4249, 31513)
+(4250, 31517)
+(4251, 31531)
+(4253, 31541)
+(4254, 31543)
+(4255, 31547)
+(4256, 31567)
+(4258, 31573)
+(4259, 31583)
+(4260, 31601)
+(4261, 31607)
+(4262, 31627)
+(4264, 31643)
+(4265, 31649)
+(4266, 31657)
+(4267, 31663)
+(4269, 31667)
+(4270, 31687)
+(4271, 31699)
+(4272, 31721)
+(4274, 31723)
+(4275, 31727)
+(4276, 31729)
+(4277, 31741)
+(4279, 31751)
+(4280, 31769)
+(4281, 31771)
+(4282, 31793)
+(4284, 31799)
+(4285, 31817)
+(4286, 31847)
+(4287, 31849)
+(4289, 31859)
+(4290, 31873)
+(4291, 31883)
+(4292, 31891)
+(4293, 31907)
+(4295, 31957)
+(4296, 31963)
+(4297, 31973)
+(4298, 31981)
+(4300, 31991)
+(4301, 32003)
+(4302, 32009)
+(4303, 32027)
+(4305, 32029)
+(4306, 32051)
+(4307, 32057)
+(4308, 32059)
+(4310, 32063)
+(4311, 32069)
+(4312, 32077)
+(4313, 32083)
+(4315, 32089)
+(4316, 32099)
+(4317, 32117)
+(4318, 32119)
+(4320, 32141)
+(4321, 32143)
+(4322, 32159)
+(4323, 32173)
+(4324, 32183)
+(4326, 32189)
+(4327, 32191)
+(4328, 32203)
+(4329, 32213)
+(4331, 32233)
+(4332, 32237)
+(4333, 32251)
+(4334, 32257)
+(4336, 32261)
+(4337, 32297)
+(4338, 32299)
+(4339, 32303)
+(4341, 32309)
+(4342, 32321)
+(4343, 32323)
+(4344, 32327)
+(4346, 32341)
+(4347, 32353)
+(4348, 32359)
+(4349, 32363)
+(4351, 32369)
+(4352, 32371)
+(4353, 32377)
+(4354, 32381)
+(4355, 32401)
+(4357, 32411)
+(4358, 32413)
+(4359, 32423)
+(4360, 32429)
+(4362, 32441)
+(4363, 32443)
+(4364, 32467)
+(4365, 32479)
+(4367, 32491)
+(4368, 32497)
+(4369, 32503)
+(4370, 32507)
+(4372, 32531)
+(4373, 32533)
+(4374, 32537)
+(4375, 32561)
+(4377, 32563)
+(4378, 32569)
+(4379, 32573)
+(4380, 32579)
+(4381, 32587)
+(4383, 32603)
+(4384, 32609)
+(4385, 32611)
+(4386, 32621)
+(4388, 32633)
+(4389, 32647)
+(4390, 32653)
+(4391, 32687)
+(4393, 32693)
+(4394, 32707)
+(4395, 32713)
+(4396, 32717)
+(4398, 32719)
+(4399, 32749)
+(4400, 32771)
+(4401, 32779)
+(4403, 32783)
+(4404, 32789)
+(4405, 32797)
+(4406, 32801)
+(4408, 32803)
+(4409, 32831)
+(4410, 32833)
+(4411, 32839)
+(4412, 32843)
+(4414, 32869)
+(4415, 32887)
+(4416, 32909)
+(4417, 32911)
+(4419, 32917)
+(4420, 32933)
+(4421, 32939)
+(4422, 32941)
+(4424, 32957)
+(4425, 32969)
+(4426, 32971)
+(4427, 32983)
+(4429, 32987)
+(4430, 32993)
+(4431, 32999)
+(4432, 33013)
+(4434, 33023)
+(4435, 33029)
+(4436, 33037)
+(4437, 33049)
+(4439, 33053)
+(4440, 33071)
+(4441, 33073)
+(4442, 33083)
+(4443, 33091)
+(4445, 33107)
+(4446, 33113)
+(4447, 33119)
+(4448, 33149)
+(4450, 33151)
+(4451, 33161)
+(4452, 33179)
+(4453, 33181)
+(4455, 33191)
+(4456, 33199)
+(4457, 33203)
+(4458, 33211)
+(4460, 33223)
+(4461, 33247)
+(4462, 33287)
+(4463, 33289)
+(4465, 33301)
+(4466, 33311)
+(4467, 33317)
+(4468, 33329)
+(4469, 33331)
+(4471, 33343)
+(4472, 33347)
+(4473, 33349)
+(4474, 33353)
+(4476, 33359)
+(4477, 33377)
+(4478, 33391)
+(4479, 33403)
+(4481, 33409)
+(4482, 33413)
+(4483, 33427)
+(4484, 33457)
+(4486, 33461)
+(4487, 33469)
+(4488, 33479)
+(4489, 33487)
+(4491, 33493)
+(4492, 33503)
+(4493, 33521)
+(4494, 33529)
+(4495, 33533)
+(4497, 33547)
+(4498, 33563)
+(4499, 33569)
+(4500, 33577)
+(4502, 33581)
+(4503, 33587)
+(4504, 33589)
+(4505, 33599)
+(4507, 33601)
+(4508, 33613)
+(4509, 33617)
+(4510, 33619)
+(4512, 33623)
+(4513, 33629)
+(4514, 33637)
+(4515, 33641)
+(4517, 33647)
+(4518, 33679)
+(4519, 33703)
+(4520, 33713)
+(4522, 33721)
+(4523, 33739)
+(4524, 33749)
+(4525, 33751)
+(4526, 33757)
+(4528, 33767)
+(4529, 33769)
+(4530, 33773)
+(4531, 33791)
+(4533, 33797)
+(4534, 33809)
+(4535, 33811)
+(4536, 33827)
+(4538, 33829)
+(4539, 33851)
+(4540, 33857)
+(4541, 33863)
+(4543, 33871)
+(4544, 33889)
+(4545, 33893)
+(4546, 33911)
+(4548, 33923)
+(4549, 33931)
+(4550, 33937)
+(4551, 33941)
+(4552, 33961)
+(4554, 33967)
+(4555, 33997)
+(4556, 34019)
+(4557, 34031)
+(4559, 34033)
+(4560, 34039)
+(4561, 34057)
+(4562, 34061)
+(4564, 34123)
+(4565, 34127)
+(4566, 34129)
+(4567, 34141)
+(4569, 34147)
+(4570, 34157)
+(4571, 34159)
+(4572, 34171)
+(4574, 34183)
+(4575, 34211)
+(4576, 34213)
+(4577, 34217)
+(4578, 34231)
+(4580, 34253)
+(4581, 34259)
+(4582, 34261)
+(4583, 34267)
+(4585, 34273)
+(4586, 34283)
+(4587, 34297)
+(4588, 34301)
+(4590, 34303)
+(4591, 34313)
+(4592, 34319)
+(4593, 34327)
+(4595, 34337)
+(4596, 34351)
+(4597, 34361)
+(4598, 34367)
+(4600, 34369)
+(4601, 34381)
+(4602, 34403)
+(4603, 34421)
+(4604, 34429)
+(4606, 34439)
+(4607, 34457)
+(4608, 34469)
+(4609, 34471)
+(4611, 34483)
+(4612, 34487)
+(4613, 34499)
+(4614, 34501)
+(4616, 34511)
+(4617, 34513)
+(4618, 34519)
+(4619, 34537)
+(4621, 34543)
+(4622, 34549)
+(4623, 34583)
+(4624, 34589)
+(4626, 34591)
+(4627, 34603)
+(4628, 34607)
+(4629, 34613)
+(4631, 34631)
+(4632, 34649)
+(4633, 34651)
+(4634, 34667)
+(4635, 34673)
+(4637, 34679)
+(4638, 34687)
+(4639, 34693)
+(4640, 34703)
+(4642, 34721)
+(4643, 34729)
+(4644, 34739)
+(4645, 34747)
+(4647, 34757)
+(4648, 34759)
+(4649, 34763)
+(4650, 34781)
+(4652, 34807)
+(4653, 34819)
+(4654, 34841)
+(4655, 34843)
+(4657, 34847)
+(4658, 34849)
+(4659, 34871)
+(4660, 34877)
+(4661, 34883)
+(4663, 34897)
+(4664, 34913)
+(4665, 34919)
+(4666, 34939)
+(4668, 34949)
+(4669, 34961)
+(4670, 34963)
+(4671, 34981)
+(4673, 35023)
+(4674, 35027)
+(4675, 35051)
+(4676, 35053)
+(4678, 35059)
+(4679, 35069)
+(4680, 35081)
+(4681, 35083)
+(4683, 35089)
+(4684, 35099)
+(4685, 35107)
+(4686, 35111)
+(4687, 35117)
+(4689, 35129)
+(4690, 35141)
+(4691, 35149)
+(4692, 35153)
+(4694, 35159)
+(4695, 35171)
+(4696, 35201)
+(4697, 35221)
+(4699, 35227)
+(4700, 35251)
+(4701, 35257)
+(4702, 35267)
+(4704, 35279)
+(4705, 35281)
+(4706, 35291)
+(4707, 35311)
+(4709, 35317)
+(4710, 35323)
+(4711, 35327)
+(4712, 35339)
+(4713, 35353)
+(4715, 35363)
+(4716, 35381)
+(4717, 35393)
+(4718, 35401)
+(4720, 35407)
+(4721, 35419)
+(4722, 35423)
+(4723, 35437)
+(4725, 35447)
+(4726, 35449)
+(4727, 35461)
+(4728, 35491)
+(4730, 35507)
+(4731, 35509)
+(4732, 35521)
+(4733, 35527)
+(4735, 35531)
+(4736, 35533)
+(4737, 35537)
+(4738, 35543)
+(4739, 35569)
+(4741, 35573)
+(4742, 35591)
+(4743, 35593)
+(4744, 35597)
+(4746, 35603)
+(4747, 35617)
+(4748, 35671)
+(4749, 35677)
+(4751, 35729)
+(4752, 35731)
+(4753, 35747)
+(4754, 35753)
+(4756, 35759)
+(4757, 35771)
+(4758, 35797)
+(4759, 35801)
+(4761, 35803)
+(4762, 35809)
+(4763, 35831)
+(4764, 35837)
+(4765, 35839)
+(4767, 35851)
+(4768, 35863)
+(4769, 35869)
+(4770, 35879)
+(4772, 35897)
+(4773, 35899)
+(4774, 35911)
+(4775, 35923)
+(4777, 35933)
+(4778, 35951)
+(4779, 35963)
+(4780, 35969)
+(4782, 35977)
+(4783, 35983)
+(4784, 35993)
+(4785, 35999)
+(4787, 36007)
+(4788, 36011)
+(4789, 36013)
+(4790, 36017)
+(4791, 36037)
+(4793, 36061)
+(4794, 36067)
+(4795, 36073)
+(4796, 36083)
+(4798, 36097)
+(4799, 36107)
+(4800, 36109)
+(4801, 36131)
+(4803, 36137)
+(4804, 36151)
+(4805, 36161)
+(4806, 36187)
+(4808, 36191)
+(4809, 36209)
+(4810, 36217)
+(4811, 36229)
+(4813, 36241)
+(4814, 36251)
+(4815, 36263)
+(4816, 36269)
+(4817, 36277)
+(4819, 36293)
+(4820, 36299)
+(4821, 36307)
+(4822, 36313)
+(4824, 36319)
+(4825, 36341)
+(4826, 36343)
+(4827, 36353)
+(4829, 36373)
+(4830, 36383)
+(4831, 36389)
+(4832, 36433)
+(4834, 36451)
+(4835, 36457)
+(4836, 36467)
+(4837, 36469)
+(4839, 36473)
+(4840, 36479)
+(4841, 36493)
+(4842, 36497)
+(4843, 36523)
+(4845, 36527)
+(4846, 36529)
+(4847, 36541)
+(4848, 36551)
+(4850, 36559)
+(4851, 36563)
+(4852, 36571)
+(4853, 36583)
+(4855, 36587)
+(4856, 36599)
+(4857, 36607)
+(4858, 36629)
+(4860, 36637)
+(4861, 36643)
+(4862, 36653)
+(4863, 36671)
+(4865, 36677)
+(4866, 36683)
+(4867, 36691)
+(4868, 36697)
+(4869, 36709)
+(4871, 36713)
+(4872, 36721)
+(4873, 36739)
+(4874, 36749)
+(4876, 36761)
+(4877, 36767)
+(4878, 36779)
+(4879, 36781)
+(4881, 36787)
+(4882, 36791)
+(4883, 36793)
+(4884, 36809)
+(4886, 36821)
+(4887, 36833)
+(4888, 36847)
+(4889, 36857)
+(4891, 36871)
+(4892, 36877)
+(4893, 36887)
+(4894, 36899)
+(4895, 36901)
+(4897, 36913)
+(4898, 36919)
+(4899, 36923)
+(4900, 36929)
+(4902, 36931)
+(4903, 36943)
+(4904, 36947)
+(4905, 36973)
+(4907, 36979)
+(4908, 36997)
+(4909, 37003)
+(4910, 37013)
+(4912, 37019)
+(4913, 37021)
+(4914, 37039)
+(4915, 37049)
+(4917, 37057)
+(4918, 37061)
+(4919, 37087)
+(4920, 37097)
+(4921, 37117)
+(4923, 37123)
+(4924, 37139)
+(4925, 37159)
+(4926, 37171)
+(4928, 37181)
+(4929, 37189)
+(4930, 37199)
+(4931, 37201)
+(4933, 37217)
+(4934, 37223)
+(4935, 37243)
+(4936, 37253)
+(4938, 37273)
+(4939, 37277)
+(4940, 37307)
+(4941, 37309)
+(4942, 37313)
+(4944, 37321)
+(4945, 37337)
+(4946, 37339)
+(4947, 37357)
+(4949, 37361)
+(4950, 37363)
+(4951, 37369)
+(4952, 37379)
+(4954, 37397)
+(4955, 37409)
+(4956, 37423)
+(4957, 37441)
+(4959, 37447)
+(4960, 37463)
+(4961, 37483)
+(4962, 37489)
+(4964, 37493)
+(4965, 37501)
+(4966, 37507)
+(4967, 37511)
+(4968, 37517)
+(4970, 37529)
+(4971, 37537)
+(4972, 37547)
+(4973, 37549)
+(4975, 37561)
+(4976, 37567)
+(4977, 37571)
+(4978, 37573)
+(4980, 37579)
+(4981, 37589)
+(4982, 37591)
+(4983, 37607)
+(4985, 37619)
+(4986, 37633)
+(4987, 37643)
+(4988, 37649)
+(4990, 37657)
+(4991, 37663)
+(4992, 37691)
+(4993, 37693)
+(4994, 37699)
+(4996, 37717)
+(4997, 37747)
+(4998, 37781)
+(4999, 37783)
+
+--- Direct comparison (your n vs OEIS A085302 values) ---
+✅ Perfect match with OEIS A085302!
+
+--- Full strict comparison (your n vs OEIS A085302) ---
+✅ PERFECT MATCH: All your values align with OEIS A085302 (no misalignment).
+Checked 3996 values successfully.
+
+OEIS has 6004 extra values (ignored, as expected).

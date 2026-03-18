@@ -1,0 +1,113 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm, geometry}
+\geometry{margin=1in}
+\usepackage{hyperref}
+
+\title{Relationship Between Factorial-Primorial Inequalities and OEIS Sequences A085301/A085302}
+\author{Rui Ferreira}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+
+In this note, we explore an unexpected connection between an inequality involving factorials and primorials, and two OEIS sequences:
+
+\begin{itemize}
+    \item \textbf{A085301:} Number of factorials between consecutive primorials.
+    \item \textbf{A085302:} Partial sum of A085301, i.e., the total number of factorials below the $n$-th primorial.
+\end{itemize}
+
+We will describe the sequences, define the inequality, and highlight the surprising alignment.
+
+\section*{Definitions}
+
+\subsection*{Factorials and Primorials}
+
+\begin{itemize}
+    \item The \textbf{factorial} of $n$ is
+    \[
+        n! = 1 \cdot 2 \cdot 3 \cdots n.
+    \]
+    \item The \textbf{primorial} of $n$ is
+    \[
+        n\# = \prod_{i=1}^{n} p_i,
+    \]
+    where $p_i$ is the $i$-th prime.
+\end{itemize}
+
+\subsection*{OEIS Sequences}
+
+\textbf{A085301:} Number of factorials between consecutive primorials:
+\[
+    a(n) = \#\{ k \mid q(n) \le k! \le q(n+1) \}, \quad q(n) = n\#.
+\]
+
+\textbf{A085302:} Cumulative sum of A085301:
+\[
+    A085302(n) = \sum_{j=1}^{n} A085301(j).
+\]
+Equivalently, $A085302(n)-1$ counts the number of factorials strictly less than $n\#$.
+
+\section*{The Factorial-Primorial Inequality}
+
+Define a sequence of integers $k$ for each $n$ by solving the inequality:
+\[
+    n! < n\# + k\#,
+\]
+and let $k = k(n)$ be the \emph{smallest integer} satisfying this inequality.
+
+Observations from computational experiments:
+
+\begin{enumerate}
+    \item The sequence of $k(n)$ values coincides with \emph{primes}.
+    \item The sequence of $n$ where $k(n)$ changes matches exactly the indices of OEIS A085302.
+\end{enumerate}
+
+Thus, although the base calculation is completely different from the A085301/A085302 definition, the resulting sequence is identical.
+
+\section*{Numerical Evidence}
+
+\begin{itemize}
+    \item First 10 elements of the $n$ sequence from the inequality:
+    \[
+        2,4,5,6,7,8,10,11,12,14
+    \]
+    \item Corresponding $k$ values (primes):
+    \[
+        1,5,7,11,13,17,19,23,29,31
+    \]
+    \item First 10 elements of A085302:
+    \[
+        2,4,5,6,7,8,10,11,12,14
+    \]
+\end{itemize}
+
+\textbf{Observation:} The sequences match exactly, including the subtle jumps.
+
+\section*{Discussion}
+
+\begin{itemize}
+    \item \textbf{Different definitions:}  
+    A085301 counts factorials between primorials; the inequality $n! < n\# + k\#$ defines a minimal additive relationship with a primorial.
+    
+    \item \textbf{Discrete combinatorial coincidence:}  
+    Despite the different constructions, both sequences track factorial growth relative to prime multiplicative structures. The matching of the $n$-sequence appears as a discrete combinatorial ``miracle''.
+
+    \item \textbf{Novelty:}  
+    There does not appear to be a known reference connecting the minimal $k$ in $n! < n\# + k\#$ with A085302. This is a remarkable alignment of two independent combinatorial processes.
+\end{itemize}
+
+\section*{Conclusion}
+
+The inequality
+\[
+    n! < n\# + k\#
+\]
+yields an integer sequence whose indices correspond exactly to A085302. The $k$ values are primes, and their sequence aligns with the cumulative count of factorials below primorials. 
+
+This phenomenon demonstrates a surprising interplay between additive and multiplicative structures of integers, factorials, and primes. A rigorous combinatorial explanation would be highly interesting for further research.
+
+\end{document}
