@@ -1,115 +1,84 @@
 import math
-import requests
 
-# -----------------------------
-# Sieve to compute primes up to m
-# -----------------------------
-def primes_up_to(m):
-    sieve = [True]*(m+1)
-    sieve[0] = sieve[1] = False
-    for i in range(2, int(m**0.5)+1):
-        if sieve[i]:
-            for j in range(i*i, m+1, i):
-                sieve[j] = False
-    return [i for i, is_prime in enumerate(sieve) if is_prime]
+# --- Parameter m for n! <= n# * m^k ---
+m = math.e
 
-# -----------------------------
-# Precompute log factorials and log primorials
-# -----------------------------
-def precompute_logs(n_max):
-    primes = primes_up_to(n_max)
-    log_fact = [0.0]
-    log_prim = [0.0]
-    prim_index = 0
-    
-    for n in range(1, n_max+1):
-        log_fact.append(log_fact[-1] + math.log(n))
-        if prim_index < len(primes) and primes[prim_index] == n:
-            log_prim.append(log_prim[-1] + math.log(n))
-            prim_index += 1
-        else:
-            log_prim.append(log_prim[-1])
-    
-    return log_fact, log_prim
+# --- Prime helpers ---
+def is_prime(x):
+    if x < 2: return False
+    for i in range(2, int(x**0.5)+1):
+        if x % i == 0: return False
+    return True
 
-# -----------------------------
-# Compute minimal natural b and first n per new b
-# -----------------------------
-def first_n_per_new_b(log_fact, log_prim):
-    first_n_list = []
-    seen_b = set()
-    
-    for n in range(2, len(log_fact)):
-        b = math.ceil(log_fact[n] - log_prim[n])
-        if b not in seen_b:
-            first_n_list.append((n, b))
-            seen_b.add(b)
-    
-    return first_n_list
+def generate_primes(n_max):
+    primes = []
+    candidate = 2
+    while len(primes) < n_max:
+        if is_prime(candidate): primes.append(candidate)
+        candidate += 1
+    return primes
 
-# -----------------------------
-# Load OEIS b-file data
-# -----------------------------
-def load_oeis_data(url: str) -> set[int]:
-    """
-    Loads OEIS b-file data from a URL.
-    Returns a set of sequence values.
-    """
-    try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-    except Exception:
-        raise RuntimeError("Failed to fetch OEIS data (offline or URL unreachable)")
+# --- Primorial ---
+primorial_cache = {0:1}
+def get_primorial(n, primes):
+    if n in primorial_cache: return primorial_cache[n]
+    max_cached = max(primorial_cache)
+    p = primorial_cache[max_cached]
+    for prime in primes:
+        if max_cached < prime <= n: p *= prime
+    primorial_cache[n] = p
+    return p
 
-    lines = response.text.splitlines()
-    oeis_data = set()
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        try:
-            index, value = line.split()
-            value = int(value)
-            oeis_data.add(value)
-        except ValueError:
-            continue
-    return oeis_data
+# --- Factorial ---
+factorial_cache = {0:1, 1:1}
+def factorial(n):
+    if n in factorial_cache:
+        return factorial_cache[n]
+    factorial_cache[n] = factorial(n-1) * n
+    return factorial_cache[n]
 
-# -----------------------------
-# Parameters
-# -----------------------------
-n_max = 1000
+# --- Inequality sequence n! <= n# * m^k ---
+def inequality_sequence_n_pow_k(n_max, m):
+    primes = generate_primes(n_max + 50)
+    results = {}
+    for n in range(2, n_max+1):
+        n_fact = factorial(n)
+        n_prim = get_primorial(n, primes)
+        k = 0
+        while True:
+            if n_fact <= n_prim * m**k:
+                results[n] = k
+                break
+            k += 1
+    return results
 
-# Precompute logs
-log_fact, log_prim = precompute_logs(n_max)
+# --- Example usage ---
+n_max = 100
+results = inequality_sequence_n_pow_k(n_max, m)
 
-# Compute first n per new minimal natural b
-first_n_sequence = first_n_per_new_b(log_fact, log_prim)
-n_list = [n for n, b in first_n_sequence]
+# --- Print n vs k table ---
+print(f"{'n':>4} {'k (ineq n! <= n# * m^k)':>30}")
+print("-"*40)
+for n in sorted(results):
+    print(f"{n:4d} {results[n]:30d}")
 
-# -----------------------------
-# Compare with OEIS A065090 (not odd primes)
-# -----------------------------
-oeis_url = "https://oeis.org/A065090/b065090.txt"
-oeis_data = load_oeis_data(oeis_url)
+# --- Compute first n per k (OEIS-style sequences) ---
+first_n_dict = {}
+for n, k in results.items():
+    if k not in first_n_dict:
+        first_n_dict[k] = n
 
-matches = [n for n in n_list if n in oeis_data]
-mismatches = [n for n in n_list if n not in oeis_data]
+# Sort by k to produce sequences
+first_n_oeis = [first_n_dict[k] for k in sorted(first_n_dict)]
+k_oeis = [k for k in sorted(first_n_dict)]
 
-# -----------------------------
-# Print results
-# -----------------------------
-print("First n per new minimal natural b:")
-print("n\tb")
-for n, b in first_n_sequence:
-    print(f"{n}\t{b}")
+# --- Print first n per k ---
+print("\nFirst n per k (OEIS-style sequences) for n! <= n# * m^k")
+print(f"\n{'first n':>8} {'k':>3}")
+print("-"*20)
+for n_val, k_val in zip(first_n_oeis, k_oeis):
+    print(f"{n_val:8d} {k_val:3d}")
 
-print("\nOEIS-style:")
-print("n =", ", ".join(str(n) for n in n_list))
-print("b =", ", ".join(str(b) for n, b in first_n_sequence))
-
-print(f"\nNumber of matches with OEIS A065090: {len(matches)}")
-if mismatches:
-    print(f"Mismatches: {mismatches}")
-else:
-    print("No mismatches: your sequence perfectly matches OEIS A065090.")
+# --- Optional: sequences separately ---
+print("\nOEIS-style sequence of first n per k:", first_n_oeis)
+print("\nOEIS-style sequence of corresponding k values:", k_oeis)
