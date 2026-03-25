@@ -1,7 +1,7 @@
 """
-OEIS_A002144.py
+OEIS_A123365.py
 
-Checks against OEIS A002144 online sequence if available.
+Checks against OEIS A123365 online sequence if available.
 Reports initial offset and any differences at the end.
 
 Flags:
@@ -49,7 +49,7 @@ def compute_max_y(n_start: int, n_end: int,
     for a in range(0, n_end):
         for b in range(a + 1, n_end - a + 1):
 
-            x = abs(a - b) * (a + b) + abs(a - b) * (5*a + b)
+            x = abs(a - b) * (a + b) + abs(a - b) * (5*a + 2*b)
             y = x * abs(a-b)
 
             if y == 0 or x < n_start:
@@ -69,8 +69,8 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
 
     max_y_per_x = compute_max_y(n_start, n_end, stop_at_n_end=stop_at_n_end)
 
-    print("\n=== OEIS A002144 ===")
-    print("Pythagorean primes: primes of the form 4*k + 1.\n")
+    print("\n=== OEIS A123365 ===")
+    print("Values of k such that A046530(k) = (k+2)/3, where A046530(k) is the number of distinct residues of cubes mod k.\n")
     print(f"{'Index':>7}|{'Element':>12}| OEIS\n")
 
     idx = 0
@@ -88,7 +88,7 @@ def run(n_start: int, n_end: int, oeis_data: dict[int,int] | None = None,
         if y != x:
             continue
         
-        value_to_report = y//2 if use_y_values else x//2
+        value_to_report = y//3 if use_y_values else x//3
 
         # Increment printed index only for reported values
         idx += 1
@@ -137,10 +137,9 @@ def main():
     stop_at_n_end = False
     stop_at_index = 0
     use_y_values = False
-    primes_only = False
     exclude_even = False
 
-    oeis_url = "https://oeis.org/A002144/b002144.txt"
+    oeis_url = "https://oeis.org/A123365/b123365.txt"
     try:
         oeis_data = load_oeis_data(oeis_url)
     except RuntimeError as e:
