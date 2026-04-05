@@ -1,9 +1,9 @@
 import math
 
 # --------------------------
-# Your sieve-style generator
+# A393083 Sieve
 # --------------------------
-def sieve_simulation(n):
+def A393083(n):
     marked = []
     current = 1
     k = 2
@@ -11,7 +11,7 @@ def sieve_simulation(n):
     while len(marked) < n - 3:  # subtract 3 for initial terms
         marked.append(current + 1)
         k += math.floor(current / (k - 1))
-        current += k  # advance by how many have been marked
+        current += k
 
     # Prepend first three OEIS terms
     return [0, 0, 1] + marked
@@ -35,7 +35,7 @@ def A393083_exact(n_terms):
 # Compare the two sequences
 # --------------------------
 def compare_sequences(n_terms):
-    seq_sieve = sieve_simulation(n_terms)
+    seq_sieve = A393083(n_terms)
     seq_formula = A393083_exact(n_terms)
 
     all_match = True

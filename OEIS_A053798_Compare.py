@@ -1,9 +1,9 @@
 import math
 
 # --------------------------
-# Your sieve-style generator (corrected offset)
+# A053798 Sieve
 # --------------------------
-def sieve_simulation(n):
+def A053798(n):
     marked = []
     current = 1
     k = 1
@@ -40,7 +40,7 @@ def A053798_formula(n_terms):
 # Compare the two sequences
 # --------------------------
 def compare_sequences(n_terms):
-    seq_sieve = sieve_simulation(n_terms)
+    seq_sieve = A053798(n_terms)
     seq_formula = A053798_formula(n_terms)
 
     all_match = True
