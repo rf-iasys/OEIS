@@ -2,6 +2,10 @@ import math
 
 # --------------------------
 # A003945
+#
+# If k = 1 a(n) = 3*2^(n-1)
+# If k is odd a(n) = k * 2^n
+# If k is even a(n) = k//2 * 2^n
 # --------------------------
 def A003945(n):
     marked = []
