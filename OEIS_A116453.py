@@ -1,16 +1,16 @@
 import math
 
 # --------------------------
-# A052984
+# A116453
 # --------------------------
-def A052984(n):
+def A116453(n):
     marked = []
     current = 1
-    k = 1
+    k = 2
 
     while len(marked) < n:
-        k += k + current - 2
-        current += 2*k
+        k += k + current//k
+        current += k//current
         marked.append(k)
 
     return marked
@@ -20,7 +20,10 @@ def A052984(n):
 # --------------------------
 n = 100
 
-seq_A052984 = A052984(n+1)
+seq_A116453 = A116453(n)
 
-print("Sequence A052984:")
-print(seq_A052984)
+# Add 1 to the first term only
+seq_A116453[0] += 1
+
+print("Sequence A116453:")
+print(seq_A116453)

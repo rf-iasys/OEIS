@@ -6,12 +6,12 @@ import math
 def A007052(n):
     marked = []
     current = 1
-    k = 1
+    k = 2
 
     while len(marked) < n:
-        marked.append(k)
-        k += k + current
-        current += math.floor(current/k) + k
+        marked.append(k-1)
+        k += k + current - 1
+        current += k - 1
 
     return marked
 
@@ -20,7 +20,7 @@ def A007052(n):
 # --------------------------
 n = 100
 
-seq_A007052 = A007052(n)
+seq_A007052 = A007052(n+1)
 
 print("Sequence A007052:")
 print(seq_A007052)
