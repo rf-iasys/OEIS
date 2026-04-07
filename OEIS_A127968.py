@@ -1,17 +1,18 @@
 import math
 
 # --------------------------
-# A002061 - Central polygonal numbers: a(n) = n^2 - n + 1
+# A127968 - a(n) = F(n+1) + (1-(-1)^n)/2, where F() = Fibonacci numbers A000045
 # --------------------------
-def A002061(n):
+def A127968(n):
     marked = []
     current = 1
     k = 1
 
     while len(marked) < n:
-        marked.append(k)
         k += current - 1
-        current += 2
+        current += k
+        marked.append(k)
+        marked.append(current)
 
     return marked
 
@@ -20,7 +21,7 @@ def A002061(n):
 # --------------------------
 n = 100
 
-seq_A002061 = A002061(n+1)
+seq_A127968 = A127968(n+1)
 
-print("Sequence A002061:")
-print(seq_A002061)
+print("Sequence A127968:")
+print(seq_A127968[:n+1])

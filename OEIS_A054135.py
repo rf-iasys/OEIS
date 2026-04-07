@@ -1,16 +1,16 @@
 import math
 
 # --------------------------
-# A083329
+# A054135
 # --------------------------
-def A083329(n):
+def A054135(n):
     marked = []
     current = 1
     k = 2
 
     while len(marked) < n:
         marked.append(k-1)
-        k += k + current//k - 1
+        k += k + current//(k+1) - 1
         current += k - 1
 
     return marked
@@ -20,7 +20,7 @@ def A083329(n):
 # --------------------------
 n = 100
 
-seq_A083329 = A083329(n+1)
+seq_A054135 = A054135(n+1)
 
-print("Sequence A083329:")
-print(seq_A083329)
+print("Sequence A054135:")
+print(seq_A054135)

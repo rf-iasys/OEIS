@@ -1,18 +1,18 @@
 import math
 
 # --------------------------
-# A006012
-# a(n) = ((2+sqrt(2))^n + (2-sqrt(2))^n)/2.
+# A163608
+# a(n) = ((5 + 2*sqrt(2))*(2 + sqrt(2))^n + (5 - 2*sqrt(2))*(2 - sqrt(2))^n)/2.
 #
 # Formulas:
-# a(n) = A007070(n) - 2*A007070(n-1)
-# E.g.f.: exp(2*x)*cosh(sqrt(2)*x)
+# a(n) = 5*A007070(n) - 6*A007070(n-1)
+# E.g.f.: exp(2*x)*( 5*cosh(sqrt(2)*x) + 2*sqrt(2)*sinh(sqrt(2)*x))
 # --------------------------
 
-def A006012(n):
+def A163608(n):
     marked = []
     current = 1
-    k = 0
+    k = -2
 
     while len(marked) < n:
         k += k + current - 1
@@ -26,7 +26,7 @@ def A006012(n):
 # --------------------------
 n = 100
 
-seq_A006012 = A006012(n+1)
+seq_A163608 = A163608(n+1)
 
-print("Sequence A006012:")
-print(seq_A006012)
+print("Sequence A163608:")
+print(seq_A163608)

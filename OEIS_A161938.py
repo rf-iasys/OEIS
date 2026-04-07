@@ -1,17 +1,21 @@
 import math
 
 # --------------------------
-# A083329
+# A161938
+# a(n) = ((3+sqrt(2))*(2+sqrt(2))^n + (3-sqrt(2))*(2-sqrt(2))^n)/2
+#
+# Formulas:
 # --------------------------
-def A083329(n):
+
+def A161938(n):
     marked = []
     current = 1
-    k = 2
+    k = -1
 
     while len(marked) < n:
-        marked.append(k-1)
-        k += k + current//k - 1
+        k += k + current - 1
         current += k - 1
+        marked.append(abs(k-1))
 
     return marked
 
@@ -20,7 +24,7 @@ def A083329(n):
 # --------------------------
 n = 100
 
-seq_A083329 = A083329(n+1)
+seq_A161938 = A161938(n+1)
 
-print("Sequence A083329:")
-print(seq_A083329)
+print("Sequence A161938:")
+print(seq_A161938)

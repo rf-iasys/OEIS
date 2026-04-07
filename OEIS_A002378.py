@@ -1,17 +1,17 @@
 import math
 
 # --------------------------
-# A083329
+# A002378 - Oblong (or promic, pronic, or heteromecic) numbers: a(n) = n*(n+1)
 # --------------------------
-def A083329(n):
+def A002378(n):
     marked = []
     current = 1
-    k = 2
+    k = 0
 
     while len(marked) < n:
-        marked.append(k-1)
-        k += k + current//k - 1
-        current += k - 1
+        k += current - 1
+        current += 2
+        marked.append(k)
 
     return marked
 
@@ -20,7 +20,7 @@ def A083329(n):
 # --------------------------
 n = 100
 
-seq_A083329 = A083329(n+1)
+seq_A002378 = A002378(n+1)
 
-print("Sequence A083329:")
-print(seq_A083329)
+print("Sequence A002378:")
+print(seq_A002378)

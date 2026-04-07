@@ -1,17 +1,17 @@
 import math
 
 # --------------------------
-# A083329
+# A005476 - a(n) = n*(5*n - 1)/2
 # --------------------------
-def A083329(n):
+def A005476(n):
     marked = []
     current = 1
-    k = 2
+    k = 3
 
     while len(marked) < n:
-        marked.append(k-1)
-        k += k + current//k - 1
-        current += k - 1
+        k += current - 4
+        current += 5
+        marked.append(k)
 
     return marked
 
@@ -20,7 +20,7 @@ def A083329(n):
 # --------------------------
 n = 100
 
-seq_A083329 = A083329(n+1)
+seq_A005476 = A005476(n+1)
 
-print("Sequence A083329:")
-print(seq_A083329)
+print("Sequence A005476:")
+print(seq_A005476)

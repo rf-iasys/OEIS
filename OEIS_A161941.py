@@ -2,16 +2,20 @@ import math
 
 # --------------------------
 # A161941
+# a(n) = ((4+sqrt(2))*(2+sqrt(2))^n + (4-sqrt(2))*(2-sqrt(2))^n)/4
+#
+# Formulas:
+# a(n) = 2*A007070(n) - 3*A007070(n-1)
 # --------------------------
-def Sieve(n):
+def A161941(n):
     marked = []
     current = 1
-    k = 1
+    k = 3
 
     while len(marked) < n:
-        marked.append(k)
-        k += k + 3*current
-        current += current//k + k//3
+        marked.append(k-1)
+        k += k + current - 1
+        current += k - 1
 
     return marked
 
@@ -20,12 +24,7 @@ def Sieve(n):
 # --------------------------
 n = 100
 
-seq_A161941 = Sieve(n+1)
-
-# --------------------------
-# Compute A161941
-# --------------------------
-diff_A161941 = [2]+[(seq_A161941[i+2] - seq_A161941[i])//3 for i in range(len(seq_A161941) - 2)]
+seq_A161941 = A161941(n+1)
 
 print("Sequence A161941:")
-print(diff_A161941)
+print(seq_A161941)

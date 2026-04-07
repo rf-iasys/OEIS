@@ -2,6 +2,10 @@ import math
 
 # --------------------------
 # A007052
+#
+# Formulas:
+#
+# E.g.f.: exp(2*x)*(cosh(sqrt(2)*x)+sinh(sqrt(2)*x)/sqrt(2))
 # --------------------------
 def A007052(n):
     marked = []

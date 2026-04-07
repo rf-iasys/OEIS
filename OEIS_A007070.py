@@ -2,6 +2,11 @@ import math
 
 # --------------------------
 # A007070
+# a(n) = (2 - sqrt(2))^n*(1/2 - sqrt(2)/2) + (2 + sqrt(2))^n*(1/2 + sqrt(2)/2)
+#
+# Formulas:
+# 
+# E.g.f.: exp(2*x)*(cosh(sqrt(2)*x) + sqrt(2)*sinh(sqrt(2)*x))
 # --------------------------
 def A007070(n):
     marked = []
@@ -9,9 +14,9 @@ def A007070(n):
     k = 1
 
     while len(marked) < n:
-        marked.append(k)
-        k += k + 2*current
-        current += k//2 - current//k
+        k += k + current - 1
+        current += k - 1
+        marked.append(k-1)
 
     return marked
 
@@ -20,7 +25,7 @@ def A007070(n):
 # --------------------------
 n = 100
 
-seq_A007070 = A007070(n)
+seq_A007070 = A007070(n+1)
 
 print("Sequence A007070:")
 print(seq_A007070)

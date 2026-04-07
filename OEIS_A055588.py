@@ -1,17 +1,17 @@
 import math
 
 # --------------------------
-# A083329
+# A055588 - a(n) = 3*a(n-1) - a(n-2) - 1 with a(0) = 1 and a(1) = 2.
 # --------------------------
-def A083329(n):
+def A055588(n):
     marked = []
     current = 1
-    k = 2
+    k = 1
 
     while len(marked) < n:
-        marked.append(k-1)
-        k += k + current//k - 1
-        current += k - 1
+        k += current - 1
+        current += k
+        marked.append(current-k)
 
     return marked
 
@@ -20,7 +20,7 @@ def A083329(n):
 # --------------------------
 n = 100
 
-seq_A083329 = A083329(n+1)
+seq_A055588 = A055588(n+1)
 
-print("Sequence A083329:")
-print(seq_A083329)
+print("Sequence A055588:")
+print(seq_A055588)
